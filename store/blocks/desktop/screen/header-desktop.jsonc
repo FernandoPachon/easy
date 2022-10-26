@@ -7,15 +7,15 @@
         "title": "Header superior",
         "children": [
           "logo#header_top-d--logo",
-          "header-spacer",
           "search-bar",
+          "header-spacer",
           "login",
           //"modal-trigger#header_top-d--login",
           "minicart.v2"
         ],
         "props": {
           "blockClass": "header_top-d"
-        }
+                   }
       },
       "logo#header_top-d--logo": {
         "title": "logo",
@@ -23,6 +23,12 @@
           "url": "assets/img/logo-easy.jpg",
           "width": 100,
           "href": "/"
+        }
+      },
+      "search-bar":{
+        "props":{
+          "blockClass":"search-d",
+          "maxWidth":650
         }
       },
       "modal-trigger#header_top-d--login": {

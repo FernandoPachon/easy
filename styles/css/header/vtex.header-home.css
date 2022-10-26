@@ -4,3 +4,8 @@
         padding-right: 505px;
     }
     
+    /*vtex.store-icons*/
+
+    .cartIcon{
+        src: url("assets/img/icon-car.jpg") !important;
+    }
