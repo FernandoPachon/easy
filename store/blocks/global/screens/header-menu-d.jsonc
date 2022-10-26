@@ -1,0 +1,86 @@
+{
+ "drawer#header_desktop--menu": {
+    "children": [
+      "menu#header-d_menu"
+    ],
+    "props":{
+      "orientation":"horizontalAlign"
+    }
+  }, 
+  "menu#header-d_menu": {
+    "children": [
+    "menu-item#department-d_one", 
+    "menu-item#department-d_two"
+  ],
+  "props":{
+    "orientation":"vertical"
+  }
+},
+    "menu-item#department-d_one": {
+      "props": {
+        "id":"department_uno",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"categoría muebles",
+          "text":"Muebles"
+        }
+      },
+      "blocks":["submenu.accordion#department_one"]
+    },
+    "submenu.accordion#department_one":{
+      "children":[
+        "menu#department-d_one"
+      ],
+      "props":{
+        "orientation":"vertical"
+      }
+    },
+    "menu#department-d_one":{
+      "children":[
+        "menu-item#category-d_one",
+        "menu-item#category-d_two"
+      ]
+    },
+    "menu-item#category-d_one":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"Muebles comedor",
+          "text":"Comedor"
+        }
+      }
+    },
+    "menu-item#category-d_two":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"Muebles dormitorio",
+          "text":"Dormitorio"
+        }
+      }
+    },
+    "menu-item#department-d_two": {
+      "props": {
+        "id":"department-d_uno",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"categoría baños",
+          "text":"Baños"
+        }
+      }
+  }
+}

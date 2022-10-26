@@ -1,24 +1,24 @@
 {
     "header-layout.mobile": {
         "title": "Header Mobile",
-        "children": ["header-row#header_top","header-row#header_middle"]
+        "children": ["header-row#header_top-m","header-row#header_middle"]
       },
-      "header-row#header_top": {
+      "header-row#header_top-m": {
         "title": "Header superior",
         "children": [
           "drawer#header_mobile--menu",
-          "logo#header_top--logo",
+          "logo#header_top-m--logo",
           "search-bar",
           "header-spacer",
           "login",
-          //"modal-trigger#header_top--login",
+          //"modal-trigger#header_top-m--login",
           "minicart.v2"
         ],
         "props": {
-          "blockClass": "header_top"
+          "blockClass": "header_top-m"
         }
       },
-      "logo#header_top--logo": {
+      "logo#header_top-m--logo": {
         "title": "logo",
         "props": {
           "url": "assets/img/logo-easy.jpg",
@@ -26,19 +26,19 @@
           "href": "/"
         }
       },
-      "modal-trigger#header_top--login": {
+      "modal-trigger#header_top-m--login": {
         "children": [
-          "rich-text#header_top--login",
-          "modal-layout#header_top--login"
+          "rich-text#header_top-m--login",
+          "modal-layout#header_top-m--login"
         ]
       },
     
-      "rich-text#header_top--login": {
+      "rich-text#header_top-m--login": {
         "props": {
           "text": "login"
         }
       },
-      "modal-layout#header_top--login": {
+      "modal-layout#header_top-m--login": {
         "children": ["login-content"]
       },
       "login": {

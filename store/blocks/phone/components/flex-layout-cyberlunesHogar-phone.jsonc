@@ -8,9 +8,9 @@
           ],
           "props":{
             "blocksClass":"LunesHome_section--one",
-            "colSizing":"auto",
-            "colJustify": "around",
-            "horizontalAlign":"center"
+            "colSizing":"equal",
+            "colJustify": "between",
+            "horizontalAlign":"between"
         
            
             
@@ -21,7 +21,8 @@
             "image#lunesHogar-phone--one"
           ],
           "props":{
-            "blocksClass":"section_one--lunesHogar-phone"
+            "blocksClass":"section_one--lunesHogar-phone",
+            "rowGap":2
           }
         },
         "flex-layout.col#section--two--lunesHogar-phone":{

@@ -10,15 +10,15 @@
             "blocksClass":"home_section--one",
             "colSizing":"auto",
             "colJustify": "around",
-            "horizontalAlign":"center"
-        
+            "horizontalAlign":"center",
+            "colGap":2
            
             
           }
         },
         "flex-layout.col#section--one--descubre":{
           "children":[
-            "image#descubre--one"
+            "image#descubre-d--one"
           ],
           "props":{
             "blocksClass":"section_one--image"
@@ -26,7 +26,7 @@
         },
         "flex-layout.col#section--two--descubre":{
           "children":[
-            "image#descubre--two"
+            "image#descubre-d--two"
           ],
           "props":{
             "blocksClass":"section_one--image"
@@ -34,7 +34,7 @@
         },
         "flex-layout.col#section--three--descubre":{
           "children":[
-            "image#descubre--three"
+            "image#descubre-d--three"
           ],
           "props":{
             "blocksClass":"section_one--image"

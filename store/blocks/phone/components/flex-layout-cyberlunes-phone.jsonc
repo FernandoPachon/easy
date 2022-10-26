@@ -2,7 +2,8 @@
         "flex-layout.row#phone_section--cyberlunes":{
           "title":"Sección Pinturas",
           "children": [
-            "flex-layout.row#phone_lunes",
+            "flex-layout.col#section_m--one--lunes",
+            "flex-layout.col#section_m--two--lunes",
             "flex-layout.col#section_m--three--lunes"
           ],
           "props":{
@@ -11,13 +12,6 @@
             "colJustify": "around",
             "horizontalAlign":"center"
           }
-        },
-        "flex-layout.row#phone_lunes":{
-          "title":"",
-          "children":[
-            "flex-layout.col#section_m--one--lunes",
-            "flex-layout.col#section_m--two--lunes"
-          ]
         },
         "flex-layout.col#section_m--one--lunes":{
           "children":[

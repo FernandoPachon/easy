@@ -12,7 +12,8 @@
         "autoplay": {
           "timeout": 3000,
           "stopOnHover": true
-        }
+        },
+        "arrowSize":40
       },
       "children": [
    
@@ -80,9 +81,9 @@
       }
     },
    
-    "list-context.image-list#home_slider--list":{
+    "list-context.image-list#home-d_slider--list":{
       "title":"lista de imágenes",
-      "children": ["slider-layout#home_slider--list"],
+      "children": ["slider-layout#home-d_slider--list"],
       "props": {
         "preload":true,
         "images":[
@@ -101,7 +102,7 @@
         ]
       }
     },
-   "slider-layout#home_slider--list":{
+   "slider-layout#home-d_slider--list":{
     "title":"slider con lista",
     "props": {
       "itemsPerPage": {

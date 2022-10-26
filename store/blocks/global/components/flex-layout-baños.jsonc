@@ -10,15 +10,15 @@
         "blocksClass":"home_section--two",
         "colSizing":"auto",
         "colJustify": "around",
-        "horizontalAlign":"center"
-    
+        "horizontalAlign":"center",
+        "colGap":2
        
         
       }
     },
     "flex-layout.col#section--one--baños":{
       "children":[
-        "image#baños--one"
+        "image#baños-d--one"
       ],
       "props":{
         "blocksClass":"section_one--baños"
@@ -26,7 +26,7 @@
     },
     "flex-layout.col#section--two--baños":{
       "children":[
-        "image#baños--two"
+        "image#baños-d--two"
       ],
       "props":{
         "blocksClass":"section_one--baños"
@@ -34,7 +34,7 @@
     },
     "flex-layout.col#section--three--baños":{
       "children":[
-        "image#baños--three"
+        "image#baños-d--three"
       ],
       "props":{
         "blocksClass":"section_one--baños"

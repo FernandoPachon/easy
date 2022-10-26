@@ -79,9 +79,9 @@
         "src": "assets/img/slider-m-10.jpg"
       }
     },
-    "list-context.image-list#home_slider--list":{
+    "list-context.image-list#home-p_slider--list":{
       "title":"lista de imágenes",
-      "children": ["slider-layout#home_slider--list"],
+      "children": ["slider-layout#home-p_slider--list"],
       "props": {
         "preload":true,
         "images":[
@@ -100,7 +100,7 @@
         ]
       }
     },
-   "slider-layout#home_slider--list":{
+   "slider-layout#home-p_slider--list":{
     "title":"slider con lista",
     "props": {
       "itemsPerPage": {

@@ -10,8 +10,8 @@
             "blocksClass":"LunesHome_section--one",
             "colSizing":"auto",
             "colJustify": "around",
-            "horizontalAlign":"center"
-        
+            "horizontalAlign":"center",
+            "colGap":2
            
             
           }
