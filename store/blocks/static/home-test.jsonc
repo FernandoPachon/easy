@@ -1,0 +1,15 @@
+{
+  "store.custom#home-test": {
+    "blocks": [
+     /*  "slider-layout#desktop_slider--children",
+      "rich-text#seccion_pinturas",
+      "flex-layout.row#desktop_section--pinturas",
+      "rich-text#seccion_colores",
+      "flex-layout.row#desktop_section--vinilos",
+      "flex-layout.row#desktop_section--one",
+      "responsive-layout.desktop#home_info--desktop",
+      "modal-trigger#desktop_modal--children"
+      // "modal-trigger#home_modal--event" */
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+"flex-layout.row#desktop_section--one":{
+  "title":"Sección Uno",
+  "children": [
+    "flex-layout.col#section--one--image",
+    "flex-layout.col#section--one--text"
+  ],
+  "props":{
+    "blocksClass":"home_section--one",
+    "colSizing":"auto" 
+  }
+},
+"flex-layout.col#section--one--image":{
+  "children":[
+    "image#home--image"
+  ],
+  "props":{
+    "blocksClass":"section_one--image"
+  }
+},
+"flex-layout.col#section--one--text":{
+  "children":[
+    "rich-text#section_one--title",
+    "rich-text#section_one--paragraph"
+  ],
+  "props":{
+    "verticalAlign":"middle",
+    "width":"grow"
+  }
+},
+"rich-text#section_one--title":{
+  "props":{
+    "text":"Bienvenidos a Easy Co"
+
+  }
+},
+"rich-text#section_one--paragraph":{
+  "props":{
+    "text":"Somos la megatienda del hogar y la construcción, especializada en servicios para la construcción, remodelación y equipamiento de la casa y el jardín."
+  }
+}
+}

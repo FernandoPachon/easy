@@ -1,0 +1,21 @@
+.sliderLayoutContainer--home_slider{
+    max-width: 100%;
+    max-height: 80%;
+    margin: 0 auto 50px;
+}
+.paginationDotsContainer--home_slider{
+    transform: translateY(30px);
+}
+.sliderLayoutContainer--home_slider{
+    max-height:auto !important
+}
+.sliderLeftArrow, .sliderRightArrow{
+    color: white;
+    border: bold;
+}
+.sliderLeftArrow, .sliderRightArrow:hover{
+    color: white
+} 
+.-container--help-message{
+    background-color: brown;
+}

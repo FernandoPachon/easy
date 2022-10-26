@@ -1,0 +1,23 @@
+{
+  "responsive-layout.phone": {
+    "children": [
+      "slider-layout#mobile_slider--children",
+      "rich-text#phone_cyberlunes",
+      "flex-layout.row#phone_section--cyberlunes",
+      "rich-text#phone_cyberlunes-hogar",
+      "flex-layout.row#phone_section--cyberlunesHogar",
+      "rich-text#phone_nuevo-look",
+      "flex-layout.row#phone_section--cyberNuevo-lookHogar",
+      "rich-text#phone_colores",
+      "flex-layout.row#phone_section--vinilos",
+      "rich-text#desktop_pinturas",
+      "flex-layout.row#phone_section--pinturas",
+      "rich-text#desktop_baños"
+    ]
+  }
+  
+      
+      
+    
+ 
+}

@@ -1,0 +1,87 @@
+{
+  
+  "drawer#header_mobile--menu": {
+        "children": [
+          "menu#header_menu"
+        ],
+        "props":{
+          "orientation":"horizontalAlign"
+        }
+      }, 
+      "menu#header_menu": {
+        "children": [
+        "menu-item#department_one", 
+        "menu-item#department_two"
+      ],
+      "props":{
+        "orientation":"vertical"
+      }
+    },
+        "menu-item#department_one": {
+          "props": {
+            "id":"department_uno",
+            "type":"custom",
+            "itemProps":{
+              "type":"external",
+              "href": "#",
+              "noFollow":true,
+              "tagTitle":"categoría muebles",
+              "text":"Muebles"
+            }
+          },
+          "blocks":["submenu.accordion#department_one"]
+        },
+        "submenu.accordion#department_one":{
+          "children":[
+            "menu#department_one"
+          ],
+          "props":{
+            "orientation":"vertical"
+          }
+        },
+        "menu#department_one":{
+          "children":[
+            "menu-item#category_one",
+            "menu-item#category_two"
+          ]
+        },
+        "menu-item#category_one":{
+          "props": {
+            "id":"category_one",
+            "type":"custom",
+            "itemProps":{
+              "type":"external",
+              "href": "#",
+              "noFollow":true,
+              "tagTitle":"Muebles comedor",
+              "text":"Comedor"
+            }
+          }
+        },
+        "menu-item#category_two":{
+          "props": {
+            "id":"category_one",
+            "type":"custom",
+            "itemProps":{
+              "type":"external",
+              "href": "#",
+              "noFollow":true,
+              "tagTitle":"Muebles dormitorio",
+              "text":"Dormitorio"
+            }
+          }
+        },
+        "menu-item#department_two": {
+          "props": {
+            "id":"department_uno",
+            "type":"custom",
+            "itemProps":{
+              "type":"external",
+              "href": "#",
+              "noFollow":true,
+              "tagTitle":"categoría baños",
+              "text":"Baños"
+            }
+          }
+      }
+}

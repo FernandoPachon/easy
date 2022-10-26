@@ -1,0 +1,52 @@
+{
+    "rich-text#phone_pinturas":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "La vida es más bonita a todo color",
+            "textColor": "black",
+            "font": "Opensans-Bold.ttf",
+            "blockClass": "text-pinturas-phone"
+          }
+    },
+    "rich-text#phone_colores":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Los colores ideales para tu hogar",
+            "textColor": "black",
+            "font": "Opensans-Bold.ttf",
+            "blockClass": "text-vinilos-phone"
+          }
+    },
+    "rich-text#phone_cyberlunes":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "No te pierdas el Cyberlunes",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-cyberlunes-phone"
+          }
+    },
+    "rich-text#phone_cyberlunes-hogar":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "En el Cyberlunes encuentra todo para tu hogar",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-hogar-phone"
+        }
+    },
+    "rich-text#phone_nuevo-look":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Dale un nuevo look a tus espacios",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-look-phone"
+        }
+    }
+}

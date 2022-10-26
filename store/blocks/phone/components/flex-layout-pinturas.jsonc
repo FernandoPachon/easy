@@ -1,0 +1,38 @@
+{
+        "flex-layout.row#phone_section--pinturas":{
+          "title":"Sección Pinturas",
+          "children": [
+            "flex-layout.row#section--one--image",
+            "flex-layout.row#section--two--image",
+            "flex-layout.row#section--three--image"
+          ],
+          "props":{
+            "blocksClass":"home_section--one",
+            "colSizing":"auto"
+          }
+        },
+        "flex-layout.row#section--one--image":{
+          "children":[
+            "image#pintura--one"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.row#section--two--image":{
+          "children":[
+            "image#pintura--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.row#section--three--image":{
+          "children":[
+            "image#pintura--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        }
+}

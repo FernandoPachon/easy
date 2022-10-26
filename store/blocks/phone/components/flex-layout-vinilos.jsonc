@@ -1,0 +1,94 @@
+{
+    "flex-layout.row#phone_section--vinilos":{
+    "title":"Sección Vinilos",
+    "children": [
+      "flex-layout.row#phone--one--vinilo",
+      "slider-layout#vinilos_slider--children-phone"
+    
+    ],
+    "props":{
+      "blocksClass":"home_section--one",
+      "colSizing":"auto"
+    }
+  },
+  "flex-layout.row#phone--one--vinilo":{
+    "children":[
+      "image#vinilo-phone--one"
+    ],
+    "props":{
+      "blocksClass":"section_one--image-phone"
+    }
+  },
+  "slider-layout#vinilos_slider--children-phone": {
+    "title":"Slider con hijos declarados", 
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet":3,
+        "mobile": 2
+      },
+      "infinite": true,
+      "blockClass": "vinilos_slider",
+      "width":"60%",
+      "autoplay": {
+        "timeout": 4000,
+        "stopOnHover": true
+      }
+    },
+    "children": [
+ 
+      "image#vinilos_slider--one",
+      "image#vinilos_slider--two",
+      "image#vinilos_slider--three",
+      "image#vinilos_slider--four",
+      "image#vinilos_slider--five",
+      "image#vinilos_slider--six",
+      "image#vinilos_slider--seven",
+      "image#vinilos_slider--eigth"
+      
+     
+    ]
+  },
+  "image#vinilos_slider--one": {
+    "props": {
+      "src": "assets/img/vinilo-buganvilla.jpg",
+      "maxWidth":1200
+    }
+  },
+  "image#vinilos_slider--two": {
+    "props": {
+      "src": "assets/img/vinilo-callejon.jpg"
+    }
+  },
+  "image#vinilos_slider--three": {
+    "props": {
+      "src": "assets/img/vinilo-gris.jpg"
+    }
+  },
+  "image#vinilos_slider--four": {
+    "props": {
+      "src": "assets/img/vinilo-mar-denso.jpg"
+    }
+  },
+  "image#vinilos_slider--five": {
+    "props": {
+      "src": "assets/img/vinilo-maracuya.jpg"
+    }
+  },
+  "image#vinilos_slider--six": {
+    "props": {
+      "src": "assets/img/vinilo-mora-azul.jpg"
+    }
+  },
+  "image#vinilos_slider--seven": {
+    "props": {
+      "src": "assets/img/vinilo-plata.jpg"
+    }
+  },
+  "image#vinilos_slider--eigth": {
+    "props": {
+      "src": "assets/img/vinilo-primaveral.jpg"
+    }
+  }
+
+}

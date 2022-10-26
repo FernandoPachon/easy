@@ -1,0 +1,43 @@
+{
+        "flex-layout.row#desktop_section--cyberlunes":{
+          "title":"Sección Pinturas",
+          "children": [
+            "flex-layout.col#section--one--lunes",
+            "flex-layout.col#section--two--lunes",
+            "flex-layout.col#section--three--lunes"
+          ],
+          "props":{
+            "blocksClass":"home_section--two",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center"
+        
+           
+            
+          }
+        },
+        "flex-layout.col#section--one--lunes":{
+          "children":[
+            "image#lunes--one"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes"
+          }
+        },
+        "flex-layout.col#section--two--lunes":{
+          "children":[
+            "image#lunes--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes"
+          }
+        },
+        "flex-layout.col#section--three--lunes":{
+          "children":[
+            "image#lunes--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes"
+          }
+        }
+}

@@ -1,0 +1,9 @@
+1.git add .
+2.git commit -m "lo que quieras"
+3.git push origin master/main
+
+
+---------------------------------------
+1.git branch 
+2.git checkout developer
+3.git branch -d "nombre de la rama sin " " "

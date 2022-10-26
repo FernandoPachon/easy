@@ -1,0 +1,25 @@
+{
+    "responsive-layout.desktop":{
+     "children":[  
+      "slider-layout#desktop_slider--children",
+      "rich-text#desktop_cyberlunes",
+      "flex-layout.row#desktop_section--cyberlunes",
+      "rich-text#desktop_cyberlunes-hogar",
+      "flex-layout.row#desktop_section--cyberlunesHogarHogar",
+      "rich-text#desktop_nuevo-look",
+      "flex-layout.row#desktop_section--cyberNuevo-lookHogar",
+      "rich-text#desktop_colores",
+      "flex-layout.row#desktop_section--vinilos",
+      "rich-text#desktop_pinturas",
+      "flex-layout.row#desktop_section--pinturas",
+      "rich-text#desktop_baños",
+      "flex-layout.row#desktop_section--baños",
+      "rich-text#desktop_hogar",
+      "flex-layout.row#home_section--descubre-mas",
+      "flex-layout.row#desktop_section--one",
+      "responsive-layout.desktop#home_info--desktop",
+      "modal-trigger#desktop_modal--children"
+      // "modal-trigger#home_modal--event"
+    ]
+    }
+}

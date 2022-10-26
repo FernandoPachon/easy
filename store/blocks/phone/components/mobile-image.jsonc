@@ -1,0 +1,241 @@
+{
+    "image#home--image": {
+        "title": "Imagen de Home",
+        "props": {
+          "src": "assets/img/logo-easy.jpg",
+          "maxWidth": 100,
+          "title": "Tiendas ",
+          "blocksClass": "Tiendas_image",
+          "link": {
+            "url": "https://www.easy.com.co",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#pintura--one": {
+        "title": "",
+        "props": {
+          "src": "assets/img/pintura1.jpg",
+          "maxWidth": 180,
+          "title": "Pinturas",
+          "blocksClass": "Pinturas_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#pintura--two": {
+        "title": "",
+        "props": {
+          "src": "assets/img/pintura2.jpg",
+          "maxWidth": 180,
+          "title": "Pinturas",
+          "blocksClass": "Pinturas_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#pintura--three": {
+        "title": "",
+        "props": {
+          "src": "assets/img/pintura3.jpg",
+          "maxWidth": 375,
+          "title": "Pinturas",
+          "blocksClass": "Pinturas_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#vinilo-phone--one": {
+        "title": "",
+        "props": {
+          "src": "assets/img/pintuco.jpg",
+          "maxWidth": 375,
+          "title": "Pinturas",
+          "blocksClass": "Pinturas_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunes--one_m": {
+        "props": {
+          "src": "assets/img/cyber-1.jpg",
+          "maxWidth": 180,
+          "title": "Cyberlunes",
+          "blocksClass": "Cyberlunes_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunes--two_m": {
+        "props": {
+          "src": "assets/img/cyber-2.jpg",
+          "maxWidth": 180,
+          "title": "Cyberlunes",
+          "blocksClass": "Cyberlunes_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunes--three_m": {
+        "props": {
+          "src": "assets/img/cyber-3.jpg",
+          "maxWidth": 375,
+          "title": "Cyberlunes",
+          "blocksClass": "Cyberlunes_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunesHogar-phone--one": {
+        "props": {
+          "src": "assets/img/cyber-4.jpg",
+          "maxWidth": 375,
+          "title": "Cyberlunes-phone",
+          "blocksClass": "CyberlunesHogar_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunesHogar-phone--two": {
+        "props": {
+          "src": "assets/img/cyber-5.jpg",
+          "maxWidth": 180,
+          "title": "Cyberlunes-phone",
+          "blocksClass": "CyberlunesHogar_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#lunesHogar-phone--three": {
+        "props": {
+          "src": "assets/img/cyber-6.jpg",
+          "maxWidth":180,
+          "title": "Cyberlunes-phone",
+          "blocksClass": "CyberlunesHogar_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#Nuevo-look-phone--one": {
+        "props": {
+          "src": "assets/img/cyber-7.jpg",
+          "maxWidth": 375,
+          "title": "NuevoLook",
+          "blocksClass": "NuevoLook_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#baños--one":{
+        "props": {
+          "src": "assets/img/banos-1.jpg",
+          "maxWidth": 400,
+          "title": "baños",
+          "blocksClass": "baños_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#baños--two":{
+        "props": {
+          "src": "assets/img/banos-2.jpg",
+          "maxWidth": 400,
+          "title": "baños",
+          "blocksClass": "baños_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#baños--three":{
+        "props": {
+          "src": "assets/img/banos-3.jpg",
+          "maxWidth": 1200,
+          "title": "baños",
+          "blocksClass": "baños_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#descubre--one":{
+        "props": {
+          "src": "assets/img/descubre-1.jpg",
+          "maxWidth": 400,
+          "title": "descubre",
+          "blocksClass": "descubre_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#descubre--two":{
+        "props": {
+          "src": "assets/img/descubre-2.jpg",
+          "maxWidth": 400,
+          "title": "descubre",
+          "blocksClass": "descubre_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      },
+      "image#descubre--three":{
+        "props": {
+          "src": "assets/img/descubre-3.jpg",
+          "maxWidth": 1200,
+          "title": "descubre",
+          "blocksClass": "descubre_image",
+          "link": {
+            "url": "#",
+            "newTab": true,
+            "atributeNoFollow": true
+          }
+        }
+      }
+}

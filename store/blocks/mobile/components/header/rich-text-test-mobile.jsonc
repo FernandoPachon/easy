@@ -1,0 +1,13 @@
+{
+  "rich-text#test-mobile": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Easy co mobile",
+      "textColor": "black",
+      "font": "Opensans-Bold.ttf",
+      "blockClass": "help-message"
+    }
+  }
+  
+}
