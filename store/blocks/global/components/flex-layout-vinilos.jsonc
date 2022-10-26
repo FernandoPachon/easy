@@ -10,7 +10,8 @@
       "blocksClass":"home_section--one",
       "colSizing":"auto",
       "colJustify": "around",
-      "horizontalAlign":"center"
+      "horizontalAlign":"center",
+      "colGap":2
     }
   },
   "flex-layout.row#desktop--one--vinilo":{
@@ -39,55 +40,55 @@
     },
     "children": [
  
-      "image#vinilos_slider--one",
-      "image#vinilos_slider--two",
-      "image#vinilos_slider--three",
-      "image#vinilos_slider--four",
-      "image#vinilos_slider--five",
-      "image#vinilos_slider--six",
-      "image#vinilos_slider--seven",
-      "image#vinilos_slider--eigth"
+      "image#vinilos_slider-d--one",
+      "image#vinilos_slider-d--two",
+      "image#vinilos_slider-d--three",
+      "image#vinilos_slider-d--four",
+      "image#vinilos_slider-d--five",
+      "image#vinilos_slider-d--six",
+      "image#vinilos_slider-d--seven",
+      "image#vinilos_slider-d--eigth"
       
      
     ]
   },
-  "image#vinilos_slider--one": {
+  "image#vinilos_slider-d--one": {
     "props": {
       "src": "assets/img/vinilo-buganvilla.jpg",
       "maxWidth":1200
     }
   },
-  "image#vinilos_slider--two": {
+  "image#vinilos_slider-d--two": {
     "props": {
       "src": "assets/img/vinilo-callejon.jpg"
     }
   },
-  "image#vinilos_slider--three": {
+  "image#vinilos_slider-d--three": {
     "props": {
       "src": "assets/img/vinilo-gris.jpg"
     }
   },
-  "image#vinilos_slider--four": {
+  "image#vinilos_slider-d--four": {
     "props": {
       "src": "assets/img/vinilo-mar-denso.jpg"
     }
   },
-  "image#vinilos_slider--five": {
+  "image#vinilos_slider-d--five": {
     "props": {
       "src": "assets/img/vinilo-maracuya.jpg"
     }
   },
-  "image#vinilos_slider--six": {
+  "image#vinilos_slider-d--six": {
     "props": {
       "src": "assets/img/vinilo-mora-azul.jpg"
     }
   },
-  "image#vinilos_slider--seven": {
+  "image#vinilos_slider-d--seven": {
     "props": {
       "src": "assets/img/vinilo-plata.jpg"
     }
   },
-  "image#vinilos_slider--eigth": {
+  "image#vinilos_slider-d--eigth": {
     "props": {
       "src": "assets/img/vinilo-primaveral.jpg"
     }

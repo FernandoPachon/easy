@@ -41,55 +41,55 @@
         },
         "children": [
      
-          "image#Nuevo-look_slider--one",
-          "image#Nuevo-look_slider--two",
-          "image#Nuevo-look_slider--three",
-          "image#Nuevo-look_slider--four",
-          "image#Nuevo-look_slider--five",
-          "image#Nuevo-look_slider--six",
-          "image#Nuevo-look_slider--seven",
-          "image#Nuevo-look_slider--eigth"
+          "image#Nuevo-look_slider-p--one",
+          "image#Nuevo-look_slider-p--two",
+          "image#Nuevo-look_slider-p--three",
+          "image#Nuevo-look_slider-p--four",
+          "image#Nuevo-look_slider-p--five",
+          "image#Nuevo-look_slider-p--six",
+          "image#Nuevo-look_slider-p--seven",
+          "image#Nuevo-look_slider-p--eigth"
           
          
         ]
       },
-      "image#Nuevo-look_slider--one": {
+      "image#Nuevo-look_slider-p--one": {
         "props": {
           "src": "assets/img/look-1.jpg",
           "maxWidth":1200
         }
       },
-      "image#Nuevo-look_slider--two": {
+      "image#Nuevo-look_slider-p--two": {
         "props": {
           "src": "assets/img/look-2.jpg"
         }
       },
-      "image#Nuevo-look_slider--three": {
+      "image#Nuevo-look_slider-p--three": {
         "props": {
           "src": "assets/img/look-3.jpg"
         }
       },
-      "image#Nuevo-look_slider--four": {
+      "image#Nuevo-look_slider-p--four": {
         "props": {
           "src": "assets/img/look-4.jpg"
         }
       },
-      "image#Nuevo-look_slider--five": {
+      "image#Nuevo-look_slider-p--five": {
         "props": {
           "src": "assets/img/look-5.jpg"
         }
       },
-      "image#Nuevo-look_slider--six": {
+      "image#Nuevo-look_slider-p--six": {
         "props": {
           "src": "assets/img/look-6.jpg"
         }
       },
-      "image#Nuevo-look_slider--seven": {
+      "image#Nuevo-look_slider-p--seven": {
         "props": {
           "src": "assets/img/look-7.jpg"
         }
       },
-      "image#Nuevo-look_slider--eigth": {
+      "image#Nuevo-look_slider-p--eigth": {
         "props": {
           "src": "assets/img/look-8.jpg"
         }

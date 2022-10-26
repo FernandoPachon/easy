@@ -1,26 +1,27 @@
 {
-    "modal-trigger#desktop_modal--children":{
+    "modal-trigger#phone_modal--children":{
     "children":[
-      "rich-text#home_modal--trigger",
-      "modal-layout#home_modal--layout"
+      "rich-text#home-p_modal--trigger",
+      "modal-layout#home-p_modal--layout"
+      
     ]
   },
-  "rich-text#home_modal--trigger":{
+  "rich-text#home-p_modal--trigger":{
     "props":{
       "text":"Términos y condiciones"
     }
   },
-  "modal-layout#home_modal--layout":{
+  "modal-layout#home-p_modal--layout":{
     "children":[
-      "rich-text#home_modal--content"
+      "rich-text#home-p_modal--content"
     ]
   },
-  "rich-text#home_modal--content":{
+  "rich-text#home-p_modal--content":{
     "props":{
       "text":"# Términos y condiciones \n La dinámica de exención de IVA está regida por los artículos 37 al 39 de la ley 2155 del 2021, decreto 1314 del 20 de Octubre del 2021 y decreto 290 del 28 de Febrero del 2022, en este documento te comentaremos algunas condiciones y restricciones que debes tener en cuenta para poder comprar en los días sin IVA. El valor de la UVT para 2022 quedó en $38.004."
     }
   },
-  "modal-trigger#home_modal--event":{
+  "modal-trigger#home-p_modal--event":{
     "children":[
       "modal-layout#home_modal--event"
     ],
@@ -32,10 +33,10 @@
   "modal-layout#home_modal--event":{
     "children":[
       "modal-header#home_modal--event",
-      "image#home_modal--event-content"
+      "image#home-p_modal--event-content"
     ]
   },
-  "image#home_modal--event-content":{
+  "image#home-p_modal--event-content":{
     "props":{
       "src":"assets/img/logo-easy.jpg"
     }

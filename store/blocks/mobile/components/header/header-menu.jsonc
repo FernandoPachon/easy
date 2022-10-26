@@ -2,24 +2,24 @@
   
   "drawer#header_mobile--menu": {
         "children": [
-          "menu#header_menu"
+          "menu#header-m_menu"
         ],
         "props":{
           "orientation":"horizontalAlign"
         }
       }, 
-      "menu#header_menu": {
+      "menu#header-m_menu": {
         "children": [
-        "menu-item#department_one", 
-        "menu-item#department_two"
+        "menu-item#department-m_one", 
+        "menu-item#department-m_two"
       ],
       "props":{
         "orientation":"vertical"
       }
     },
-        "menu-item#department_one": {
+        "menu-item#department-m_one": {
           "props": {
-            "id":"department_uno",
+            "id":"department-m_uno",
             "type":"custom",
             "itemProps":{
               "type":"external",
@@ -29,25 +29,25 @@
               "text":"Muebles"
             }
           },
-          "blocks":["submenu.accordion#department_one"]
+          "blocks":["submenu.accordion#department-m_one"]
         },
-        "submenu.accordion#department_one":{
+        "submenu.accordion#department-m_one":{
           "children":[
-            "menu#department_one"
+            "menu#department-m_one"
           ],
           "props":{
             "orientation":"vertical"
           }
         },
-        "menu#department_one":{
+        "menu#department-m_one":{
           "children":[
-            "menu-item#category_one",
-            "menu-item#category_two"
+            "menu-item#category-m_one",
+            "menu-item#category-m_two"
           ]
         },
-        "menu-item#category_one":{
+        "menu-item#category-m_one":{
           "props": {
-            "id":"category_one",
+            "id":"category-m_one",
             "type":"custom",
             "itemProps":{
               "type":"external",
@@ -58,9 +58,9 @@
             }
           }
         },
-        "menu-item#category_two":{
+        "menu-item#category-m_two":{
           "props": {
-            "id":"category_one",
+            "id":"category-m_one",
             "type":"custom",
             "itemProps":{
               "type":"external",
@@ -71,9 +71,9 @@
             }
           }
         },
-        "menu-item#department_two": {
+        "menu-item#department-m_two": {
           "props": {
-            "id":"department_uno",
+            "id":"department-m_uno",
             "type":"custom",
             "itemProps":{
               "type":"external",
