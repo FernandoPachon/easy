@@ -9,8 +9,8 @@
           "props":{
             "blocksClass":"home_section--two",
             "colSizing":"auto",
-            "colJustify": "around",
-            "horizontalAlign":"center"
+            "colJustify": "between"
+
           }
         },
         "flex-layout.col#section_m--one--lunes":{
@@ -18,8 +18,8 @@
             "image#lunes--one_m"
           ],
           "props":{
-            "blocksClass":"section_one--lunes",
-            "horizontalAlign":"left"
+            "blocksClass":"section_one--lunes"
+            
           }
         },
         "flex-layout.col#section_m--two--lunes":{
@@ -27,8 +27,7 @@
             "image#lunes--two_m"
           ],
           "props":{
-            "blocksClass":"section_one--lunes",
-            "horizontalAlign":"right"
+            "blocksClass":"section_one--lunes"
           }
         },
         "flex-layout.col#section_m--three--lunes":{

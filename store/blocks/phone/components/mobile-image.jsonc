@@ -72,7 +72,7 @@
       "image#lunes--one_m": {
         "props": {
           "src": "assets/img/cyber-1.jpg",
-          "maxWidth": 180,
+          "maxWidth": 50,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -85,7 +85,7 @@
       "image#lunes--two_m": {
         "props": {
           "src": "assets/img/cyber-2.jpg",
-          "maxWidth": 180,
+          "maxWidth": 50,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {

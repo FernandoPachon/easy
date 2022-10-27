@@ -11,7 +11,7 @@
           "header-spacer",
           "login",
           //"modal-trigger#header_top-d--login",
-          "minicart.v2"
+          "minicart.v2#header_top-d--cart"
         ],
         "props": {
           "blockClass": "header_top-d"
@@ -31,6 +31,11 @@
           "maxWidth":650
         }
       },
+      "minicart.v2#header_top-d--cart":{
+        "props": {
+          "size": 24,
+          "quantityDisplay":"always"
+        },
       "modal-trigger#header_top-d--login": {
         "children": [
           "rich-text#header_top-d--login",

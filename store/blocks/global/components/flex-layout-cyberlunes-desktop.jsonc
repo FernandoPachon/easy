@@ -2,6 +2,7 @@
         "flex-layout.row#desktop_section--cyberlunes":{
           "title":"Sección Cyberlunes",
           "children": [
+          
             "flex-layout.col#section--one--lunes-d",
             "flex-layout.col#section--two--lunes-d",
             "flex-layout.col#section--three--lunes-d"
@@ -17,6 +18,7 @@
         "flex-layout.col#section--one--lunes-d":{
           "children":[
             "image#lunes-d--one"
+          
           ],
           "props":{
             "blocksClass":"section_one--lunes-d"

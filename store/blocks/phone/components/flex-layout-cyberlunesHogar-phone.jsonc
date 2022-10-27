@@ -3,7 +3,7 @@
           "title":"Sección Hogar",
           "children": [
             "flex-layout.col#section--one--lunesHogar-phone",
-            "flex-layout.col#section--two--lunesHogar-phone",
+            //"flex-layout.col#section--two--lunesHogar-phone"
             "flex-layout.col#section--three--lunesHogar-phone"
           ],
           "props":{

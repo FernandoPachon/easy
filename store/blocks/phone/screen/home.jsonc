@@ -1,7 +1,7 @@
 {
   "responsive-layout.phone": {
     "children": [
-      "slider-layout#mobile_slider--children",
+      "slider-layout#phone_slider--children",
       "rich-text#phone_cyberlunes",
       "flex-layout.row#phone_section--cyberlunes",
       "rich-text#phone_cyberlunes-hogar",

@@ -41,8 +41,15 @@
     "menu#department-d_one":{
       "children":[
         "menu-item#category-d_one",
-        "menu-item#category-d_two"
-      ]
+        "menu-item#category-d_two",
+        "menu-item#category-d_three",
+        "menu-item#category-d_four",
+        "menu-item#category-d_five",
+        "menu-item#category-d_six"
+      ],
+      "props":{
+        "orientation":"vertical"
+      }
     },
     "menu-item#category-d_one":{
       "props": {
@@ -67,6 +74,58 @@
           "noFollow":true,
           "tagTitle":"Muebles dormitorio",
           "text":"Dormitorio"
+        }
+      }
+    },
+    "menu-item#category-d_three":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"Muebles oficina",
+          "text":"Muebles de oficina y estudio"
+        }
+      }
+    }, 
+    "menu-item#category-d_four":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"Muebles sala",
+          "text":"Mueble sala"
+        }
+      }
+    }, 
+    "menu-item#category-d_five":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"Muebles infantiles",
+          "text":"Muebles infantiles y juveniles"
+        }
+      }
+    }, 
+    "menu-item#category-d_six":{
+      "props": {
+        "id":"category-d_one",
+        "type":"custom",
+        "itemProps":{
+          "type":"external",
+          "href": "#",
+          "noFollow":true,
+          "tagTitle":"sala tv",
+          "text":"Sala tv"
         }
       }
     },
