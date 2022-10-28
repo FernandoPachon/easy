@@ -8,3 +8,6 @@
     margin-right: 45px;
     align-items: flex-start;
 }
+.autoCompleteOuterContainer--lupa-search-bar{
+    background-color: brown;
+}

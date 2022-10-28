@@ -1,80 +1,261 @@
 {
-    "header-layout.desktop": {
-        "title": "Header Desktop",
-        "children": ["header-row#header_top","header-row#header_middle"]
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": ["header-row#header_top", "header-row#header_middle"]
+  },
+  "header-row#header_top": {
+    "title": "Header superior",
+    "children": [
+      "logo#header_top-d--logo",
+      "search-bar",
+      "header-spacer",
+      //"login",
+      "modal-trigger#header_top-d--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header_top-d"
+    }
+  },
+  "logo#header_top-d--logo": {
+    "title": "logo",
+    "props": {
+      "url": "assets/img/logo-easy.jpg",
+      "width": 100,
+      "href": "/"
+    }
+  },
+
+  "modal-trigger#header_top-d--login": {
+    "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"]
+  },
+  "flex-layout.row#user": {
+    "children": ["image#header-login", "rich-text#header_top-d--login"]
+  },
+  "image#header-login": {
+    "props": {
+      "src": "assets/img/icon-cuenta.png",
+      "maxWidth": 50
+    }
+  },
+  "rich-text#header_top-d--login": {
+    "props": {
+      "text": ""
+    }
+  },
+  "modal-layout#header_top-d--login": {
+    "children": ["login-content"]
+  },
+  "header-row#header_middle": {
+    "title": "Header medio",
+    "children": ["flex-layout.row#barra-menu"],
+    "props": {
+      "blockClass": "header_middle"
+    }
+  },
+  "flex-layout.row#barra-menu": {
+    "children": [
+      "drawer#header_desktop--menu", 
+      "menu#categorías",
+      "menu#ventasTel",
+      "menu#centroAyuda",
+      "menu#asistenciaWeb",
+      "menu#tiendas",
+      "menu#MundoExperto",
+      "menu#ventaEmpresa",
+      "menu#Blog"
+    ]
+  },
+  "menu#categorías": {
+    "children": ["menu-item#categorías"]
+  },
+  "menu-item#categorías": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-categorias",
+        "viewBox":"0 0 64 64"
       },
-      "header-row#header_top": {
-        "title": "Header superior",
-        "children": [
-          "logo#header_top-d--logo",
-          "search-bar",
-          "header-spacer",
-        //"login",
-          "modal-trigger#header_top-d--login",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "header_top-d"
-                   }
-      },
-      "logo#header_top-d--logo": {
-        "title": "logo",
-        "props": {
-          "url": "assets/img/logo-easy.jpg",
-          "width": 100,
-          "href": "/"
-        }
-      },
-      "search-bar":{
-        "props":{
-          "blockClass":"search-d",
-          "maxWidth":650
-        }
-      },
-      "modal-trigger#header_top-d--login": {
-        "children": [
-          "flex-layout.row#user",
-         "modal-layout#header_top-d--login"
-         
-        ]
-      },
-      "flex-layout.row#user":{
-        "children":[
-        "image#header-login",
-        "rich-text#header_top-d--login"
-        ]
-      },
-      "image#header-login":{
-        "props":{
-          "src":"assets/img/icon-cuenta.png",
-          "maxWidth":50
-        }
-      },
-      "rich-text#header_top-d--login": {
-        "props": {
-          "text": ""
-        }
-      },
-      "modal-layout#header_top-d--login": {
-        "children": ["login-content"]
-      },
-      "header-row#header_middle": {
-        "title": "Header medio",
-        "children": [
-          "drawer#header_desktop--menu",
-          "rich-text#catalogo"
-        ],
-        "props": {
-          "blockClass": "header_middle"
-        }
-      },
-      "autocomplete-result-list.v2":{
-        "blocks":["product-summary"]
-      },
-      "rich-text#catalogo":{
-        "props":{
-          "text":"Catálogo"
-        }
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Catálogo",
+        "orientation": "vertical"
       }
-    
+    }
+  },
+  //---------ventas tel
+  "menu#ventasTel": {
+    "children": ["menu-item#ventasTel"]
+  },
+  "menu-item#ventasTel": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-ventaTel",
+        "viewBox":"0 0 44 65"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Ventas Telefónica"
+        
+      }
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "rich-text#catalogo": {
+    "props": {
+      "text": "Catálogo"
+    }
+  },
+  //---------------------- centro ayuda
+  "menu#centroAyuda": {
+    "children": ["menu-item#centroAyuda"]
+  },
+  "menu-item#centroAyuda": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-centroAyuda",
+        "viewBox":"0 0 32 32"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Centro de Ayuda"
+        
+      }
+    }
+  },
+  //---------------------- asistencia web
+  "menu#asistenciaWeb": {
+    "children": ["menu-item#asistenciaWeb"]
+  },
+  "menu-item#asistenciaWeb": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-asistenciaWeb",
+        "viewBox":"0 0 24 24"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Asistencia Web"
+        
+      }
+    }
+  },
+  //---------------- tiendas
+  "menu#tiendas": {
+    "children": ["menu-item#tiendas"]
+  },
+  "menu-item#tiendas": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-tienda",
+        "viewBox":"0 0 64 64"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Tiendas"
+        
+      }
+    }
+  },
+  //-------------------------mundo experto
+  "menu#MundoExperto": {
+    "children": ["menu-item#MundoExperto"]
+  },
+  "menu-item#MundoExperto": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-ventaTel",
+        "viewBox":"0 0 64 64"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Mundo Experto"
+        
+      }
+    }
+  },
+  //-------------------- venta empresa
+  "menu#ventaEmpresa": {
+    "children": ["menu-item#ventaEmpresa"]
+  },
+  "menu-item#ventaEmpresa": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-ventaTel",
+        "viewBox":"0 0 64 64"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Venta Empresa"
+        
+      }
+    }
+  },
+  //------------------------------ blog
+  "menu#Blog": {
+    "children": ["menu-item#Blog"]
+  },
+  "menu-item#Blog": {
+    "props": {
+      "id": "categorías",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps":{
+        "id":"sti-ventaTel",
+        "viewBox":"0 0 64 64"
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Blog"
+        
+      }
+    }
+  }
+  
 }

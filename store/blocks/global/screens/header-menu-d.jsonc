@@ -173,19 +173,7 @@
       
     ]
   },
-  "menu-item#department-d_three": {
-    "props": {
-      "id": "department-d_uno",
-      "type": "custom",
-      "itemProps": {
-        "type": "external",
-        "href": "#",
-        "noFollow": true,
-        "tagTitle": "categoría baños",
-        "text": "Cocinas"
-      }
-    }
-  },
+
   "menu-item#baños-d_one": {
     "props": {
       "id": "category-d_one",
@@ -225,6 +213,7 @@
       }
     }
   },
+  
   "menu-item#baños-d_four": {
     "props": {
       "id": "category-d_four",
@@ -251,6 +240,87 @@
       }
     }
   },
+  "menu-item#department-d_three": {
+    "props": {
+      "id": "department-d_uno",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "categoría baños",
+        "text": "Cocinas"
+      }
+    },
+    "blocks": ["submenu.accordion#department_three"]
+  },
+  "submenu.accordion#department_three": {
+    "children": ["menu#department-d_three"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#department-d_three": {
+    "children": [
+      "menu-item#cocina-d_one",
+      "menu-item#cocina-d_two",
+      "menu-item#cocina-d_three",
+      "menu-item#cocina-d_four"
+    ]
+  },
+  "menu-item#cocina-d_one": {
+    "props": {
+      "id": "cocina-d_one",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Cocina"
+      }
+    }
+  },
+  "menu-item#cocina-d_two": {
+    "props": {
+      "id": "cocina-d_two",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Grifaría de Cocina"
+      }
+    }
+  },
+  "menu-item#cocina-d_three": {
+    "props": {
+      "id": "cocina-d_three",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Lavandería"
+      }
+    }
+  },
+  "menu-item#cocina-d_four": {
+    "props": {
+      "id": "cocina-d_four",
+      "type": "custom",
+      "itemProps": {
+        "type": "external",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Cocina",
+        "text": "Mesones y lavaplatos"
+      }
+    }
+  },
+  
   "menu-item#department-d_four": {
     "props": {
       "id": "department-d_uno",
