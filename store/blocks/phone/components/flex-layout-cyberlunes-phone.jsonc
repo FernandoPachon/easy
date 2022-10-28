@@ -3,11 +3,12 @@
           "title":"Sección Pinturas",
           "children": [
             "flex-layout.col#section_m--one--lunes",
-            "flex-layout.col#section_m--two--lunes",
-            "flex-layout.col#section_m--three--lunes"
+            "flex-layout.col#section_m--two--lunes"
+            
+            //"flex-layout.col#section_m--three--lunes"
           ],
           "props":{
-            "blocksClass":"home_section--two",
+            "blocksClass":"home_lunes--two",
             "colSizing":"auto",
             "colJustify": "between"
 
@@ -15,7 +16,7 @@
         },
         "flex-layout.col#section_m--one--lunes":{
           "children":[
-            "image#lunes--one_m"
+            "image#lunes--one_mp"
           ],
           "props":{
             "blocksClass":"section_one--lunes"

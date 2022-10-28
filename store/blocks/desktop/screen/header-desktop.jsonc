@@ -9,9 +9,9 @@
           "logo#header_top-d--logo",
           "search-bar",
           "header-spacer",
-          "login",
-          //"modal-trigger#header_top-d--login",
-          "minicart.v2#header_top-d--cart"
+        //"login",
+          "modal-trigger#header_top-d--login",
+          "minicart.v2"
         ],
         "props": {
           "blockClass": "header_top-d"
@@ -31,38 +31,33 @@
           "maxWidth":650
         }
       },
-      "minicart.v2#header_top-d--cart":{
-        "props": {
-          "size": 100,
-          "quantityDisplay":"always"
-        }
-      },
       "modal-trigger#header_top-d--login": {
         "children": [
-          "rich-text#header_top-d--login",
-          "modal-layout#header_top-d--login"
+          "flex-layout.row#user",
+         "modal-layout#header_top-d--login"
+         
         ]
       },
-    
+      "flex-layout.row#user":{
+        "children":[
+        "image#header-login",
+        "rich-text#header_top-d--login"
+        ]
+      },
+      "image#header-login":{
+        "props":{
+          "src":"assets/img/icon-cuenta.png",
+          "maxWidth":50
+        }
+      },
       "rich-text#header_top-d--login": {
         "props": {
-          "text": "login"
+          "text": ""
         }
       },
       "modal-layout#header_top-d--login": {
         "children": ["login-content"]
       },
-      "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
-        }
-      },
-    
       "header-row#header_middle": {
         "title": "Header medio",
         "children": [

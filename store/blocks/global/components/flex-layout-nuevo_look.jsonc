@@ -3,6 +3,7 @@
       "title":"Sección Look",
       "children": [
         "flex-layout.col#section--one--Nuevo-look",
+        //"tab-layout#home",
         "slider-layout#look_slider--children"
       ],
       "props":{

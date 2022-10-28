@@ -69,10 +69,10 @@
           }
         }
       },
-      "image#lunes--one_m": {
+      "image#lunes--one_mp": {
         "props": {
           "src": "assets/img/cyber-1.jpg",
-          "maxWidth": 50,
+          "maxWidth":205,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
