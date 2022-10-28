@@ -35,7 +35,7 @@
         "menu#department-d_one"
       ],
       "props":{
-        "orientation":"vertical"
+        "orientation":"horizontal"
       }
     },
     "menu#department-d_one":{
@@ -46,10 +46,7 @@
         "menu-item#category-d_four",
         "menu-item#category-d_five",
         "menu-item#category-d_six"
-      ],
-      "props":{
-        "orientation":"vertical"
-      }
+      ]
     },
     "menu-item#category-d_one":{
       "props": {
@@ -86,10 +83,10 @@
           "href": "#",
           "noFollow":true,
           "tagTitle":"Muebles oficina",
-          "text":"Muebles de oficina y estudio"
+          "text":"Muebles de Oficina y Estudio"
         }
       }
-    }, 
+    },
     "menu-item#category-d_four":{
       "props": {
         "id":"category-d_one",
@@ -99,10 +96,10 @@
           "href": "#",
           "noFollow":true,
           "tagTitle":"Muebles sala",
-          "text":"Mueble sala"
+          "text":"Muebles de sala"
         }
       }
-    }, 
+    },
     "menu-item#category-d_five":{
       "props": {
         "id":"category-d_one",
@@ -112,10 +109,10 @@
           "href": "#",
           "noFollow":true,
           "tagTitle":"Muebles infantiles",
-          "text":"Muebles infantiles y juveniles"
+          "text":"Muebles Infantiles y Juveniles"
         }
       }
-    }, 
+    },
     "menu-item#category-d_six":{
       "props": {
         "id":"category-d_one",
@@ -124,8 +121,8 @@
           "type":"external",
           "href": "#",
           "noFollow":true,
-          "tagTitle":"sala tv",
-          "text":"Sala tv"
+          "tagTitle":"Muebles dormitorio",
+          "text":"Sala TV"
         }
       }
     },

@@ -1,3 +1,4 @@
 .openIconContainer{
-  background-image: url(assets/img/icon-car.svg);
+  max-width: 40px;
+  max-height: 40px;
 }

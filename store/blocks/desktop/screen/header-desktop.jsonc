@@ -33,9 +33,10 @@
       },
       "minicart.v2#header_top-d--cart":{
         "props": {
-          "size": 24,
+          "size": 100,
           "quantityDisplay":"always"
-        },
+        }
+      },
       "modal-trigger#header_top-d--login": {
         "children": [
           "rich-text#header_top-d--login",
