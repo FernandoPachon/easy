@@ -207,8 +207,8 @@
       "orientation": "vertical",
       "type": "custom",
       "iconProps":{
-        "id":"sti-ventaTel",
-        "viewBox":"0 0 64 64",
+        "id":"sti-mundoExperto",
+        "viewBox":"0 0 32 32",
         "size":20
       },
       "itemProps": {
