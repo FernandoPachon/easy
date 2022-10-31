@@ -10,8 +10,8 @@
     "minicart.v2":{
       "props": {
         "MinicartIcon":"icon#cart-icon",
-        "itemCountMode":"total"
-        
+        "itemCountMode":"total",
+        "quantityDisplay":"always"
       }
     }
 }
