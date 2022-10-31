@@ -3,8 +3,9 @@
           "title":"Sección Hogar",
           "children": [
             "flex-layout.col#section--one--lunesHogar-phone",
-            //"flex-layout.col#section--two--lunesHogar-phone"
-            "flex-layout.col#section--three--lunesHogar-phone"
+            "flex-layout.row#bloque_uno-lunesHogar"
+            
+            
           ],
           "props":{
             "blocksClass":"LunesHome_section--one",
@@ -14,6 +15,17 @@
         
            
             
+          }
+        },
+        "flex-layout.row#bloque_uno-lunesHogar":{
+          "children":[
+            "flex-layout.col#section--two--lunesHogar-phone",
+            "flex-layout.col#section--three--lunesHogar-phone"
+          ],
+          "props":{
+            "colSizing":"auto",
+            "colJustify": "between",
+            "preserveLayoutOnMobile": true
           }
         },
         "flex-layout.col#section--one--lunesHogar-phone":{

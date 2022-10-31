@@ -48,15 +48,17 @@
   },
   "header-row#header_middle": {
     "title": "Header medio",
-    "children": ["flex-layout.row#barra-menu"],
+    "children": [
+      "vtex.menu@2.x:menu#websites",
+      "flex-layout.row#barra-menu"
+    ],
     "props": {
       "blockClass": "header_middle"
     }
   },
   "flex-layout.row#barra-menu": {
     "children": [
-      "drawer#header_desktop--menu", 
-      "menu#categorías",
+      "menu#catálogo",
       "menu#ventasTel",
       "menu#centroAyuda",
       "menu#asistenciaWeb",
@@ -66,17 +68,20 @@
       "menu#Blog"
     ]
   },
-  "menu#categorías": {
-    "children": ["menu-item#categorías"]
+  
+  //----------------------catálogo
+  "menu#catálogo": {
+    "children": ["menu-item#catálogo"]
   },
-  "menu-item#categorías": {
+  "menu-item#catálogo": {
     "props": {
-      "id": "categorías",
+      "id": "catálogo",
       "orientation": "vertical",
       "type": "custom",
       "iconProps":{
-        "id":"sti-categorias",
-        "viewBox":"0 0 64 64"
+        "id":"sti-catálogo",
+        "viewBox":"0 0 64 64",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -99,7 +104,8 @@
       "type": "custom",
       "iconProps":{
         "id":"sti-ventaTel",
-        "viewBox":"0 0 44 65"
+        "viewBox":"0 0 44 65",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -130,7 +136,8 @@
       "type": "custom",
       "iconProps":{
         "id":"sti-centroAyuda",
-        "viewBox":"0 0 32 32"
+        "viewBox":"0 0 32 32",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -153,7 +160,8 @@
       "type": "custom",
       "iconProps":{
         "id":"sti-asistenciaWeb",
-        "viewBox":"0 0 24 24"
+        "viewBox":"0 0 24 24",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -176,7 +184,8 @@
       "type": "custom",
       "iconProps":{
         "id":"sti-tienda",
-        "viewBox":"0 0 64 64"
+        "viewBox":"0 0 64 64",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -199,7 +208,8 @@
       "type": "custom",
       "iconProps":{
         "id":"sti-ventaTel",
-        "viewBox":"0 0 64 64"
+        "viewBox":"0 0 64 64",
+        "size":20
       },
       "itemProps": {
         "type": "external",
@@ -221,8 +231,9 @@
       "orientation": "vertical",
       "type": "custom",
       "iconProps":{
-        "id":"sti-ventaTel",
-        "viewBox":"0 0 64 64"
+        "id":"sti-ventaEmpresa",
+        "viewBox":"0 0 64 64",
+        "size":25
       },
       "itemProps": {
         "type": "external",
@@ -230,7 +241,6 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Venta Empresa"
-        
       }
     }
   },
@@ -244,8 +254,9 @@
       "orientation": "vertical",
       "type": "custom",
       "iconProps":{
-        "id":"sti-ventaTel",
-        "viewBox":"0 0 64 64"
+        "id":"sti-blog",
+        "viewBox":"0 0 300 300",
+        "size":20
       },
       "itemProps": {
         "type": "external",

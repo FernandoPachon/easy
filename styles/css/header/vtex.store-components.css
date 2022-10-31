@@ -11,3 +11,6 @@
 .autoCompleteOuterContainer--lupa-search-bar{
     background-color: brown;
 }
+.drawer-menu-d:hover{
+    display: block;
+}

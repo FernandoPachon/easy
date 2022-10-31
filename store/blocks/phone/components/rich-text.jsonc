@@ -48,5 +48,15 @@
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-look-phone"
         }
+    },
+    "rich-text#phone_hogar":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "easy, donde se renueva tu hogar",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-look"
+        }
     }
 }

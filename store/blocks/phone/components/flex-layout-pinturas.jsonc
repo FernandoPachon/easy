@@ -2,13 +2,24 @@
         "flex-layout.row#phone_section--pinturas":{
           "title":"Sección Pinturas",
           "children": [
-            "flex-layout.row#section--one--image",
-            "flex-layout.row#section--two--image",
+            "flex-layout.row#bloque_uno-pinturas",
+           
             "flex-layout.row#section--three--image"
           ],
           "props":{
             "blocksClass":"home_section--one",
             "colSizing":"auto"
+          }
+        },
+        "flex-layout.row#bloque_uno-pinturas":{
+          "children":[
+            "flex-layout.row#section--one--image",
+            "flex-layout.row#section--two--image"
+          ],
+          "props":{
+              "colSizing":"auto",
+              "colJustify": "between",
+              "preserveLayoutOnMobile": true
           }
         },
         "flex-layout.row#section--one--image":{
