@@ -1,0 +1,13 @@
+.opened--drawer-menu-d{
+    transform: translate3d(28px, 160px, 0px )!important;
+    display: inline-table ;
+}
+.closeIconContainer--drawer-menu-d{
+   display: none;
+}
+.closed--drawer-menu-d{
+    display: none;
+}
+.menuItemInnerDiv{
+    width: 50px;
+}

@@ -1,0 +1,54 @@
+{
+        "flex-layout.row#home_section--descubre-mas-p":{
+          "title":"Sección descrubre-mas",
+          "children": [
+            "flex-layout.row#bloque_uno-descubre-mas-p",
+            
+            "flex-layout.col#section--three--descubre-p"
+          ],
+          "props":{
+            "blocksClass":"home_section--one",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":2
+           
+            
+          }
+        },
+        "flex-layout.row#bloque_uno-descubre-mas-p":{
+          "children":[
+            "flex-layout.col#section--one--descubre-p",
+            "flex-layout.col#section--two--descubre-p"
+          ],
+          "props":{
+            "colSizing":"auto",
+            "colJustify": "between",
+            "preserveLayoutOnMobile": true
+          }
+        },
+        "flex-layout.col#section--one--descubre-p":{
+          "children":[
+            "image#descubre-p--one"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section--two--descubre-p":{
+          "children":[
+            "image#descubre-p--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section--three--descubre-p":{
+          "children":[
+            "image#descubre-p--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        }
+}
