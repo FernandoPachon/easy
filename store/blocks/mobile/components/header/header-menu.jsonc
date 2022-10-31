@@ -1,11 +1,12 @@
 {
-  
+
   "drawer#header_mobile--menu": {
         "children": [
           "menu#header-m_menu"
         ],
         "props":{
-          "orientation":"horizontalAlign"
+          "orientation":"horizontalAlign",
+          "Width":2000
         }
       }, 
       "menu#header-m_menu": {

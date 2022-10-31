@@ -69,10 +69,10 @@
           }
         }
       },
-      "image#lunes--one_m": {
+      "image#lunes--one_mp": {
         "props": {
           "src": "assets/img/cyber-1.jpg",
-          "maxWidth": 180,
+          "maxWidth":180,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -163,7 +163,7 @@
       "image#baños-p--one":{
         "props": {
           "src": "assets/img/banos-1.jpg",
-          "maxWidth": 400,
+          "maxWidth": 180,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -176,7 +176,7 @@
       "image#baños-p--two":{
         "props": {
           "src": "assets/img/banos-2.jpg",
-          "maxWidth": 400,
+          "maxWidth": 180,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -189,7 +189,7 @@
       "image#baños-p--three":{
         "props": {
           "src": "assets/img/banos-3.jpg",
-          "maxWidth": 1200,
+          "maxWidth": 375,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -202,7 +202,7 @@
       "image#descubre-p--one":{
         "props": {
           "src": "assets/img/descubre-1.jpg",
-          "maxWidth": 400,
+          "maxWidth":180,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {
@@ -215,7 +215,7 @@
       "image#descubre-p--two":{
         "props": {
           "src": "assets/img/descubre-2.jpg",
-          "maxWidth": 400,
+          "maxWidth": 180,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {
@@ -228,7 +228,7 @@
       "image#descubre-p--three":{
         "props": {
           "src": "assets/img/descubre-3.jpg",
-          "maxWidth": 1200,
+          "maxWidth": 375,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {

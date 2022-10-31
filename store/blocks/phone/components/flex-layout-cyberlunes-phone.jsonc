@@ -2,24 +2,36 @@
         "flex-layout.row#phone_section--cyberlunes":{
           "title":"Sección Pinturas",
           "children": [
-            "flex-layout.col#section_m--one--lunes",
-            "flex-layout.col#section_m--two--lunes",
+            "flex-layout.row#bloque_uno-lunes",
+            
             "flex-layout.col#section_m--three--lunes"
           ],
           "props":{
-            "blocksClass":"home_section--two",
+            "blocksClass":"home_lunes--two",
             "colSizing":"auto",
-            "colJustify": "around",
-            "horizontalAlign":"center"
+            "colJustify": "between"
+       
+          }
+        },
+        "flex-layout.row#bloque_uno-lunes":{
+          "children":[
+            "flex-layout.col#section_m--one--lunes",
+            "flex-layout.col#section_m--two--lunes"
+          ],
+          "props":{
+            "colSizing":"auto",
+            "colJustify": "between",
+            "preserveLayoutOnMobile": true
           }
         },
         "flex-layout.col#section_m--one--lunes":{
           "children":[
-            "image#lunes--one_m"
+            "image#lunes--one_mp"
           ],
           "props":{
             "blocksClass":"section_one--lunes",
-            "horizontalAlign":"left"
+            "preserveLayoutOnMobile": true
+            
           }
         },
         "flex-layout.col#section_m--two--lunes":{
@@ -28,7 +40,7 @@
           ],
           "props":{
             "blocksClass":"section_one--lunes",
-            "horizontalAlign":"right"
+            "preserveLayoutOnMobile": true
           }
         },
         "flex-layout.col#section_m--three--lunes":{
@@ -36,7 +48,8 @@
             "image#lunes--three_m"
           ],
           "props":{
-            "blocksClass":"section_one--lunes"
+            "blocksClass":"section_one--lunes",
+            "preserveLayoutOnMobile": false
           }
         }
 }
