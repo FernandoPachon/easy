@@ -1,0 +1,43 @@
+{
+        "flex-layout.row#home_section--descubre-mas-m":{
+          "title":"Sección descrubre-mas",
+          "children": [
+            "flex-layout.col#section--one--descubre-m",
+            "flex-layout.col#section--two--descubre-m",
+            "flex-layout.col#section--three--descubre-m"
+          ],
+          "props":{
+            "blocksClass":"home_section--one",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":2
+           
+            
+          }
+        },
+        "flex-layout.col#section--one--descubre-m":{
+          "children":[
+            "image#descubre-m--one"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section--two--descubre-m":{
+          "children":[
+            "image#descubre-m--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section--three--descubre-m":{
+          "children":[
+            "image#descubre-m--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        }
+}

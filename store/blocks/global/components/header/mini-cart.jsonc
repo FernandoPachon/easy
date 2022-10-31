@@ -1,0 +1,17 @@
+{
+    "icon#cart-icon":{
+        "props":{
+            "id":"hpa-cart",
+            "size":40,
+            "blockClass":"iconCart",
+            "viewBox":"0 0 16 16"
+        }
+    },
+    "minicart.v2":{
+      "props": {
+        "MinicartIcon":"icon#cart-icon",
+        "itemCountMode":"total"
+        
+      }
+    }
+}

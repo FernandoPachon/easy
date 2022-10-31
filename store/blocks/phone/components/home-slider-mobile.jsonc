@@ -1,5 +1,5 @@
 {
-    "slider-layout#mobile_slider--children": {
+    "slider-layout#phone_slider--children": {
       "title":"Slider con hijos declarados", 
       "props": {
         "itemsPerPage": {

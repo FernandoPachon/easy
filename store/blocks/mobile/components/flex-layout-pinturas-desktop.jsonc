@@ -1,0 +1,43 @@
+{
+        "flex-layout.row#mobile_section--pinturas":{
+          "title":"Sección Pinturas",
+          "children": [
+            "flex-layout.col#section-m--one--images",
+            "flex-layout.col#section-m--two--image",
+            "flex-layout.col#section-m--three--image"
+          ],
+          "props":{
+            "blocksClass":"home_section--one",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":2
+           
+            
+          }
+        },
+        "flex-layout.col#section-m--one--images":{
+          "children":[
+            "image#pintura-m--one"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section-m--two--image":{
+          "children":[
+            "image#pintura-m--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        },
+        "flex-layout.col#section-m--three--image":{
+          "children":[
+            "image#pintura-m--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--image"
+          }
+        }
+}

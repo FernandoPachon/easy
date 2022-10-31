@@ -1,0 +1,16 @@
+.autoCompleteOuterContainer--search-d{
+    border-radius: 15px;
+}
+.logoLink{
+    padding-left: 5px;
+    padding-right:5px;
+    margin-left: -25px;
+    margin-right: 45px;
+    align-items: flex-start;
+}
+.autoCompleteOuterContainer--lupa-search-bar{
+    background-color: brown;
+}
+.drawer-menu-d:hover{
+    display: block;
+}

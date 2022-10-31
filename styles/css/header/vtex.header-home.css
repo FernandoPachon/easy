@@ -4,3 +4,14 @@
         padding-right: 505px;
     }
     
+    /*vtex.store-icons*/
+
+    .cartIcon{
+        src: url("assets/img/icon-car.jpg") !important;
+    }
+    .openIconContainer{
+        padding: 55px;
+      }
+.headerRowContentContainer--header_middle{
+    background-color: #F7F7F7;
+}

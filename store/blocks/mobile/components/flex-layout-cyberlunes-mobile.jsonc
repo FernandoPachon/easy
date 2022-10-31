@@ -1,0 +1,42 @@
+{
+        "flex-layout.row#mobile_section--cyberlunes":{
+          "title":"Sección Cyberlunes",
+          "children": [
+            "flex-layout.col#section--one--lunes-m",
+            "flex-layout.col#section--two--lunes-m"
+            //"flex-layout.col#section--three--lunes-m"
+          ],
+          "props":{
+            "blocksClass":"section_pinturas",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":2
+          }
+        },
+        "flex-layout.col#section--one--lunes-m":{
+          "children":[
+            "image#lunes-m--one"
+          
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-m"
+          }
+        },
+        "flex-layout.col#section--two--lunes-m":{
+          "children":[
+            "image#lunes-m--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-m"
+          }
+        },
+        "flex-layout.col#section--three--lunes-m":{
+          "children":[
+            "image#lunes-m--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-m"
+          }
+        }
+}
