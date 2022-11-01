@@ -12,12 +12,22 @@
     font-weight: bold;
     font-size: 15px;
 }
+.paragraph--texto-cyberlunes-t{
+    margin-left: 1 rem;
+    font-weight: bold;
+    font-size: 18px;
+}
 .paragraph--texto-hogar{
     margin-left: 70px;
     font-weight: bold;
     font-size:  25px;
 }
 .paragraph--texto-hogar-phone{
+    margin-left: 70px;
+    font-weight: bold;
+    font-size:  15px;
+}
+.paragraph--texto-hogar-t{
     margin-left: 70px;
     font-weight: bold;
     font-size:  15px;

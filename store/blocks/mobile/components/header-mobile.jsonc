@@ -9,7 +9,7 @@
           "drawer#header_mobile--menu",
           "logo#header_top-m--logo",
           "search-bar#mobile",
-          "header-spacer",
+         // "header-spacer",
           "login",
           //"modal-trigger#header_top-m--login",
           "minicart.v2"
@@ -22,7 +22,7 @@
         "title": "logo-mobile",
         "props": {
           "url": "assets/img/logo-easy.jpg",
-          "width":200,
+          "width":600,
           "href": "/"
         }
       },
@@ -30,7 +30,7 @@
         "title":"search-bar",
         "props":{
           "blockClass":"search-m",
-          "maxWidth":100
+          "maxWidth":900
         }
       },
       "modal-trigger#header_top-m--login": {

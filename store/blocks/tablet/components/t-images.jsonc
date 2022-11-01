@@ -1,0 +1,241 @@
+{
+  "image#home-d--image": {
+    "title": "Imagen de Home",
+    "props": {
+      "src": "assets/img/logo-easy.jpg",
+      "maxWidth": 100,
+      "title": "Tiendas ",
+      "blocksClass": "Tiendas_image",
+      "link": {
+        "url": "https://www.easy.com.co",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#pintura-d--one": {
+    "title": "",
+    "props": {
+      "src": "assets/img/pintura1.jpg",
+      "maxWidth":400,
+      "title": "Pinturas",
+      "blocksClass": "Pinturas_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#pintura-d--two": {
+    "title": "",
+    "props": {
+      "src": "assets/img/pintura2.jpg",
+      "maxWidth":400,
+      "title": "Pinturas",
+      "blocksClass": "Pinturas_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#pintura-d--three": {
+    "title": "",
+    "props": {
+      "src": "assets/img/pintura3.jpg",
+      "maxWidth":1200,
+      "title": "Pinturas",
+      "blocksClass": "Pinturas_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#vinilo--one": {
+    "title": "",
+    "props": {
+      "src": "assets/img/pintuco.jpg",
+      "maxWidth": 400,
+      "title": "Pinturas",
+      "blocksClass": "Pinturas_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunes-t--one": {
+    "props": {
+      "src": "assets/img/cyber-1.jpg",
+      "maxWidth":180,
+      "title": "Cyberlunes-d",
+      "blocksClass": "Cyberlunes-d_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunes-t--two": {
+    "props": {
+      "src": "assets/img/cyber-2.jpg",
+      "maxWidth": 180,
+      "title": "Cyberlunes-d",
+      "blocksClass": "Cyberlunes-d_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunes-t--three": {
+    "props": {
+      "src": "assets/img/cyber-3.jpg",
+      "maxWidth": 365,
+      "title": "Cyberlunes-d",
+      "blocksClass": "Cyberlunes-d_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunesHogar-t--one": {
+    "props": {
+      "src": "assets/img/cyber-4.jpg",
+      "maxWidth": 365,
+      "title": "Cyberlunes",
+      "blocksClass": "CyberlunesHogar_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunesHogar-t--two": {
+    "props": {
+      "src": "assets/img/cyber-5.jpg",
+      "maxWidth": 180,
+      "title": "Cyberlunes",
+      "blocksClass": "CyberlunesHogar_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#lunesHogar-t--three": {
+    "props": {
+      "src": "assets/img/cyber-6.jpg",
+      "maxWidth": 180,
+      "title": "Cyberlunes",
+      "blocksClass": "CyberlunesHogar_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#Nuevo-look--one": {
+    "props": {
+      "src": "assets/img/cyber-7.jpg",
+      "maxWidth": 400,
+      "title": "NuevoLook",
+      "blocksClass": "NuevoLook_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#baños-d--one":{
+    "props": {
+      "src": "assets/img/banos-1.jpg",
+      "maxWidth": 400,
+      "title": "baños",
+      "blocksClass": "baños_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#baños-d--two":{
+    "props": {
+      "src": "assets/img/banos-2.jpg",
+      "maxWidth": 400,
+      "title": "baños",
+      "blocksClass": "baños_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#baños-d--three":{
+    "props": {
+      "src": "assets/img/banos-3.jpg",
+      "maxWidth": 1200,
+      "title": "baños",
+      "blocksClass": "baños_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#descubre-d--one":{
+    "props": {
+      "src": "assets/img/descubre-1.jpg",
+      "maxWidth": 400,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#descubre-d--two":{
+    "props": {
+      "src": "assets/img/descubre-2.jpg",
+      "maxWidth": 400,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#descubre-d--three":{
+    "props": {
+      "src": "assets/img/descubre-3.jpg",
+      "maxWidth": 1200,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  }
+}
