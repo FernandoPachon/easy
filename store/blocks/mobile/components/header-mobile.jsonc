@@ -6,7 +6,8 @@
       "header-row#header_top-m": {
         "title": "Header superior",
         "children": [
-          "drawer#header_mobile--menu",
+          "flex-layout.row#1-mobile",
+          //"drawer#header_mobile--menu",
           "logo#header_top-m--logo",
           "search-bar#mobile",
          // "header-spacer",

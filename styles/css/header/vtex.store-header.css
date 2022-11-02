@@ -1,3 +1,7 @@
 .headerRowContainer--header_top-d{
         background-color:white;
     }
+.headerRowContentContainer--header_middle{
+    background-color: #E8E8E8;
+    height: 45px;
+}

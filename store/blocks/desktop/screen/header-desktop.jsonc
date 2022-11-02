@@ -53,7 +53,10 @@
   "header-row#header_middle": {
     "title": "Header medio",
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      //"sticky-layout#mega_menu--desktop",
+      //"vtex.menu@2.x:menu#websites",
+      "flex-layout.row#mega_menu--desktop",
+       "flex-layout.row#mega-menu",
       "flex-layout.row#barra-menu"
     ],
     "props": {

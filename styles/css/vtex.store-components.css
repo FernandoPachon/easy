@@ -23,8 +23,12 @@
     margin-right: -1rem;
 }
 .imageElement--login-content{
+
     margin-right: -1rem;
 }
-.container{
-    padding-right: 4rem;
-}
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .container{
+            padding-left: 2rem;
+        }
+        
+      }

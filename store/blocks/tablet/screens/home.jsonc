@@ -9,7 +9,9 @@
          "rich-text#tablet_nuevo-look",
          "flex-layout.row#tablet_section--cyberNuevo-lookHogar",
          "rich-text#tablet_colores",
-         "flex-layout.row#tablet_section--vinilos"
+         "flex-layout.row#tablet_section--vinilos",
+         "rich-text#desktop_pinturas",
+          "flex-layout.row#desktop_section--pinturas"
       
        ]
        }
