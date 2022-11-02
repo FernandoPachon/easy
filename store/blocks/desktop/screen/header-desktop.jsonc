@@ -27,15 +27,19 @@
   },
 
   "modal-trigger#header_top-d--login": {
-    "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"]
+    "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"],
+    "props":{
+      "blockClass":"bloque-login"
+    }
   },
   "flex-layout.row#user": {
     "children": ["image#header-login", "rich-text#header_top-d--login"]
   },
   "image#header-login": {
     "props": {
+      "blockClass":"login-content",
       "src": "assets/img/icon-cuenta.png",
-      "maxWidth": 50
+      "maxWidth": 40
     }
   },
   "rich-text#header_top-d--login": {

@@ -1,5 +1,5 @@
 .autoCompleteOuterContainer--search-d{
-    border-radius: 15px;
+    width: 25rem !important;
 }
 .logoLink{
     padding-left: 5px;
@@ -14,3 +14,4 @@
 .drawer-menu-d:hover{
     display: block;
 }
+

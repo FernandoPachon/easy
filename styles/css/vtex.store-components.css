@@ -19,6 +19,9 @@
     color:white;
     width: 50px;
 }
-.styledLinkContent--ventas-tel-block{
-    
+.triggerContainer--bloque-login{
+    margin-right: -1rem;
+}
+.imageElement--login-content{
+    margin-right: -1rem;
 }
