@@ -1,0 +1,12 @@
+{
+    "responsive-layout.tablet":{
+        "children":[  
+         "slider-layout#desktop_slider--children",
+          "rich-text#tablet_cyberlunes",
+         "flex-layout.row#tablet_section--cyberlunes",
+         "rich-text#tablet_cyberlunes-hogar",
+         "flex-layout.row#tablet_section--cyberlunesHogar"
+      
+       ]
+       }
+}

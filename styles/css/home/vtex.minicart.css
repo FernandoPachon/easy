@@ -1,0 +1,11 @@
+.cartIcon{
+  max-width: 40px;
+  max-height: 40px;
+}
+.minicartQuantityBadge{
+  top: 0px;
+  right: -10px;
+  background-color: whitesmoke;
+  color: #CE2B2B;
+  font-weight: bold;
+}

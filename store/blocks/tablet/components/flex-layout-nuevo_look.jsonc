@@ -1,0 +1,98 @@
+{
+    "flex-layout.row#desktop_section--cyberNuevo-lookHogar":{
+      "title":"Sección Look",
+      "children": [
+        "flex-layout.col#section--one--Nuevo-look",
+        //"tab-layout#home",
+        "slider-layout#look_slider--children"
+      ],
+      "props":{
+        "blocksClass":"LunesHome_section--one",
+        "colSizing":"auto",
+        "colJustify": "around",
+        "horizontalAlign":"center",
+        "colGap":2
+       
+        
+      }
+    },
+    "flex-layout.col#section--one--Nuevo-look":{
+      "children":[
+        "image#Nuevo-look--one"
+      ],
+      "props":{
+        "blocksClass":"section_one--Nuevo-look"
+      }
+    },
+    "slider-layout#look_slider--children": {
+        "title":"Slider con hijos declarados", 
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet":3,
+            "mobile": 2
+          },
+          "infinite": true,
+          "blockClass": "look_slider",
+          "width":"60%",
+          "autoplay": {
+            "timeout": 4000,
+            "stopOnHover": true
+          }
+        },
+        "children": [
+     
+          "image#Nuevo-look_slider-d--one",
+          "image#Nuevo-look_slider-d--two",
+          "image#Nuevo-look_slider-d--three",
+          "image#Nuevo-look_slider-d--four",
+          "image#Nuevo-look_slider-d--five",
+          "image#Nuevo-look_slider-d--six",
+          "image#Nuevo-look_slider-d--seven",
+          "image#Nuevo-look_slider-d--eigth"
+          
+         
+        ]
+      },
+      "image#Nuevo-look_slider-d--one": {
+        "props": {
+          "src": "assets/img/look-1.jpg",
+          "maxWidth":1200
+        }
+      },
+      "image#Nuevo-look_slider-d--two": {
+        "props": {
+          "src": "assets/img/look-2.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--three": {
+        "props": {
+          "src": "assets/img/look-3.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--four": {
+        "props": {
+          "src": "assets/img/look-4.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--five": {
+        "props": {
+          "src": "assets/img/look-5.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--six": {
+        "props": {
+          "src": "assets/img/look-6.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--seven": {
+        "props": {
+          "src": "assets/img/look-7.jpg"
+        }
+      },
+      "image#Nuevo-look_slider-d--eigth": {
+        "props": {
+          "src": "assets/img/look-8.jpg"
+        }
+      }
+}
