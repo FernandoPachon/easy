@@ -1,9 +1,9 @@
 {
-    "flex-layout.row#desktop_section--vinilos":{
+    "flex-layout.row#tablet_section--vinilos":{
     "title":"Sección Vinilos",
     "children": [
-      "flex-layout.row#desktop--one--vinilo",
-      "slider-layout#vinilos_slider--children"
+      "flex-layout.row#tablet--one--vinilo",
+      "slider-layout#vinilos-t_slider--children"
     
     ],
     "props":{
@@ -14,15 +14,15 @@
       "colGap":2
     }
   },
-  "flex-layout.row#desktop--one--vinilo":{
+  "flex-layout.row#tablet--one--vinilo":{
     "children":[
-      "image#vinilo--one"
+      "image#vinilo-t--one"
     ],
     "props":{
       "blocksClass":"section_one--image"
     }
   },
-  "slider-layout#vinilos_slider--children": {
+  "slider-layout#vinilos-t_slider--children": {
     "title":"Slider con hijos declarados", 
     "props": {
       "itemsPerPage": {
@@ -40,55 +40,55 @@
     },
     "children": [
  
-      "image#vinilos_slider-d--one",
-      "image#vinilos_slider-d--two",
-      "image#vinilos_slider-d--three",
-      "image#vinilos_slider-d--four",
-      "image#vinilos_slider-d--five",
-      "image#vinilos_slider-d--six",
-      "image#vinilos_slider-d--seven",
-      "image#vinilos_slider-d--eigth"
+      "image#vinilos-t_slider-d--one",
+      "image#vinilos-t_slider-d--two",
+      "image#vinilos-t_slider-d--three",
+      "image#vinilos-t_slider-d--four",
+      "image#vinilos-t_slider-d--five",
+      "image#vinilos-t_slider-d--six",
+      "image#vinilos-t_slider-d--seven",
+      "image#vinilos-t_slider-d--eigth"
       
      
     ]
   },
-  "image#vinilos_slider-d--one": {
+  "image#vinilos-t_slider-d--one": {
     "props": {
       "src": "assets/img/vinilo-buganvilla.jpg",
       "maxWidth":1200
     }
   },
-  "image#vinilos_slider-d--two": {
+  "image#vinilos-t_slider-d--two": {
     "props": {
       "src": "assets/img/vinilo-callejon.jpg"
     }
   },
-  "image#vinilos_slider-d--three": {
+  "image#vinilos-t_slider-d--three": {
     "props": {
       "src": "assets/img/vinilo-gris.jpg"
     }
   },
-  "image#vinilos_slider-d--four": {
+  "image#vinilos-t_slider-d--four": {
     "props": {
       "src": "assets/img/vinilo-mar-denso.jpg"
     }
   },
-  "image#vinilos_slider-d--five": {
+  "image#vinilos-t_slider-d--five": {
     "props": {
       "src": "assets/img/vinilo-maracuya.jpg"
     }
   },
-  "image#vinilos_slider-d--six": {
+  "image#vinilos-t_slider-d--six": {
     "props": {
       "src": "assets/img/vinilo-mora-azul.jpg"
     }
   },
-  "image#vinilos_slider-d--seven": {
+  "image#vinilos-t_slider-d--seven": {
     "props": {
       "src": "assets/img/vinilo-plata.jpg"
     }
   },
-  "image#vinilos_slider-d--eigth": {
+  "image#vinilos-t_slider-d--eigth": {
     "props": {
       "src": "assets/img/vinilo-primaveral.jpg"
     }

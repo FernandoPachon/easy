@@ -19,7 +19,7 @@
       "flex-layout.row#desktop_section--one",
       "responsive-layout.desktop#home_info--desktop",
       "modal-trigger#desktop_modal--children"
-      // "modal-trigger#home_modal--event"
+      // "modal-trigger#home_modal--event" 
     ]
     }
 }

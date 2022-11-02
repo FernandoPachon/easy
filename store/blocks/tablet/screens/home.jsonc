@@ -5,7 +5,11 @@
           "rich-text#tablet_cyberlunes",
          "flex-layout.row#tablet_section--cyberlunes",
          "rich-text#tablet_cyberlunes-hogar",
-         "flex-layout.row#tablet_section--cyberlunesHogar"
+         "flex-layout.row#tablet_section--cyberlunesHogar",
+         "rich-text#tablet_nuevo-look",
+         "flex-layout.row#tablet_section--cyberNuevo-lookHogar",
+         "rich-text#tablet_colores",
+         "flex-layout.row#tablet_section--vinilos"
       
        ]
        }

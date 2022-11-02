@@ -55,11 +55,12 @@
       }
     }
   },
-  "image#vinilo--one": {
+  "image#vinilo-t--one": {
     "title": "",
     "props": {
       "src": "assets/img/pintuco.jpg",
-      "maxWidth": 400,
+      "maxWidth": 295,
+      "maxHeight":286,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -147,10 +148,10 @@
       }
     }
   },
-  "image#Nuevo-look--one": {
+  "image#Nuevo-look-t--one": {
     "props": {
       "src": "assets/img/cyber-7.jpg",
-      "maxWidth": 400,
+      "maxWidth":320,
       "title": "NuevoLook",
       "blocksClass": "NuevoLook_image",
       "link": {
