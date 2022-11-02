@@ -22,7 +22,10 @@
     "props": {
       "url": "assets/img/logo-easy.jpg",
       "width": 100,
-      "href": "/"
+      "height":100,
+      "href": "/",
+      "mobileWidth": 100,
+      "mobileHeight": 100
     }
   },
 
