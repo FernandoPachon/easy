@@ -1,3 +1,9 @@
-.cartIcon{
-    src: url("assets/img/icon-car.jpg") !important;
+
+.styledLinkContent:hover{
+    color:red;
+}
+.styledLinkContent{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
 }
