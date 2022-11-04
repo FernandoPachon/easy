@@ -19,14 +19,14 @@
             "blockClass": "texto-pinturas"
           }
     },
-    "rich-text#desktop_colores":{
+    "rich-text#tablet_colores":{
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Los colores ideales para tu hogar",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-vinilos"
+            "blockClass": "texto-vinilos-t"
           }
     },
    
@@ -40,34 +40,34 @@
             "blockClass": "texto-hogar-t"
         }
     },
-    "rich-text#desktop_nuevo-look":{
+    "rich-text#tablet_nuevo-look":{
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Dale un nuevo look a tus espacios",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
+            "blockClass": "texto-look-t"
         }
     },
-    "rich-text#desktop_baños":{
+    "rich-text#tablet_baños":{
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "Renueva tus Baños y Cocinas",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
+            "blockClass": "texto-look-t"
         }
     },
-    "rich-text#desktop_hogar":{
+    "rich-text#tablet_hogar":{
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "easy, donde se renueva tu hogar",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
+            "blockClass": "texto-look-t"
         }
     }
 }

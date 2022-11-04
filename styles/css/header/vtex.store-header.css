@@ -1,3 +1,25 @@
 .headerRowContainer--header_top-d{
         background-color:white;
     }
+/* estilo del menu medio*/
+.headerRowContentContainer--header_middle{
+    background-color: #FAFAFA;
+    height: 45px;
+   
+}
+.menuItem--isClosed{
+    margin: 28px;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .headerRowBackground--header_top-m{
+        display: block;
+    }
+    .searchBarIcon{
+        background-color: #CE2B2B;
+        width: 3rem;
+        margin-right: 2px;
+        justify-content: center;
+        margin-right: -25px;
+       
+    }
+}

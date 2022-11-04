@@ -1,0 +1,14 @@
+.menuContainerNav{
+    z-index:2; 
+    padding-left:28px; 
+    left:12px;
+    top:auto;
+} 
+.styledLinkContent:hover{
+    color: red;
+    background-color: white;
+}
+.menuItem{
+    background-color: white;
+    height: 25px;
+}
