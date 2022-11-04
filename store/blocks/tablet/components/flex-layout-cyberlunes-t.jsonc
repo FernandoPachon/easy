@@ -8,7 +8,7 @@
             "flex-layout.col#section--three--lunes-t"
           ],
           "props":{
-            "blocksClass":"section_lunes",
+            "blocksClass":"section_lunes-t",
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",

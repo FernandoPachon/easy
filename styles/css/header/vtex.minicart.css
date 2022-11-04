@@ -1,7 +1,9 @@
+/*tamaño carrito*/
 .cartIcon{
   max-width: 40px;
   max-height: 40px;
 }
+/*estilos burbuja de cantidades*/
 .minicartQuantityBadge{
   top: 0px;
   right: -10px;

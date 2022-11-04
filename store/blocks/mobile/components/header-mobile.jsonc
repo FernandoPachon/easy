@@ -6,7 +6,8 @@
       "header-row#header_top-m": {
         "title": "Header superior",
         "children": [
-          "drawer#header_mobile--menu",
+          "flex-layout.row#1-mobile",
+          //"drawer#header_mobile--menu",
           "logo#header_top-m--logo",
           "search-bar#mobile",
          // "header-spacer",
@@ -22,8 +23,10 @@
         "title": "logo-mobile",
         "props": {
           "url": "assets/img/logo-easy.jpg",
-          "width":600,
-          "href": "/"
+          "width":900,
+          "height": 100,
+          "href": "/",
+          "blockClass":"logo-mobile-m"
         }
       },
       "search-bar#mobile":{
@@ -65,7 +68,7 @@
           //"drawer#header_mobile--menu"
         ],
         "props": {
-          "blockClass": "header_middle"
+          "blockClass": "header_middle-m"
         }
       },
       "autocomplete-result-list.v2":{
