@@ -68,24 +68,52 @@
   },
   "flex-layout.row#barra-menu": {
     "children": [
-      "menu#catálogo",
-      "menu#ventasTel",
-      "menu#centroAyuda",
-      "menu#asistenciaWeb",
-      "menu#tiendas",
-      "menu#MundoExperto",
-      "menu#ventaEmpresa",
-      "menu#Blog",
-      "menu#servicios"
+      "flex-layout.col#sections-menu"
+      
     ]
   },
-  
+  "flex-layout.col#sections-menu":{
+    "children":[
+      "flex-layout.row#barra_menu-d"
+    
+    ]
+  },
+  "flex-layout.row#barra_menu-d":{
+    "children":[
+      "flex-layout.col#catalogo",
+      "flex-layout.col#ventasTel",
+      "flex-layout.col#centroAyuda",
+      "flex-layout.col#asistenciaWeb",
+      "flex-layout.col#tiendas",
+      "flex-layout.col#MundoExperto",
+      "flex-layout.col#ventaEmpresa",
+      "flex-layout.col#Blog",
+      "flex-layout.col#servicios"
+    ],
+    "props":{
+      "blockClass":"layout_col--menu--barra",
+      "colSizing":"auto",
+      "colJustify": "around",
+     "horizontalAlign":"center",
+      "colGap":0,
+      "preventVerticalStretch":true
+    }
+  },
   //----------------------catálogo
+  "flex-layout.col#catalogo":{
+    "children":[
+      "menu#catálogo"
+    ],
+    "props":{
+      "blockClass":"catalogo_bloque"
+    }
+  },
   "menu#catálogo": {
     "children": ["menu-item#catálogo"]
   },
   "menu-item#catálogo": {
     "props": {
+      "categoryId":1,
       "id": "catálogo",
       "orientation": "vertical",
       "type": "custom",
@@ -105,6 +133,12 @@
     }
   },
   //---------ventas tel
+  "flex-layout.col#ventasTel":{
+    "children": ["menu#ventasTel"],
+    "props":{
+      "blockClass":"ventas_bloque"
+    }
+  },
   "menu#ventasTel": {
     "children": ["menu-item#ventasTel"]
   },
@@ -139,6 +173,12 @@
     }
   },
   //---------------------- centro ayuda
+  "flex-layout.col#centroAyuda":{
+    "children": ["menu#centroAyuda"],
+    "props":{
+      "blockClass":"ayuda_bloque"
+    }
+  },
   "menu#centroAyuda": {
     "children": ["menu-item#centroAyuda"]
   },
@@ -163,6 +203,12 @@
     }
   },
   //---------------------- asistencia web
+  "flex-layout.col#asistenciaWeb":{
+    "children": ["menu#asistenciaWeb"],
+    "props":{
+      "blockClass":"asistencia_bloque"
+    }
+  },
   "menu#asistenciaWeb": {
     "children": ["menu-item#asistenciaWeb"]
   },
@@ -187,6 +233,12 @@
     }
   },
   //---------------- tiendas
+  "flex-layout.col#tiendas":{
+    "children": ["menu#tiendas"],
+    "props":{
+      "blockClass":"tiendas_bloque"
+    }
+  },
   "menu#tiendas": {
     "children": ["menu-item#tiendas"]
   },
@@ -211,6 +263,12 @@
     }
   },
   //-------------------------mundo experto
+  "flex-layout.col#MundoExperto":{
+    "children": ["menu#MundoExperto"],
+    "props":{
+      "blockClass":"mundo_bloque"
+    }
+  },
   "menu#MundoExperto": {
     "children": ["menu-item#MundoExperto"]
   },
@@ -235,6 +293,12 @@
     }
   },
   //-------------------- venta empresa
+  "flex-layout.col#ventaEmpresa":{
+    "children": ["menu#ventaEmpresa"],
+    "props":{
+      "blockClass":"venta_bloque"
+    }
+  },
   "menu#ventaEmpresa": {
     "children": ["menu-item#ventaEmpresa"]
   },
@@ -258,6 +322,12 @@
     }
   },
   //------------------------------ blog
+  "flex-layout.col#Blog":{
+    "children": ["menu#Blog"],
+    "props":{
+      "blockClass":"blog_bloque"
+    }
+  },
   "menu#Blog": {
     "children": ["menu-item#Blog"]
   },
@@ -282,6 +352,12 @@
     }
   },
   //----------------------- servicios .....
+  "flex-layout.col#servicios":{
+    "children": ["menu#servicios"],
+    "props":{
+      "blockClass":"servicios_bloque"
+    }
+  },
   "menu#servicios":{
     "children": ["menu-item#Servicios"]
   },

@@ -1,4 +1,4 @@
-
+/*estilos barra de menu*/
 .styledLinkContent:hover{
     color:red;
 }
@@ -6,4 +6,12 @@
     /* font-style: italic; */
     font-weight: bold;
     font-size: 14px;
+}
+.stretchChildrenWidth{
+   width: 7%;
+}
+.menuContainerNav{
+    position: relative;
+    width: 7%;
+    /* border-left-style:solid; */
 }

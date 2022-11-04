@@ -26,4 +26,38 @@
   height: 1rem;
   padding-bottom: 0rem;
 }
-
+.flexCol--catalogo_bloque{
+  width: 6rem;
+}
+.flexColChild--catalogo_bloque{
+  width: 7rem;
+}
+.flexColChild--ventas_bloque{
+  width: 11rem;
+}
+.flexColChild--ayuda_bloque{
+  width: 10.5rem;
+}
+.flexColChild--asistencia_bloque{
+  width: 10rem;
+}
+.flexColChild--tiendas_bloque{
+  width: 7rem;
+}
+.flexColChild--mundo_bloque{
+  width: 10rem;
+}
+.flexColChild--venta_bloque{
+  width: 10rem;
+}
+.flexColChild--blog_bloque{
+  width: 5rem;
+}
+.flexRow--layout-mega-menu{
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  height: 3rem;
+  background-color: white;
+  margin-left: 2rem;
+}
