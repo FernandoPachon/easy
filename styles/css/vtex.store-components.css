@@ -1,11 +1,17 @@
 /* estilos background lupa search bar*/
 .searchBarIcon{
-    background-color: #CE2B2B;
-    width: 3rem;
+    display: flex;
+    align-items: center;
+    background-image: url(assets/img/icon-lupa.jpg);
+    background-color: #CE2B2B; 
+    width:5rem;
     margin-right: 2px;
     justify-content: center;
-    margin-right: -25px;
+    margin-right: -16px;
    
+}
+.searchBarContainer{
+    padding-left:0.5rem;
 }
 /* estilos color lupa search bar*/
 .searchBarIcon--lupa-search-bar{

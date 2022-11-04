@@ -12,3 +12,6 @@
     background-color: white;
     height: 25px;
 }
+:global(.vtex-mega-menu){
+    padding-top: 15rem;
+}

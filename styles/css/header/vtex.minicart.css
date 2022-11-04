@@ -11,3 +11,7 @@
   color: #CE2B2B;
   font-weight: bold;
 }
+/* distancia entra user y carrito*/
+.minicartWrapperContainer{
+  margin-left: -16px;
+}

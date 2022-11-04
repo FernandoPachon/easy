@@ -1,4 +1,22 @@
 .drawer-menu-d:hover{
     display: block;
 }
-
+.autoCompleteOuterContainer--lupa-search-bar{
+    height: 2rem;
+    margin-left: 2.2rem;
+}
+.searchBarContainer :global(.vtex-input-prefix__group){
+    border-radius: 0;
+   border: 1px solid #dfdede;
+    height: 46px;
+  }
+.searchBarContainer :global(.vtex-store-components){
+    background-image: url(assets/img/icon-lupa.jpg);
+  }
+    .logoImage{
+    width: 100px;
+    height: 100px;
+} 
+.imageElement--login-content{
+    width: 80px;
+}
