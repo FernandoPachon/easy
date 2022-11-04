@@ -23,8 +23,10 @@
         "title": "logo-mobile",
         "props": {
           "url": "assets/img/logo-easy.jpg",
+          "width":900,
+          "height": 100,
           "href": "/",
-          "blockClass":"logo-mobile"
+          "blockClass":"logo-mobile-m"
         }
       },
       "search-bar#mobile":{
@@ -66,7 +68,7 @@
           //"drawer#header_mobile--menu"
         ],
         "props": {
-          "blockClass": "header_middle"
+          "blockClass": "header_middle-m"
         }
       },
       "autocomplete-result-list.v2":{

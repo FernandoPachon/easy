@@ -1,10 +1,29 @@
-.flexRow--department_section--one{
-    background-color: red;  
-  }
-  .mensaje-pinturas{
-    display: block;
-    align-items: flex-start;
-  }
-.flexRowContent{
-  margin-left: 22px;
+/* estilo caja contenido del home*/
+.flexRow--contenido-del-home-row{
+  display: flex;
+  margin-left: 1px;
+  margin-right: 1px;
 }
+/* estilos flex-layout*/
+.flexColChild--contenido-del-home-col{
+  display: flex;
+  flex: content;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowContent{
+  display:flexbox;
+} 
+/*sección cyberlunes*/
+.flexCol--layout_col--cyberlunes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.flexColChild--layout_col--cyberlunes{
+  display: flex;
+  height: 1rem;
+  padding-bottom: 0rem;
+}
+

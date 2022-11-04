@@ -1,12 +1,4 @@
-.searchBarContainer{
-    margin-right: 300px;
-    border-radius: 25px !important;
-    
-}
-.autoCompleteOuterContainer--lupa-search-bar{
-    background-color: rgb(42, 165, 77);
-    border-radius: 25px;
-}
+/* estilos background lupa search bar*/
 .searchBarIcon{
     background-color: #CE2B2B;
     width: 3rem;
@@ -15,10 +7,16 @@
     margin-right: -25px;
    
 }
+/* estilos color lupa search bar*/
 .searchBarIcon--lupa-search-bar{
     color:white;
     width: 50px;
 }
+/* estilos login*/
+.imageElement--login-content{
+    cursor: pointer;
+}
+
 .triggerContainer--bloque-login{
     margin-right: -1rem;
 }

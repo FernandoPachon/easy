@@ -7,7 +7,7 @@
         "slider-layout#look_slider--children"
       ],
       "props":{
-        "blocksClass":"LunesHome_section--one",
+        "blocksClass":"Look_section--one",
         "colSizing":"auto",
         "colJustify": "around",
         "horizontalAlign":"center",

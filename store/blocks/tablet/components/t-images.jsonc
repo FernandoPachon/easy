@@ -13,11 +13,11 @@
       }
     }
   },
-  "image#pintura-d--one": {
+  "image#pintura-t--one": {
     "title": "",
     "props": {
       "src": "assets/img/pintura1.jpg",
-      "maxWidth":400,
+      "maxWidth":180,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -27,11 +27,11 @@
       }
     }
   },
-  "image#pintura-d--two": {
+  "image#pintura-t--two": {
     "title": "",
     "props": {
       "src": "assets/img/pintura2.jpg",
-      "maxWidth":400,
+      "maxWidth":180,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -41,11 +41,11 @@
       }
     }
   },
-  "image#pintura-d--three": {
+  "image#pintura-t--three": {
     "title": "",
     "props": {
       "src": "assets/img/pintura3.jpg",
-      "maxWidth":1200,
+      "maxWidth":375,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -161,10 +161,10 @@
       }
     }
   },
-  "image#baños-d--one":{
+  "image#baños-t--one":{
     "props": {
       "src": "assets/img/banos-1.jpg",
-      "maxWidth": 400,
+      "maxWidth": 180,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -174,10 +174,10 @@
       }
     }
   },
-  "image#baños-d--two":{
+  "image#baños-t--two":{
     "props": {
       "src": "assets/img/banos-2.jpg",
-      "maxWidth": 400,
+      "maxWidth": 180,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -187,10 +187,10 @@
       }
     }
   },
-  "image#baños-d--three":{
+  "image#baños-t--three":{
     "props": {
       "src": "assets/img/banos-3.jpg",
-      "maxWidth": 1200,
+      "maxWidth": 375,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -200,10 +200,10 @@
       }
     }
   },
-  "image#descubre-d--one":{
+  "image#descubre-t--one":{
     "props": {
       "src": "assets/img/descubre-1.jpg",
-      "maxWidth": 400,
+      "maxWidth": 180,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {
@@ -213,10 +213,10 @@
       }
     }
   },
-  "image#descubre-d--two":{
+  "image#descubre-t--two":{
     "props": {
       "src": "assets/img/descubre-2.jpg",
-      "maxWidth": 400,
+      "maxWidth": 180,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {
@@ -226,10 +226,10 @@
       }
     }
   },
-  "image#descubre-d--three":{
+  "image#descubre-t--three":{
     "props": {
       "src": "assets/img/descubre-3.jpg",
-      "maxWidth": 1200,
+      "maxWidth": 375,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {
@@ -240,3 +240,4 @@
     }
   }
 }
+ 

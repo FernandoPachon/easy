@@ -11,7 +11,11 @@
          "rich-text#tablet_colores",
          "flex-layout.row#tablet_section--vinilos",
          "rich-text#desktop_pinturas",
-          "flex-layout.row#desktop_section--pinturas"
+         "flex-layout.row#tablet_section--pinturas",
+         "rich-text#tablet_baños",
+         "flex-layout.row#tablet_section--baños",
+         "rich-text#tablet_hogar" ,
+         "flex-layout.row#home_section--descubre-mas-t"
       
        ]
        }
