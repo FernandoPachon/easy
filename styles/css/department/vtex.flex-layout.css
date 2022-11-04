@@ -26,6 +26,7 @@
   height: 1rem;
   padding-bottom: 0rem;
 }
+/* estilos barra mene | categorías*/
 .flexCol--catalogo_bloque{
   width: 6rem;
 }
@@ -60,4 +61,23 @@
   height: 3rem;
   background-color: white;
   margin-left: 2rem;
+}
+/* contenedor search bar*/
+.flexRowContent--flex_search-bar{
+  display: flex;
+  align-items: center;
+  width: 45rem;
+  height: 3rem;
+}
+/* estilos header mobile*/
+.flexRow--barra_menu--mobile{
+  display: flex;
+  justify-content:space-evenly ;
+}
+.flexRow--barra_menu--mobile{
+  display: flex;
+  justify-content:space-evenly ;
+}
+.flexColChild--catalogo_bloque :global(.vtex-menu){
+  color: red;
 }

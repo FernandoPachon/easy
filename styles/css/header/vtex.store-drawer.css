@@ -11,3 +11,8 @@
 .menuItemInnerDiv{
     width: 50px;
 }
+.flexRow--bloque_menu-mobile{
+    display: flex;
+    width: 4rem;
+    margin-left: -2rem;
+}
