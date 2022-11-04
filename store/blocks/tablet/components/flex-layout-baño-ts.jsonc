@@ -1,0 +1,43 @@
+{
+    "flex-layout.row#tablet_section--baños":{
+      "title":"Sección Pinturas",
+      "children": [
+        "flex-layout.col#section--one--baños-t",
+        "flex-layout.col#section--two--baños-t",
+        "flex-layout.col#section--three--baños-t"
+      ],
+      "props":{
+        "blocksClass":"home_section--two",
+        "colSizing":"auto",
+        "colJustify": "around",
+        "horizontalAlign":"center",
+        "colGap":2
+       
+        
+      }
+    },
+    "flex-layout.col#section--one--baños-t":{
+      "children":[
+        "image#baños-t--one"
+      ],
+      "props":{
+        "blocksClass":"section_one--baños-t"
+      }
+    },
+    "flex-layout.col#section--two--baños-t":{
+      "children":[
+        "image#baños-t--two"
+      ],
+      "props":{
+        "blocksClass":"section_one--baños-t"
+      }
+    },
+    "flex-layout.col#section--three--baños-t":{
+      "children":[
+        "image#baños-t--three"
+      ],
+      "props":{
+        "blocksClass":"section_one--baños-t"
+      }
+    }
+}

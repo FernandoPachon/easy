@@ -1,7 +1,83 @@
-.flexRow--department_section--one{
-    background-color: red;  
-  }
-  .mensaje-pinturas{
-    display: block;
-    align-items: flex-start;
-  }
+/* estilo caja contenido del home*/
+.flexRow--contenido-del-home-row{
+  display: flex;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+/* estilos flex-layout*/
+.flexColChild--contenido-del-home-col{
+  display: flex;
+  flex: content;
+  align-items: center;
+  justify-content: center;
+}
+.flexRowContent{
+  display:flexbox;
+} 
+/*sección cyberlunes*/
+.flexCol--layout_col--cyberlunes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.flexColChild--layout_col--cyberlunes{
+  display: flex;
+  height: 1rem;
+  padding-bottom: 0rem;
+}
+/* estilos barra mene | categorías*/
+.flexCol--catalogo_bloque{
+  width: 6rem;
+}
+.flexColChild--catalogo_bloque{
+  width: 7rem;
+}
+.flexColChild--ventas_bloque{
+  width: 11rem;
+}
+.flexColChild--ayuda_bloque{
+  width: 10.5rem;
+}
+.flexColChild--asistencia_bloque{
+  width: 10rem;
+}
+.flexColChild--tiendas_bloque{
+  width: 7rem;
+}
+.flexColChild--mundo_bloque{
+  width: 10rem;
+}
+.flexColChild--venta_bloque{
+  width: 10rem;
+}
+.flexColChild--blog_bloque{
+  width: 5rem;
+}
+.flexRow--layout-mega-menu{
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  height: 3rem;
+  background-color: white;
+  margin-left: 2rem;
+}
+/* contenedor search bar*/
+.flexRowContent--flex_search-bar{
+  display: flex;
+  align-items: center;
+  width: 45rem;
+  height: 3rem;
+}
+/* estilos header mobile*/
+.flexRow--barra_menu--mobile{
+  display: flex;
+  justify-content:space-evenly ;
+}
+.flexRow--barra_menu--mobile{
+  display: flex;
+  justify-content:space-evenly ;
+}
+.flexColChild--catalogo_bloque :global(.vtex-menu){
+  color: red;
+}

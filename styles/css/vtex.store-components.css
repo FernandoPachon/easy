@@ -1,6 +1,38 @@
+/* estilos background lupa search bar*/
+.searchBarIcon{
+    display: flex;
+    align-items: center;
+    background-image: url(assets/img/icon-lupa.jpg);
+    background-color: #CE2B2B; 
+    width:5rem;
+    margin-right: 2px;
+    justify-content: center;
+    margin-right: -16px;
+   
+}
 .searchBarContainer{
-    margin-right: 300px;
+    padding-left:0.5rem;
 }
-.autoCompleteOuterContainer--lupa-search-bar{
-    background-color: brown;
+/* estilos color lupa search bar*/
+.searchBarIcon--lupa-search-bar{
+    color:white;
+    width: 50px;
 }
+/* estilos login*/
+.imageElement--login-content{
+    cursor: pointer;
+}
+
+.triggerContainer--bloque-login{
+    margin-right: -1rem;
+}
+.imageElement--login-content{
+
+    margin-right: -1rem;
+}
+ @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .container{
+            padding-left: 2rem;
+        }
+        
+      }

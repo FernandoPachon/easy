@@ -10,10 +10,6 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": ["header-row#header_top", "header-row#header_middle"]
-  },
-  "header-layout.mobile":{
-    "title": "Header Mobile",
-    "children": ["header-row#header_top-m", "header-row#header_middle-m"]
   }
  
 }

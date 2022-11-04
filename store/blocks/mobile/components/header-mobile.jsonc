@@ -1,80 +1,43 @@
 {
-    "header-layout.mobile": {
-        "title": "Header Mobile",
-        "children": ["header-row#header_top-m","header-row#header_middle-m"]
-      },
-      "header-row#header_top-m": {
-        "title": "Header superior",
-        "children": [
-          "drawer#header_mobile--menu",
-          "logo#header_top-m--logo",
-          "search-bar#mobile",
-          "header-spacer",
-          "login",
-          //"modal-trigger#header_top-m--login",
-          "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "header_top-m"
-        }
-      },
-      "logo#header_top-m--logo": {
-        "title": "logo-mobile",
-        "props": {
-          "url": "assets/img/logo-easy.jpg",
-          "width":200,
-          "href": "/"
-        }
-      },
-      "search-bar#mobile":{
-        "title":"search-bar",
-        "props":{
-          "blockClass":"search-m",
-          "maxWidth":100
-        }
-      },
-      "modal-trigger#header_top-m--login": {
-        "children": [
-          "rich-text#header_top-m--login",
-          "modal-layout#header_top-m--login"
-        ]
-      },
-    
-      "rich-text#header_top-m--login": {
-        "props": {
-          "text": "login"
-        }
-      },
-      "modal-layout#header_top-m--login": {
-        "children": ["login-content"]
-      },
-      "login": {
-        "props": {
-          "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Acess Code LOG-IN",
-          "emailPlaceholder": "e-mail",
-          "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "showIconProfile": true
-        }
-      },
-    
-      "header-row#header_middle-m": {
-        "title": "Header medio",
-        "children": [
-          //"drawer#header_mobile--menu"
-        ],
-        "props": {
-          "blockClass": "header_middle"
-        }
-      },
-      "autocomplete-result-list.v2":{
-        "blocks":["product-summary"]
-      },
-      "search-bar#header_search":{
-        "blocks":["autocomplete-result-list.v2"],
-        "props":{
-          "openAutocompleteOnFocus": true
-        }
-      }
+  "header-layout.mobile": {
+    "title": "Header Desktop",
+    "children": ["header-row#header_top-mobile"]
+  },
+  "header-row#header_top-mobile": {
+    "title": "Header superior",
+    "children": [
+      "flex-layout.row#1-mobile",
+      "logo#header_mobile",
+      "flex-layout.row#search_bar-mobile",
+      "modal-trigger#header_top-d--login",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "header_top-mobile"
+    }
+  },
+  "logo#header_mobile":{
+    "title": "logo-mobile",
+    "props": {
+      "blockClass":"logo-mobile",
+      "url": "assets/img/logo-easy.jpg",
+      "width": 110,
+      "height": 110,
+      "href": "/",
+      "mobileWidth": 100,
+      "mobileHeight": 100
+    }
+  },
+  "flex-layout.row#search_bar-mobile": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "flex_search-bar-mobile"
+    }
+  },
+  "search-bar":{
+    "props":{
+      "blockClass": "flex_search-bar-mobile",
+      "maxWidth":180
+    }
+  }
 }

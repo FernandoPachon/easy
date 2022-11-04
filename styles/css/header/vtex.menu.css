@@ -1,3 +1,19 @@
-.cartIcon{
-    src: url("assets/img/icon-car.jpg") !important;
+/*estilos barra de menu*/
+.styledLinkContent:hover{
+    color:red;
+}
+.styledLinkContent{
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+.stretchChildrenWidth{
+   width: 7%;
+}
+.menuContainerNav{
+    position: relative;
+    width: 7%;
+    /* border-left-style:solid; */
 }

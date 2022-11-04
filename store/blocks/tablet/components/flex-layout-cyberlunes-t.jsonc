@@ -1,0 +1,49 @@
+{
+        "flex-layout.row#tablet_section--cyberlunes":{
+          "title":"Sección Cyberlunes",
+          "children": [
+          
+            "flex-layout.col#section--one--lunes-t",
+            "flex-layout.col#section--two--lunes-t",
+            "flex-layout.col#section--three--lunes-t"
+          ],
+          "props":{
+            "blocksClass":"section_lunes-t",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":2,
+             "preserveLayoutOnMobile": true
+
+
+
+          }
+        },
+        "flex-layout.col#section--one--lunes-t":{
+          "children":[
+            "image#lunes-t--one"
+          
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-t",
+            "preserveLayoutOnMobile": true
+          }
+        },
+        "flex-layout.col#section--two--lunes-t":{
+          "children":[
+            "image#lunes-t--two"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-t",
+            "preserveLayoutOnMobile": true
+          }
+        },
+        "flex-layout.col#section--three--lunes-t":{
+          "children":[
+            "image#lunes-t--three"
+          ],
+          "props":{
+            "blocksClass":"section_one--lunes-t"
+          }
+        }
+}

@@ -1,3 +1,32 @@
 .headerRowContainer--header_top-d{
         background-color:white;
     }
+/* estilo del menu medio*/
+.headerRowContentContainer--header_middle{
+    background-color: #FAFAFA;
+    height: 45px;
+   
+}
+.menuItem--isClosed{
+    margin: 28px;
+}
+.headerRow--header_top-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headerRowContentContainer--header_top-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headerRowContainer--header_top-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .headerRowBackground--header_top-m{
+        display: block;
+    }
+}

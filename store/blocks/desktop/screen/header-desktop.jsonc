@@ -7,9 +7,8 @@
     "title": "Header superior",
     "children": [
       "logo#header_top-d--logo",
-      "search-bar",
+      "flex-layout.row#search_bar",
       "header-spacer",
-      //"login",
       "modal-trigger#header_top-d--login",
       "minicart.v2"
     ],
@@ -21,21 +20,33 @@
     "title": "logo",
     "props": {
       "url": "assets/img/logo-easy.jpg",
-      "width": 100,
-      "href": "/"
+      "width": 110,
+      "height": 110,
+      "href": "/",
+      "mobileWidth": 100,
+      "mobileHeight": 100
     }
   },
-
+  "flex-layout.row#search_bar": {
+    "children": ["search-bar"],
+    "props": {
+      "blockClass": "flex_search-bar"
+    }
+  },
   "modal-trigger#header_top-d--login": {
-    "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"]
+    "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"],
+    "props": {
+      "blockClass": "bloque-login"
+    }
   },
   "flex-layout.row#user": {
     "children": ["image#header-login", "rich-text#header_top-d--login"]
   },
   "image#header-login": {
     "props": {
+      "blockClass": "login-content",
       "src": "assets/img/icon-cuenta.png",
-      "maxWidth": 50
+      "maxWidth": 40
     }
   },
   "rich-text#header_top-d--login": {
@@ -49,7 +60,10 @@
   "header-row#header_middle": {
     "title": "Header medio",
     "children": [
-      "vtex.menu@2.x:menu#websites",
+      //"sticky-layout#mega_menu--desktop",
+      //"vtex.menu@2.x:menu#websites",
+      "flex-layout.row#mega_menu--desktop",
+      "flex-layout.row#mega-menu",
       "flex-layout.row#barra-menu"
     ],
     "props": {
@@ -57,31 +71,52 @@
     }
   },
   "flex-layout.row#barra-menu": {
-    "children": [
-      "menu#catálogo",
-      "menu#ventasTel",
-      "menu#centroAyuda",
-      "menu#asistenciaWeb",
-      "menu#tiendas",
-      "menu#MundoExperto",
-      "menu#ventaEmpresa",
-      "menu#Blog"
-    ]
+    "children": ["flex-layout.col#sections-menu"]
   },
-  
+  "flex-layout.col#sections-menu": {
+    "children": ["flex-layout.row#barra_menu-d"]
+  },
+  "flex-layout.row#barra_menu-d": {
+    "children": [
+      "flex-layout.col#catalogo",
+      "flex-layout.col#ventasTel",
+      "flex-layout.col#centroAyuda",
+      "flex-layout.col#asistenciaWeb",
+      "flex-layout.col#tiendas",
+      "flex-layout.col#MundoExperto",
+      "flex-layout.col#ventaEmpresa",
+      "flex-layout.col#Blog",
+      "flex-layout.col#servicios"
+    ],
+    "props": {
+      "blockClass": "layout_col--menu--barra",
+      "colSizing": "auto",
+      "colJustify": "around",
+      "horizontalAlign": "center",
+      "colGap": 0,
+      "preventVerticalStretch": true
+    }
+  },
   //----------------------catálogo
+  "flex-layout.col#catalogo": {
+    "children": ["menu#catálogo"],
+    "props": {
+      "blockClass": "catalogo_bloque"
+    }
+  },
   "menu#catálogo": {
     "children": ["menu-item#catálogo"]
   },
   "menu-item#catálogo": {
     "props": {
+      "categoryId": 1,
       "id": "catálogo",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-catálogo",
-        "viewBox":"0 0 64 64",
-        "size":20
+      "iconProps": {
+        "id": "sti-catálogo",
+        "viewBox": "0 0 300 300",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -94,26 +129,32 @@
     }
   },
   //---------ventas tel
+  "flex-layout.col#ventasTel": {
+    "children": ["menu#ventasTel"],
+    "props": {
+      "blockClass": "ventas_bloque"
+    }
+  },
   "menu#ventasTel": {
     "children": ["menu-item#ventasTel"]
   },
   "menu-item#ventasTel": {
     "props": {
-      "id": "categorías",
+      "id": "ventas-tel",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-ventaTel",
-        "viewBox":"0 0 44 65",
-        "size":20
+      "iconProps": {
+        "id": "sti-ventaTel",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
+        "blockClass": "ventas-tel-block-text",
         "type": "external",
         "href": "http://catalogo.easy.com.co/",
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Ventas Telefónica"
-        
       }
     }
   },
@@ -126,6 +167,12 @@
     }
   },
   //---------------------- centro ayuda
+  "flex-layout.col#centroAyuda": {
+    "children": ["menu#centroAyuda"],
+    "props": {
+      "blockClass": "ayuda_bloque"
+    }
+  },
   "menu#centroAyuda": {
     "children": ["menu-item#centroAyuda"]
   },
@@ -134,10 +181,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-centroAyuda",
-        "viewBox":"0 0 32 32",
-        "size":20
+      "iconProps": {
+        "id": "sti-centroAyuda",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -145,11 +192,16 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Centro de Ayuda"
-        
       }
     }
   },
   //---------------------- asistencia web
+  "flex-layout.col#asistenciaWeb": {
+    "children": ["menu#asistenciaWeb"],
+    "props": {
+      "blockClass": "asistencia_bloque"
+    }
+  },
   "menu#asistenciaWeb": {
     "children": ["menu-item#asistenciaWeb"]
   },
@@ -158,10 +210,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-asistenciaWeb",
-        "viewBox":"0 0 24 24",
-        "size":20
+      "iconProps": {
+        "id": "sti-asistenciaWeb",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -169,11 +221,16 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Asistencia Web"
-        
       }
     }
   },
   //---------------- tiendas
+  "flex-layout.col#tiendas": {
+    "children": ["menu#tiendas"],
+    "props": {
+      "blockClass": "tiendas_bloque"
+    }
+  },
   "menu#tiendas": {
     "children": ["menu-item#tiendas"]
   },
@@ -182,10 +239,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-tienda",
-        "viewBox":"0 0 64 64",
-        "size":20
+      "iconProps": {
+        "id": "sti-tienda",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -193,11 +250,16 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Tiendas"
-        
       }
     }
   },
   //-------------------------mundo experto
+  "flex-layout.col#MundoExperto": {
+    "children": ["menu#MundoExperto"],
+    "props": {
+      "blockClass": "mundo_bloque"
+    }
+  },
   "menu#MundoExperto": {
     "children": ["menu-item#MundoExperto"]
   },
@@ -206,10 +268,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-mundoExperto",
-        "viewBox":"0 0 32 32",
-        "size":20
+      "iconProps": {
+        "id": "sti-mundoExperto",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -217,11 +279,16 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Mundo Experto"
-        
       }
     }
   },
   //-------------------- venta empresa
+  "flex-layout.col#ventaEmpresa": {
+    "children": ["menu#ventaEmpresa"],
+    "props": {
+      "blockClass": "venta_bloque"
+    }
+  },
   "menu#ventaEmpresa": {
     "children": ["menu-item#ventaEmpresa"]
   },
@@ -230,10 +297,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-ventaEmpresa",
-        "viewBox":"0 0 64 64",
-        "size":25
+      "iconProps": {
+        "id": "sti-ventaEmpresa",
+        "viewBox": "0 0 100 100",
+        "size": 25
       },
       "itemProps": {
         "type": "external",
@@ -245,6 +312,12 @@
     }
   },
   //------------------------------ blog
+  "flex-layout.col#Blog": {
+    "children": ["menu#Blog"],
+    "props": {
+      "blockClass": "blog_bloque"
+    }
+  },
   "menu#Blog": {
     "children": ["menu-item#Blog"]
   },
@@ -253,10 +326,10 @@
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
-      "iconProps":{
-        "id":"sti-blog",
-        "viewBox":"0 0 300 300",
-        "size":20
+      "iconProps": {
+        "id": "sti-blog",
+        "viewBox": "0 0 100 100",
+        "size": 20
       },
       "itemProps": {
         "type": "external",
@@ -264,9 +337,36 @@
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Blog"
-        
+      }
+    }
+  },
+  //----------------------- servicios .....
+  "flex-layout.col#servicios": {
+    "children": ["menu#servicios"],
+    "props": {
+      "blockClass": "servicios_bloque"
+    }
+  },
+  "menu#servicios": {
+    "children": ["menu-item#Servicios"]
+  },
+  "menu-item#Servicios": {
+    "props": {
+      "id": "servicios",
+      "orientation": "vertical",
+      "type": "custom",
+      "iconProps": {
+        "id": "sti-servicios",
+        "viewBox": "0 0 100 100",
+        "size": 20
+      },
+      "itemProps": {
+        "type": "external",
+        "href": "http://catalogo.easy.com.co/",
+        "noFollow": true,
+        "tagTitle": "barra menu",
+        "text": "Servicios"
       }
     }
   }
-  
 }

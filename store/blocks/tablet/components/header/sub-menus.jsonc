@@ -1,0 +1,27 @@
+{
+    "vtex.menu@2.x:submenu#muebles":{
+        "children":[
+            "menu#department-d_one"
+        ],
+        "props":{
+            "blockClass":"menu-muebles",
+            "orientation": "vertical"
+        }
+    },
+    "vtex.menu@2.x:submenu#baños":{
+        "children":[
+            "menu#department-d_two"
+        ]
+    },
+    "vtex.menu@2.x:submenu#cocinas":{
+        "children":[
+            "menu#department-d_three"
+        ]
+    },
+    "vtex.menu@2.x:submenu#electrodomésticos":{
+        "children":[
+           // "menu#department-d_four"
+        ]
+    }
+    
+}

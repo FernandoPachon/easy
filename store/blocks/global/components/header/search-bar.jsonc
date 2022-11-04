@@ -1,11 +1,12 @@
 {
-    
     "search-bar":{
        "props":{
-        "blockClass":"lupa-search-bar"
+        "blockClass":"lupa-search-bar",
+        "iconProps": {
+            "id": "hpa-search",
+            "viewBox": "0 0 406 320",
+            "size": 20
+          }
        }
     }
-  
-       
-        
 }
