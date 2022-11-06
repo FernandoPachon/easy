@@ -88,5 +88,75 @@
         "font": "font.woff2",
         "blockClass": "carrito_empty"
       }
+    },
+    "rich-text#rich-final": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Easy: Todo para construir, decorar y remodelar ",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "text-final"
+      }
+    },
+    "rich-text#envio_title": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Envío a domicilio",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "envio-domicilio"
+      }
+    },
+    "rich-text#envio_description": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Recibe en tu casa el producto",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "text-descripción-domicilio"
+      }
+    },
+    "rich-text#retiro_title": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Retiro en tienda",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "retiro-tienda"
+      }
+    },
+    "rich-text#retiro_description": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Retira en tu tienda más cercana ",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "text-descripción-retiro"
+      }
+    },
+    "rich-text#compra_title": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Compra fácil",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "compra-facil"
+      }
+    },
+    "rich-text#compra_description": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Rápido y seguro",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "text-compra-facil"
+      }
     }
 }

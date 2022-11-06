@@ -251,5 +251,47 @@
         "atributeNoFollow": true
       }
     }
+  },
+  "image#envio_domicilio":{
+    "props": {
+      "src": "assets/img/icono-envio.png",
+      "maxWidth":70,
+      "height":70,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#retiro_tienda":{
+    "props": {
+      "src": "assets/img/icono-recogida.png",
+      "maxWidth": 70,
+      "height":70,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#compra_facil":{
+    "props": {
+      "src": "assets/img/icono-seguro.png",
+      "maxWidth": 70,
+      "height":70,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
   }
 }
