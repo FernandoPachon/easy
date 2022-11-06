@@ -1,10 +1,10 @@
 {
-    "responsive-layout.desktop":{
-     "children":[  
+  "responsive-layout.desktop": {
+    "children": [
       "slider-layout#desktop_slider--children",
       "flex-layout.row#contenido_home",
       "modal-trigger#desktop_modal--children"
-      // "modal-trigger#home_modal--event" 
+      // "modal-trigger#home_modal--event"
     ]
-    }
+  }
 }

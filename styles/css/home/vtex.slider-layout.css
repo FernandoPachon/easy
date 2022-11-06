@@ -19,6 +19,3 @@
 .-container--help-message{
     background-color: brown;
 }
-.sliderLayoutContainer--home_slider :global( .paginationDotsContainer){
-    size:55px
-}

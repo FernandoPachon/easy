@@ -6,11 +6,13 @@
   "header-row#header_top": {
     "title": "Header superior",
     "children": [
+      "header-border",
       "logo#header_top-d--logo",
       "flex-layout.row#search_bar",
       "header-spacer",
       "modal-trigger#header_top-d--login",
-      "minicart.v2"
+      "minicart.v2#custom",
+      "header-border"
     ],
     "props": {
       "blockClass": "header_top-d"
