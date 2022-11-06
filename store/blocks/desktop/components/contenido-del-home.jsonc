@@ -21,10 +21,14 @@
       "flex-layout.row#desktop_section--pinturas",
       "rich-text#desktop_baños",
       "flex-layout.row#desktop_section--baños",
+      "rich-text#construcción_easy",
+      "flex-layout.row#home_section--construcción",
       "rich-text#desktop_hogar",
       "flex-layout.row#home_section--descubre-mas",
-      "flex-layout.row#desktop_section--one",
-      "responsive-layout.desktop#home_info--desktop"
+      "rich-text#rich-final",
+      "flex-layout.row#iconos_section"
+      //"flex-layout.row#desktop_section--one",
+      //"responsive-layout.desktop#home_info--desktop"
     ],
     "props":{
         "blockClass":"contenido-del-home-col"

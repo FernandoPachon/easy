@@ -12,6 +12,6 @@
     background-color: white;
     height: 25px;
 }
-:global(.vtex-mega-menu){
-    padding-top: 15rem;
+.menuIcon--bloque_drawer{
+    size: 25px;
 }
