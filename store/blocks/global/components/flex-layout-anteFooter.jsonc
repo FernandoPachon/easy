@@ -1,0 +1,55 @@
+{
+    "flex-layout.row#iconos_section":{
+        "children":[
+            "flex-layout.col#envio_domicilio",
+            "flex-layout.col#retiro_tienda",
+            "flex-layout.col#compra_facil"
+        ],
+        "props":{
+            "blocksClass":"LunesHome_section--one",
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "colGap":10
+          }
+    },
+    "flex-layout.col#envio_domicilio":{
+        "children":[
+            "image#envio_domicilio",
+            "rich-text#envio_title",
+            "rich-text#envio_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blocksClass":"bloque_envio"
+        }
+    },
+    "flex-layout.col#retiro_tienda":{
+        "children":[
+            "image#retiro_tienda",
+            "rich-text#retiro_title",
+            "rich-text#retiro_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blocksClass":"bloque_retiro"
+        }
+    },
+    "flex-layout.col#compra_facil":{
+        "children":[
+            "image#compra_facil",
+            "rich-text#compra_title",
+            "rich-text#compra_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blocksClass":"bloque_compra"
+        }
+    }
+}
