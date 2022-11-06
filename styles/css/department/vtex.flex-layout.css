@@ -81,3 +81,8 @@
 .flexColChild--catalogo_bloque :global(.vtex-menu){
   color: red;
 }
+.flexCol--col-minicart-empty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

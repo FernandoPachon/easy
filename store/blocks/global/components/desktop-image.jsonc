@@ -237,5 +237,19 @@
         "atributeNoFollow": true
       }
     }
+  },
+  "image#construcción--one":{
+    "props": {
+      "src": "assets/img/construccion.jpg",
+      "maxWidth": 255,
+      "height":535,
+      "title": "descubre",
+      "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
   }
 }

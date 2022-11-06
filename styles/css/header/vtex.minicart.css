@@ -15,3 +15,19 @@
 .minicartWrapperContainer{
   margin-left: -16px;
 }
+.minicartTitle{
+  display: none;
+}
+.minicartCheckoutButton :global(.vtex-button__label){
+  background-color: #CE2B2B;
+}
+.minicartCheckoutButton :global(.vtex-button){
+  border-radius: 0;
+  border: 1px solid #CE2B2B;
+}
+.minicartContainer--minicart-custom :global(.vtex-button):hover{
+  background-color: transparent !important;
+}
+.minicartContainer--minicart-custom :global(.vtex-button){
+  background-color: transparent !important;
+}

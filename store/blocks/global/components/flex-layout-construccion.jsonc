@@ -1,0 +1,35 @@
+{
+    "flex-layout.row#home_section--construcción":{
+        "title":"Sección construcción",
+        "children": [
+          "flex-layout.col#section--one--construcción",
+          "flex-layout.col#section--two--construcción"
+         
+        ],
+        "props":{
+          "blocksClass":"construcción_section--one",
+          "colSizing":"auto",
+          "colJustify": "around",
+          "horizontalAlign":"center",
+          "colGap":2
+         
+          
+        }
+    },
+    "flex-layout.col#section--one--construcción":{
+        "children":[
+          "image#construcción--one"
+        ],
+        "props":{
+          "blocksClass":"section_one--construcción"
+        }
+      },
+    "flex-layout.col#section--two--construcción":{
+        "children":[
+          "search-result-layout.customQuery#home_search"
+        ],
+        "props":{
+          "blocksClass":"section_two--construcción"
+        }
+      }
+}

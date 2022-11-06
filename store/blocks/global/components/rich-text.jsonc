@@ -68,5 +68,25 @@
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-look"
         }
+    },
+    "rich-text#construcción_easy":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Temporada de construcción, ¡Fin de año!",
+            "textColor": "red",
+            "font": "font.woff2",
+            "blockClass": "construcción"
+          }
+    },
+    "rich-text#minicart_empty": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Tu Carro de Compras está vacío ",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "carrito_empty"
+      }
     }
 }
