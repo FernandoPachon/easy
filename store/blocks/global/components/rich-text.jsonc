@@ -158,5 +158,15 @@
         "font": "font.woff2",
         "blockClass": "text-compra-facil"
       }
+    },
+    "rich-text#text_footer--middle":{
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+        "textColor": "red",
+        "font": "font.woff2",
+        "blockClass": "text-footer-middle"
+      }
     }
 }

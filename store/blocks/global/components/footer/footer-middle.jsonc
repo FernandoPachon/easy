@@ -1,0 +1,389 @@
+{
+  "flex-layout.row#desktop__footer--section-two": {
+    "children": [
+      "flex-layout.col#footer__one--column",
+      "flex-layout.col#footer__two--column",
+      "flex-layout.col#footer__three--column",
+      "flex-layout.col#footer__four--column"
+    ],
+    "props": {
+      "blockClass": "bloque_footer--middle",
+      "colSizing": "auto",
+      "colGap": 5,
+      "horizontalAlign":"left",
+      "colJustify":"between"
+    }
+  },
+  "flex-layout.col#footer__one--column": {
+    "children": [
+      "image#home-d--image",
+      "rich-text#text_footer--middle",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "footer_column--one",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "flex-layout.col#footer__two--column": {
+    "children": ["rich-text#footer_Easy", "menu#categorías_uno"],
+    "props": {
+      "blockClass": "footer_column--two",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#footer_Easy": {
+    "title": "Titulo easy footer ",
+    "props": {
+      "text": "Easy",
+      "blockClass": "footer_easy--title"
+    }
+  },
+  "menu#categorías_uno": {
+    "title": "Menú uno footer: contenedor",
+    "children": [
+      "menu-item#acerca",
+      "menu-item#catálogos",
+      "menu-item#tiendas-horarios",
+      "menu-item#mundoExperto",
+      "menu-item#como-comprar",
+      "menu-item#trabaja",
+      "menu-item#tarjeta",
+      "menu-item#bonos"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#acerca": {
+    "title": "easy: link uno",
+    "props": {
+      "id": "footer_easy-acerca",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "acerca",
+        "text": "Acerca de EASY"
+      }
+    }
+  },
+  "menu-item#catálogos": {
+    "title": "easy: link dos",
+    "props": {
+      "id": "footer_easy-catálogos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "catálogos",
+        "text": "Catálogos"
+      }
+    }
+  },
+  "menu-item#tiendas-horarios": {
+    "title": "easy: link tres",
+    "props": {
+      "id": "footer_easy-tiendas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "tiendas-horarios",
+        "text": "Tiendas y Horarios"
+      }
+    }
+  },
+  "menu-item#mundoExperto": {
+    "title": "easy: link cuatro",
+    "props": {
+      "id": "footer_easy-mundoExperto",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "mundoExperto",
+        "text": "Mundo Experto"
+      }
+    }
+  },
+  "menu-item#como-comprar": {
+    "title": "easy: link cinco",
+    "props": {
+      "id": "footer_easy-como-comprar",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "como-comprar",
+        "text": "¿Cómo comprar?"
+      }
+    }
+  },
+  "menu-item#trabaja": {
+    "title": "easy: link seis",
+    "props": {
+      "id": "footer_easy-trabaja",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "trabaja",
+        "text": "Trabaja con Nosotros"
+      }
+    }
+  },
+  "menu-item#tarjeta": {
+    "title": "easy: link siete",
+    "props": {
+      "id": "footer_easy-tarjeta",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "tarjeta",
+        "text": "Tarjeta Cencosud"
+      }
+    }
+  },
+  "menu-item#bonos": {
+    "title": "easy: link ocho",
+    "props": {
+      "id": "footer_easy-bonos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "bonos",
+        "text": "¿Cómo redimir Bonos Web?"
+      }
+    }
+  },
+  "flex-layout.col#footer__three--column": {
+    "children": ["rich-text#footer_Políticas", "menu#categorías_dos"],
+    "props": {
+      "blockClass": "footer_column--three",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#footer_Políticas": {
+    "title": "Titulo políticas footer ",
+    "props": {
+      "text": "Políticas",
+      "blockClass": "footer_políticas-title"
+    }
+  },
+  "menu#categorías_dos": {
+    "title": "Menú dos footer: contenedor",
+    "children": [
+      "menu-item#preguntas",
+      "menu-item#cambios",
+      "menu-item#términos",
+      "menu-item#reglamento",
+      "menu-item#protección-datos",
+      "menu-item#políticas",
+      "menu-item#mapa",
+      "menu-item#superintendencia"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#preguntas": {
+    "title": "políticas: link uno",
+    "props": {
+      "id": "footer_easy-preguntas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "preguntas",
+        "text": "Preguntas Frecuentes"
+      }
+    }
+  },
+  "menu-item#cambios": {
+    "title": "políticas: link dos",
+    "props": {
+      "id": "footer_easy-cambios",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "cambios",
+        "text": "Cambios y Devoluciones"
+      }
+    }
+  },
+  "menu-item#términos": {
+    "title": "políticas: link tres",
+    "props": {
+      "id": "footer_easy-términos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "términos",
+        "text": "Términos y Condiciones"
+      }
+    }
+  },
+  "menu-item#reglamento": {
+    "title": "políticas: link cuatro",
+    "props": {
+      "id": "footer_easy-reglamento",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "reglamento",
+        "text": "Reglamento"
+      }
+    }
+  },
+  "menu-item#protección-datos": {
+    "title": "políticas: link cinco",
+    "props": {
+      "id": "footer_easy-protección-datos",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "protección-datos",
+        "text": "Protección de Datos"
+      }
+    }
+  },
+  "menu-item#políticas": {
+    "title": "políticas: link seis",
+    "props": {
+      "id": "footer_easy-políticas",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "políticas",
+        "text": "Políticas de Cookies"
+      }
+    }
+  },
+  "menu-item#mapa": {
+    "title": "políticas: link siete",
+    "props": {
+      "id": "footer_easy-mapa",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "mapa",
+        "text": "Mapa del sitio"
+      }
+    }
+  },
+  "menu-item#superintendencia": {
+    "title": "políticas: link ocho",
+    "props": {
+      "id": "footer_easy-superintendencia",
+      "type": "custom",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "tagTitle": "superintendencia",
+        "text": "Superintendencia de Industria y Comercio-SIC"
+      }
+    }
+  },
+  "flex-layout.col#footer__four--column": {
+    "children": [
+      "rich-text#footer_Empresas",
+      "flex-layout.row#iconos_empresas",
+      "image#totalCode"
+      
+    ],
+    "props": {
+      "blockClass": "footer_column--four",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#footer_Empresas": {
+    "title": "Titulo empresas footer ",
+    "props": {
+      "text": "Empresas Cencosud",
+      "blockClass": "footer_empresas-title"
+    }
+  },
+  "flex-layout.row#iconos_empresas":{
+    "children":[
+        "image#jumbo",
+        "image#metro",
+        "image#easy",
+        "image#puntos"
+    ]
+  },
+  "image#jumbo": {
+    "props": {
+        "src": "assets/img/logo-jumbo.jpg",
+        "blockClass": "logo_footer--JUMBO",
+        "width":50,
+        "height":50
+    }
+  },
+  "image#metro": {
+    "props": {
+        "src": "assets/img/logo-metro.png",
+        "blockClass": "logo__footer--metro",
+        "width":50,
+        "height":50
+    }
+  },
+  "image#easy": {
+    "props": {
+        "src": "assets/img/logo-easy-foot.png",
+        "blockClass": "logo__footer--easy",
+        "width":50,
+        "height":50
+    }
+  },
+  "image#puntos": {
+    "props": {
+        "src": "assets/img/logo-puntos.png",
+        "blockClass": "logo__footer--puntos",
+        "width":50,
+        "height":50
+    }
+  },
+  "image#totalCode": {
+    "props": {
+        "src": "assets/img/TotalCode-eCommerce.png",
+        "blockClass": "logo__footer--totalCode",
+        "width":150
+    }
+  },
+  "social-networks": {
+    "title": "Redes sociales",
+    "props": {
+      "socialNetworks": [
+        {
+          "url": "https://www.facebook.com/EasyColombia",
+          "name": "facebook"
+        },
+        {
+          "url": "https://twitter.com/EasyColOficial",
+          "name": "twitter"
+        },
+        {
+          "url": "https://www.instagram.com/easycol/",
+          "name": "instagram"
+        },
+        {
+          "url": "https://www.youtube.com/user/easycolombia",
+          "name": "youtube"
+        }
+      ]
+    }
+  }
+}
