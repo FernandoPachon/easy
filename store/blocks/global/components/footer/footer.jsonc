@@ -1,0 +1,13 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#desktop__footer--section-two","flex-layout.row#desktop__footer--section-three","flex-layout.row#desktop__footer--section-four"]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      // "flex-layout.row#footer-mobile"
+    ]
+  }
+}
