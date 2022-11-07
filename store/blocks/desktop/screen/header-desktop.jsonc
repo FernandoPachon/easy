@@ -1,22 +1,22 @@
 {
   "header-layout.desktop": {
     "title": "Header Desktop",
-    "children": ["header-row#header_top", "header-row#header_middle"]
+    "children": ["header-row#header_top", "header-row#header_middle","header-row#header_down"]
   },
   "header-row#header_top": {
     "title": "Header superior",
     "children": [
-      "header-border",
-      "logo#header_top-d--logo",
-      "flex-layout.row#search_bar",
-      "header-spacer",
-      "modal-trigger#header_top-d--login",
-      "minicart.v2#custom",
-      "header-border"
+      "image#banner_top"
     ],
     "props": {
       "blockClass": "header_top-d"
     }
+  },
+  "image#banner_top":{
+    "props": {
+      "src": "assets/img/venta-telefonica-desk.jpg",
+      "blockClass": "logo__venta--tel"
+  }
   },
   "logo#header_top-d--logo": {
     "title": "logo",
@@ -62,14 +62,29 @@
   "header-row#header_middle": {
     "title": "Header medio",
     "children": [
-      //"sticky-layout#mega_menu--desktop",
+      "header-border",
+      "logo#header_top-d--logo",
+      "flex-layout.row#search_bar",
+      "header-spacer",
+      "modal-trigger#header_top-d--login",
+      "minicart.v2#custom",
+      "header-border"
+    ],
+    "props": {
+      "blockClass": "header_middle"
+    }
+  },
+  "header-row#header_down":{
+    "title":"Header bajo",
+    "children":[
+       //"sticky-layout#mega_menu--desktop",
       //"vtex.menu@2.x:menu#websites",
       "flex-layout.row#mega_menu--desktop",
       "flex-layout.row#mega-menu",
       "flex-layout.row#barra-menu"
     ],
-    "props": {
-      "blockClass": "header_middle"
+    "props":{
+      "blockClass":"header_down"
     }
   },
   "flex-layout.row#barra-menu": {
@@ -111,6 +126,7 @@
   },
   "menu-item#catálogo": {
     "props": {
+      "blockClass":"item-catalogo",
       "categoryId": 1,
       "id": "catálogo",
       "orientation": "vertical",

@@ -1,0 +1,211 @@
+{
+  "flex-layout.row#desktop__footer--section-three": {
+    "children": [
+      "flex-layout.col#footer__down-one--column",
+      "flex-layout.col#footer__down-two--column",
+      "flex-layout.col#footer__down-three--column",
+      "flex-layout.col#footer__down-four--column"
+    ],
+    "props": {
+      "blockClass": "bloque_footer--down",
+      "colSizing": "auto",
+      "colGap": 5,
+      "horizontalAlign": "left",
+      "colJustify": "between"
+    }
+  },
+  "flex-layout.col#footer__down-one--column": {
+    "children": ["rich-text#contáctanos"],
+    "props": {
+      "blockClass": "footer_down-column--one",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#contáctanos": {
+    "title": "Titulo contáctanos footer ",
+    "props": {
+      "text": "CONTÁCTANOS",
+      "blockClass": "footer_contáctanos--title"
+    }
+  },
+  "flex-layout.col#footer__down-two--column": {
+    "children": [
+      "rich-text#call-center",
+      "rich-text#servicio-cliente",
+      "rich-text#pqr",
+      "rich-text#registro-cliente",
+      "rich-text#horarios-semana",
+      "rich-text#horarios-finSemana",
+      "rich-text#ciudad",
+      "rich-text#email",
+      "rich-text#cencosud",
+      "rich-text#avenida",
+      "rich-text#correo",
+      "rich-text#email-notification"
+    ],
+    "props": {
+      "blockClass": "footer_down-column--two",
+      "preventVerticalStretch": true,
+      "horizontalAlign": "left"
+    }
+  },
+  "rich-text#call-center": {
+    "title": "call center ",
+    "props": {
+      "text": "CALL CENTER",
+      "blockClass": "footer_call-center--title"
+    }
+  },
+  "rich-text#servicio-cliente": {
+    "title": "servicio al cliente ",
+    "props": {
+      "text": "Servicio al Cliente",
+      "blockClass": "footer_servicio--cliente"
+    }
+  },
+  "rich-text#pqr": {
+    "title": "qur ",
+    "props": {
+      "text": "PQRs",
+      "blockClass": "footer_PQRs"
+    }
+  },
+  "rich-text#registro-cliente": {
+    "title": "registro de clientes ",
+    "props": {
+      "text": "Registro de clientes para factura electrónica",
+      "blockClass": "footer_registro--cliente"
+    }
+  },
+  "rich-text#horarios-semana": {
+    "title": "horarios-semana",
+    "props": {
+      "text": "Horarios: 8:00 am a 6:00 pm Lunes a Sábado",
+      "blockClass": "footer_horarios-semana"
+    }
+  },
+  "rich-text#horarios-finSemana": {
+    "title": "horarios-finSemana",
+    "props": {
+      "text": "8:00 am a 5:00 pm Domingos y Festivos",
+      "blockClass": "footer_horarios-finSemana"
+    }
+  },
+  "rich-text#ciudad": {
+    "title": "ciudad",
+    "props": {
+      "text": "Bogotá: (601) 7460340",
+      "blockClass": "footer_ciudad"
+    }
+  },
+  "rich-text#email": {
+    "title": "email clientes",
+    "props": {
+      "text": "clientes@easy.com.co",
+      "blockClass": "footer_email-clientes"
+    }
+  },
+  "rich-text#cencosud": {
+    "title": "cencosud",
+    "props": {
+      "text": "CENCOSUD COLOMBIA S.A., Nit. 900.155.107-1",
+      "blockClass": "footer_cencosud"
+    }
+  },
+  "rich-text#avenida": {
+    "title": "avenida",
+    "props": {
+      "text": "Avenida 9 # 125-30, Bogotá, Colombia",
+      "blockClass": "footer_avenida"
+    }
+  },
+  "rich-text#correo": {
+    "title": "correo-notificaciones",
+    "props": {
+      "text": "Correo de notificaciones judiciales:",
+      "blockClass": "footer_correo-notificaciones"
+    }
+  },
+  "rich-text#email-notification": {
+    "title": "email-notification",
+    "props": {
+      "text": "notificaciones@cencosud.com.co",
+      "blockClass": "footer_email-notification"
+    }
+  },
+  "flex-layout.col#footer__down-three--column": {
+    "children": [
+        "rich-text#vental-tel",
+        "rich-text#horario-tel--semana",
+        "rich-text#horario-tel--finSemana",
+        "rich-text#ciudad_1-tel",
+        "rich-text#ciudad_2-tel",
+        "rich-text#ciudad_3-tel"
+      ],
+    "props": {
+        "blockClass": "footer_down-column--two",
+        "preventVerticalStretch": true,
+        "horizontalAlign": "left"
+      }
+  },
+  "rich-text#vental-tel":{
+    "title": "venta-tel",
+    "props": {
+      "text": "Venta telefónica",
+      "blockClass": "footer_venta-tel"
+    }
+  },
+  "rich-text#horario-tel--semana":{
+    "title": "horario-tel--semana",
+    "props": {
+      "text": "Horario: 8:00 am – 6:00 pm Lunes a Sábado",
+      "blockClass": "footer_horario-tel--semana"
+    }
+  },
+  "rich-text#horario-tel--finSemana":{
+    "title": "horario-tel--finSemana",
+    "props": {
+      "text": "8:00 am – 5:00 pm Domingos y Festivos",
+      "blockClass": "footer_horario-tel--finSemana"
+    }
+  },
+  "rich-text#ciudad_1-tel":{
+    "title": "Bogotá",
+    "props": {
+      "text": "Bogotá: (601) 7460344",
+      "blockClass": "footer_Bogotá"
+    }
+  },
+  "rich-text#ciudad_2-tel":{
+    "title": "Medellín",
+    "props": {
+      "text": "Medellín: (604) 6044775",
+      "blockClass": "footer_Medellín"
+    }
+  },
+  "rich-text#ciudad_3-tel":{
+    "title": "resto del país",
+    "props": {
+      "text": "Resto del país: 018000180340",
+      "blockClass": "footer_país"
+    }
+  },
+  "flex-layout.col#footer__down-four--column": {
+    "children": [
+        "image#easy_call--center"
+      ],
+      "props": {
+        "blockClass": "footer_down-column--three",
+        "preventVerticalStretch": true,
+        "horizontalAlign": "left"
+      }
+  },
+  "image#easy_call--center":{
+    "props": {
+        "src": "assets/img/call_center.png",
+        "blockClass": "logo__footer--totalCode",
+        "width":150
+    }
+  }
+}

@@ -2,7 +2,7 @@
         background-color:white;
     }
 /* estilo del menu medio*/
-.headerRowContentContainer--header_middle{
+.headerRowContentContainer--header_down{
     background-color: #FAFAFA;
     height: 45px;
    
@@ -29,4 +29,9 @@
     .headerRowBackground--header_top-m{
         display: block;
     }
+}
+.headerRowContentContainer--header_middle{
+    display: flex;
+    background-color: white;
+    height: 100px;
 }
