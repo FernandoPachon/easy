@@ -86,3 +86,21 @@
   flex-direction: column;
   align-items: center;
 }
+.flexRowContent--bloque_footer--middle{
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.flexRow--bloque_footer--middle{
+  background-color: #E8E8E8;
+  padding-top: 5%;
+  padding-left: 3%;
+  display: flex;
+  
+}
+.flexRow--bloque_footer--down{
+  background-color:#CFCFCF ;
+  padding-top: 1%;
+  padding-left: 3%;
+  display: flex;
+}

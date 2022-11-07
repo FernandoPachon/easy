@@ -1,0 +1,35 @@
+{
+  "flex-layout.row#desktop__footer--section-four": {
+    "children": [
+      "rich-text#copyright",
+      "rich-text#medios-pago",
+      "image#medios-pago"
+    ],
+    "props": {
+      "blockClass": "bloque_footer--pagos",
+      "colSizing": "auto",
+      "colGap": 5
+    }
+  },
+  "rich-text#copyright": {
+    "title": "Titulo copyright",
+    "props": {
+      "text": "Copyright Cencosud Colombia.",
+      "blockClass": "footer_copyright"
+    }
+  },
+  "rich-text#medios-pago": {
+    "title": "Titulo medios de pago ",
+    "props": {
+      "text": "MEDIOS DE PAGO",
+      "blockClass": "footer_medios_pago"
+    }
+  },
+  "image#medios-pago": {
+    "props": {
+        "src": "assets/img/pagos.png",
+        "blockClass": "logo__footer--totalCode",
+        "width":300
+    }
+  }
+}
