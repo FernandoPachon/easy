@@ -29,3 +29,5 @@ git push -u origin main
 git remote add origin https://github.com/FernandoPachon/easy.git
 git branch -M main
 git push -u origin main
+---------------------- borrar ramas en visual
+git branch -d

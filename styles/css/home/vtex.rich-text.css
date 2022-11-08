@@ -72,3 +72,9 @@
     font-weight: bold;
     font-size:  15px;
 }
+.wrapper--footer_copyright{
+    transform: translate(47px, 10px);
+}
+.wrapper--footer_medios_pago{
+    transform: translate(312px, 10px);
+}

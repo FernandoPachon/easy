@@ -104,3 +104,7 @@
   padding-left: 3%;
   display: flex;
 }
+.flexColChild--footer_down-column--one{
+  display: flex;
+  align-items: flex-start;
+}

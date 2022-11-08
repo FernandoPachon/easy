@@ -28,7 +28,7 @@
   "image#medios-pago": {
     "props": {
         "src": "assets/img/pagos.png",
-        "blockClass": "logo__footer--totalCode",
+        "blockClass": "logo__footer--pagos",
         "width":300
     }
   }

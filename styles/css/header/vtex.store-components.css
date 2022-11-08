@@ -20,3 +20,7 @@
 .imageElement--login-content{
     width: 80px;
 }
+.imageElement--logo__footer--pagos{
+    height: 17px;
+    transform: translate(-58px, 40px);
+}
