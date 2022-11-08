@@ -108,3 +108,11 @@
   display: flex;
   align-items: flex-start;
 }
+.flexColChild--bloque-imagen{
+  transform: translate(90px, 10px);
+}
+.flexColChild--bloque-imagen-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
