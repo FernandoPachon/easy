@@ -1,0 +1,37 @@
+{
+    "search-result-layout.desktop#home_search--desktop": {
+        "children": ["flex-layout.row#home_results--desktop"]
+      },
+      "flex-layout.row#home_results--desktop": {
+        "children": [
+          
+          "flex-layout.col#home_results--search--desktop"
+        ]
+      },
+      "flex-layout.col#home_results--search--desktop": {
+        "children":[
+          "search-content#home_results--search-desktop"
+        ]
+      },
+      "search-content#home_results--search-desktop":{
+        "blocks":["gallery","not-found"]
+      },
+      "gallery":{
+        "blocks":["product-summary.shelf"]
+      },
+      "product-summary.shelf":{
+        "children": [
+          "product-summary-image",
+          "product-summary-space",
+          "product-summary-name",
+          "product-summary-price",
+          "add-to-cart-button"
+      ]
+  },
+  "add-to-cart-button":{
+      "props":{
+          "text": "AGREGAR",
+          "blockClass": "comprar_button--global"
+      }
+  }
+}

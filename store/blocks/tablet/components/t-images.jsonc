@@ -17,7 +17,7 @@
     "title": "",
     "props": {
       "src": "assets/img/pintura1.jpg",
-      "maxWidth":180,
+      "maxWidth":195,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -31,7 +31,7 @@
     "title": "",
     "props": {
       "src": "assets/img/pintura2.jpg",
-      "maxWidth":180,
+      "maxWidth":195,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -45,7 +45,7 @@
     "title": "",
     "props": {
       "src": "assets/img/pintura3.jpg",
-      "maxWidth":375,
+      "maxWidth":390,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -59,8 +59,7 @@
     "title": "",
     "props": {
       "src": "assets/img/pintuco.jpg",
-      "maxWidth": 295,
-      "maxHeight":286,
+      "maxWidth": 320,
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -73,7 +72,7 @@
   "image#lunes-t--one": {
     "props": {
       "src": "assets/img/cyber-1.jpg",
-      "maxWidth":180,
+      "maxWidth":195,
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -86,7 +85,7 @@
   "image#lunes-t--two": {
     "props": {
       "src": "assets/img/cyber-2.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -99,7 +98,7 @@
   "image#lunes-t--three": {
     "props": {
       "src": "assets/img/cyber-3.jpg",
-      "maxWidth": 365,
+      "maxWidth": 390,
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -112,7 +111,7 @@
   "image#lunesHogar-t--one": {
     "props": {
       "src": "assets/img/cyber-4.jpg",
-      "maxWidth": 365,
+      "maxWidth": 390,
       "title": "Cyberlunes",
       "blocksClass": "CyberlunesHogar_image",
       "link": {
@@ -125,7 +124,7 @@
   "image#lunesHogar-t--two": {
     "props": {
       "src": "assets/img/cyber-5.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "Cyberlunes",
       "blocksClass": "CyberlunesHogar_image",
       "link": {
@@ -138,7 +137,7 @@
   "image#lunesHogar-t--three": {
     "props": {
       "src": "assets/img/cyber-6.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "Cyberlunes",
       "blocksClass": "CyberlunesHogar_image",
       "link": {
@@ -164,7 +163,7 @@
   "image#baños-t--one":{
     "props": {
       "src": "assets/img/banos-1.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -177,7 +176,7 @@
   "image#baños-t--two":{
     "props": {
       "src": "assets/img/banos-2.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -190,7 +189,7 @@
   "image#baños-t--three":{
     "props": {
       "src": "assets/img/banos-3.jpg",
-      "maxWidth": 375,
+      "maxWidth": 390,
       "title": "baños",
       "blocksClass": "baños_image",
       "link": {
@@ -203,7 +202,7 @@
   "image#descubre-t--one":{
     "props": {
       "src": "assets/img/descubre-1.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {
@@ -216,7 +215,7 @@
   "image#descubre-t--two":{
     "props": {
       "src": "assets/img/descubre-2.jpg",
-      "maxWidth": 180,
+      "maxWidth": 195,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {
@@ -229,9 +228,22 @@
   "image#descubre-t--three":{
     "props": {
       "src": "assets/img/descubre-3.jpg",
-      "maxWidth": 375,
+      "maxWidth": 390,
       "title": "descubre",
       "blocksClass": "descubre_image",
+      "link": {
+        "url": "#",
+        "newTab": true,
+        "atributeNoFollow": true
+      }
+    }
+  },
+  "image#construcción--one-t":{
+    "props": {
+      "src": "assets/img/construccion.png",
+      "maxWidth": 320,
+      "title": "descubre",
+      "blocksClass": "construcción_img",
       "link": {
         "url": "#",
         "newTab": true,

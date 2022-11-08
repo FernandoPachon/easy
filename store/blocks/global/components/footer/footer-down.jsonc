@@ -26,7 +26,7 @@
     "title": "Titulo contáctanos footer ",
     "props": {
       "text": "CONTÁCTANOS",
-      "blockClass": "footer_contáctanos--title"
+      "blockClass": "footer_contáctanos"
     }
   },
   "flex-layout.col#footer__down-two--column": {

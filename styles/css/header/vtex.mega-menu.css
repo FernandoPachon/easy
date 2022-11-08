@@ -3,6 +3,8 @@
     padding-left:28px; 
     left:12px;
     top:auto;
+    /* width: 71rem; */
+    transform: translate(27px, 21px);
 } 
 .styledLinkContent:hover{
     color: red;

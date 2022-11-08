@@ -335,17 +335,15 @@
   "image#metro": {
     "props": {
         "src": "assets/img/logo-metro.png",
-        "blockClass": "logo__footer--metro",
-        "width":50,
-        "height":50
+        "blockClass": "logo__footer--metro"
+        
     }
   },
   "image#easy": {
     "props": {
         "src": "assets/img/logo-easy-foot.png",
-        "blockClass": "logo__footer--easy",
-        "width":50,
-        "height":50
+        "blockClass": "logo__footer--easy"
+       
     }
   },
   "image#puntos": {

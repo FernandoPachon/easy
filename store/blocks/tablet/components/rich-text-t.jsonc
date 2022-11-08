@@ -9,14 +9,14 @@
             "blockClass": "texto-cyberlunes-t"
         }
     },
-    "rich-text#desktop_pinturas":{
+    "rich-text#tablet_pinturas":{
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "La vida es más bonita a todo color",
             "textColor": "black",
             "font": "font.woff2",
-            "blockClass": "texto-pinturas"
+            "blockClass": "texto-pinturas-t"
           }
     },
     "rich-text#tablet_colores":{
@@ -69,5 +69,15 @@
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-look-t"
         }
+    },
+    "rich-text#construcción_easy-t":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Temporada de construcción, ¡Fin de año!",
+            "textColor": "red",
+            "font": "font.woff2",
+            "blockClass": "construcción-t"
+          }
     }
 }

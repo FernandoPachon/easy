@@ -1,0 +1,63 @@
+{
+    "flex-layout.row#home_section--construcción-phone":{
+        "title":"Sección construcción",
+        "children": [
+          "flex-layout.col#section--one--construcción-p",
+          "flex-layout.col#section--two--construcción-p"
+         
+        ],
+        "props":{
+          "blockClass":"construcción_section--one-p",
+          "colSizing":"auto",
+          "colJustify": "around",
+          "horizontalAlign":"center",
+          "colGap":2
+         
+          
+        }
+    },
+    "flex-layout.col#section--one--construcción-p":{
+        "children":[
+          "image#construcción--one-t"
+        ],
+        "props":{
+          "blockClass":"bloque-imagen-p"
+        }
+      },
+      "flex-layout.col#section--two--construcción-p": {
+        "title": "col sección summary",
+        "children": [
+          "list-context.product-list#product_summary-p"
+        ],
+        "props": {
+          "width": "100%",
+          "blockClass":"col-summary-p"
+        }
+      },
+    
+      "list-context.product-list#product_summary-p": {
+        "title": "list context Juegos y accesorios",
+        "blocks": ["product-summary.shelf"],
+        "children":["slider-layout#product_summary-p"],
+        "props": {
+          "blockClass": "product-summary-p"
+        }
+      },
+      "slider-layout#product_summary-p":{
+        "props":{
+          "itemsPerPage":{
+            "desktop":3,
+            "tablet":3,
+            "phone":2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "slider-product-summary-p",
+          /* "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }, */
+          "arrowSize":40
+        }
+      }
+}
