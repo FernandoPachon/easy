@@ -240,9 +240,9 @@
   },
   "image#construcción--one":{
     "props": {
-      "src": "assets/img/construccion.jpg",
-      "maxWidth": 255,
-      "height":535,
+      "src": "assets/img/construccion.png",
+      "maxWidth": 300,
+      "height":525,
       "title": "descubre",
       "blocksClass": "descubre_image",
       "link": {

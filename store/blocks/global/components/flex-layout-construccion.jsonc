@@ -24,12 +24,37 @@
           "blocksClass":"section_one--construcción"
         }
       },
-    "flex-layout.col#section--two--construcción":{
-        "children":[
-          "search-result-layout.customQuery#home_search"
+      "flex-layout.col#section--two--construcción": {
+        "title": "Col list context Juegos y accesorios",
+        "children": [
+          "list-context.product-list#product_summary"
         ],
+        "props": {
+          "width": "100%"
+        }
+      },
+    
+      "list-context.product-list#product_summary": {
+        "title": "list context Juegos y accesorios",
+        "blocks": ["product-summary.shelf"],
+        "children":["slider-layout#product_summary"],
+        "props": {
+          "blockClass": "product-summary"
+        }
+      },
+      "slider-layout#product_summary":{
         "props":{
-          "blocksClass":"section_two--construcción"
+          "itemsPerPage":{
+            "desktop":3
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "slider-product-summary",
+          /* "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }, */
+          "arrowSize":40
         }
       }
 }

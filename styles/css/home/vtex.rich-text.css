@@ -13,12 +13,15 @@
     text-align: left;
     margin-left: 70px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 17px;
+}
+.wrapper--texto-cyberlunes-phone{
+    transform: translate(-62px, 10px);
 }
 .paragraph--texto-cyberlunes-t{
     margin-left: 2rem;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
 }
 .wrapper--texto-hogar{
     padding-right: 40rem;
@@ -28,14 +31,18 @@
     font-size:  25px;
 }
 .paragraph--texto-hogar-phone{
+   text-align: left;
     margin-left: 70px;
     font-weight: bold;
-    font-size:  15px;
+    font-size: 17px;
+}
+.wrapper--texto-hogar-phone{
+    transform: translate(-62px, 10px);
 }
 .paragraph--texto-hogar-t{
-    margin-left: 70px;
+    margin-left: 2rem;
     font-weight: bold;
-    font-size:  15px;
+    font-size: 20px;
 }
 .wrapper--texto-look{
     padding-right:50.5rem;
@@ -44,21 +51,40 @@
     font-weight: bold;
     font-size:  25px;
 }
+.paragraph--texto-look-t{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
 .paragraph--texto-look-phone{
+    text-align: left;
     margin-left: 70px;
     font-weight: bold;
-    font-size:  15px;
-}.wrapper--texto-vinilos{
+    font-size: 17px;
+}
+.wrapper--texto-look-phone{
+    transform: translate(-62px, 10px);
+}
+.wrapper--texto-vinilos{
     padding-right:51.8rem;
 }
 .paragraph--texto-vinilos{
     font-weight: bold;
     font-size:  25px;
 }
-.paragraph--texto-vinilos-phone{
+.paragraph--texto-vinilos-t{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.paragraph--text-vinilos-phone{
+    text-align: left;
     margin-left: 70px;
     font-weight: bold;
-    font-size:  15px;
+    font-size: 17px;
+}
+.wrapper--text-vinilos-phone{
+    transform: translate(-62px, 10px);
 }
 .wrapper--texto-pinturas{
     padding-right:51.8rem;
@@ -67,8 +93,50 @@
     font-weight: bold;
     font-size:  25px;
 }
-.paragraph--texto-pinturas-phone{
+.paragraph--texto-pinturas-t{
+    margin-left: 2rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+.paragraph--text-pinturas-phone{
+    text-align: left;
     margin-left: 70px;
     font-weight: bold;
-    font-size:  15px;
+    font-size: 17px;
+}
+.wrapper--text-pinturas-phone{
+    transform: translate(-62px, 10px);
+}
+.paragraph--texto-baños-phone{
+    text-align: left;
+    margin-left: 70px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.wrapper--texto-look-phone{
+    transform: translate(-62px, 10px);
+}
+.wrapper--footer_copyright{
+    transform: translate(47px, 10px);
+}
+.wrapper--footer_medios_pago{
+    transform: translate(312px, 10px);
+}
+.wrapper--texto-cyberlunes-t{
+    transform: translate(-32px, 10px);
+}
+.wrapper--texto-hogar-t{
+    transform: translate(-32px, 10px);
+}
+.wrapper--texto-look-t{
+    transform: translate(-32px, 10px);
+}
+.wrapper--texto-vinilos-t{
+    transform: translate(-32px, 10px);
+}
+.wrapper--texto-pinturas-t{
+    transform: translate(-32px, 10px);
+}
+.menuContainerNav:first-child{
+    display: none;
 }

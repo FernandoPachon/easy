@@ -4,8 +4,6 @@
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
             "text": "La vida es más bonita a todo color",
-            "textColor": "black",
-            "font": "Opensans-Bold.ttf",
             "blockClass": "text-pinturas-phone"
           }
     },
@@ -56,7 +54,17 @@
             "text": "easy, donde se renueva tu hogar",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
+            "blockClass": "texto-look-phone"
+        }
+    },
+    "rich-text#phone_baños":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Renueva tus Baños y Cocinas",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-look-phone"
         }
     }
 }

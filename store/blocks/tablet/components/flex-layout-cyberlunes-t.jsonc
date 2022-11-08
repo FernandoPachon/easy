@@ -12,11 +12,7 @@
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
-            "colGap":2,
-             "preserveLayoutOnMobile": true
-
-
-
+             "colGap":2
           }
         },
         "flex-layout.col#section--one--lunes-t":{

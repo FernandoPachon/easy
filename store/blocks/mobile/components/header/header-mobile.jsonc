@@ -1,11 +1,20 @@
 {
   "header-layout.mobile": {
     "title": "Header Desktop",
-    "children": ["header-row#header_top-mobile"]
+    "children": ["header-row#header_top-mobile","header-row#header_middle-mobile"]
   },
   "header-row#header_top-mobile": {
     "title": "Header superior",
     "children": [
+      "image#banner_top"
+    ],
+    "props": {
+      "blockClass": "header_top-mobile"
+    }
+  },
+  "header-row#header_middle-mobile":{
+    "title": "Header medio",
+    "children":[
       "flex-layout.row#1-mobile",
       "logo#header_mobile",
       "flex-layout.row#search_bar-mobile",
@@ -13,7 +22,7 @@
       "minicart.v2"
     ],
     "props": {
-      "blockClass": "header_top-mobile"
+      "blockClass": "header_middle-mobile"
     }
   },
   "logo#header_mobile":{
@@ -21,8 +30,8 @@
     "props": {
       "blockClass":"logo-mobile",
       "url": "assets/img/logo-easy.jpg",
-      "width": 110,
-      "height": 110,
+      /* "width": 110,
+      "height": 110, */
       "href": "/",
       "mobileWidth": 100,
       "mobileHeight": 100
@@ -36,8 +45,9 @@
   },
   "search-bar":{
     "props":{
-      "blockClass": "flex_search-bar-mobile",
+      "blockClass": "search-bar-mobile",
       "maxWidth":180
     }
   }
+  
 }

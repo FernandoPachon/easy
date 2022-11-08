@@ -1,0 +1,21 @@
+{
+    "search-result-layout.customQuery#home_search": {
+        "props": {
+          "querySchema": {
+            "skusFilter": "ALL",
+            "simulationBehavior": "skip",
+            "maxItemsPerPage":3,
+            "infinite": true,
+            "autoplay": {
+              "timeout": 4000,
+              "stopOnHover": true
+            }
+          }
+        },
+        "blocks": [
+          "search-result-layout.desktop#home_search--desktop",
+          //"search-result-layout.mobile#home_search--mobile",
+          "search-not-found-layout"
+        ]
+      }
+}
