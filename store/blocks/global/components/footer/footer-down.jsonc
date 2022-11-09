@@ -27,7 +27,7 @@
     "title": "Titulo contáctanos footer ",
     "props": {
       "text": "CONTÁCTANOS",
-      "blockClass": "footer_contáctanos"
+      "blockClass": "footer_contactanos"
     }
   },
   "flex-layout.col#footer__down-two--column": {
@@ -177,21 +177,21 @@
     "title": "Bogotá",
     "props": {
       "text": "Bogotá: (601) 7460344",
-      "blockClass": "footer_Bogotá"
+      "blockClass": "footer_Bogota"
     }
   },
   "rich-text#ciudad_2-tel":{
     "title": "Medellín",
     "props": {
       "text": "Medellín: (604) 6044775",
-      "blockClass": "footer_Medellín"
+      "blockClass": "footer_Medellin"
     }
   },
   "rich-text#ciudad_3-tel":{
     "title": "resto del país",
     "props": {
       "text": "Resto del país: 018000180340",
-      "blockClass": "footer_país"
+      "blockClass": "footer_pais"
     }
   },
   "flex-layout.col#footer__down-four--column": {
