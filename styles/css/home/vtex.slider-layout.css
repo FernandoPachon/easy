@@ -28,13 +28,14 @@
     width: 15rem;
 }
 .caretIcon--slider-product-summary{
-    color: white;
-    background: #CFCFCF;
-    border-radius: 50px;
-    height: 52px;
-    width: 52px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: #CFCFCF!important;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    color:white;
     margin:4rem;
-    transform: translate(10px, -144px);
+    transform: translate(10px, -132px);
 }
 .sliderArrows--slider-product-summary{
     background:none;

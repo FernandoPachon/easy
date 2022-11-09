@@ -1,0 +1,33 @@
+{
+  "data": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Categoría",
+        "href": "/category",
+        "children": [
+          {
+            "id": 2,
+            "name": "Mulher",
+            "href": "/category/mujer"
+          },
+          {
+            "id": 3,
+            "name": "Homem",
+            "href": "/category/hombre"
+          },
+          {
+            "id": 4,
+            "name": "bebé",
+            "href": "/category/bebe"
+          },
+          {
+            "id": 5,
+            "name": "Criancas",
+            "href": "/category/ninos"
+          }
+        ]
+      }
+    ]
+  }
+}

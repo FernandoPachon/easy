@@ -1,0 +1,30 @@
+{
+    "flex-layout.row#product_info": {
+        "title":"información general de PDP",
+        "children":[
+          "flex-layout.col#product_info--image",
+          "flex-layout.col#product_info--data"
+        ]
+      },
+      "flex-layout.col#product_info--image":{
+        "title":"Imágenes de producto",
+        "children":[
+            "product-images"
+        ]
+      },
+          "flex-layout.col#product_info--data":{
+            "title":"Data de producto",
+            "children":[
+                "vtex.store-components:product-name",
+                "product-price",
+                "product-quantity",
+                "rich-text#product_promo-info"
+            ]
+          },
+          "rich-text#product_promo-info":{
+            "title":"Texto adicional de producto",
+            "props":{
+                "text":" "
+            }
+          }
+}
