@@ -23,7 +23,8 @@
     "props": {
       "blockClass": "footer_column--one",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "flex-layout.col#footer__two--column": {
@@ -31,7 +32,8 @@
     "props": {
       "blockClass": "footer_column--two",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "rich-text#footer_Easy": {
@@ -166,14 +168,15 @@
     "props": {
       "blockClass": "footer_column--three",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "rich-text#footer_Políticas": {
     "title": "Titulo políticas footer ",
     "props": {
       "text": "Políticas",
-      "blockClass": "footer_políticas-title"
+      "blockClass": "footer_politicas-title"
     }
   },
   "menu#categorías_dos": {
@@ -306,7 +309,8 @@
     "props": {
       "blockClass": "footer_column--four",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "rich-text#footer_Empresas": {
@@ -335,15 +339,17 @@
   "image#metro": {
     "props": {
         "src": "assets/img/logo-metro.png",
-        "blockClass": "logo__footer--metro"
-        
+        "blockClass": "logo__footer--metro",
+        "width":50,
+        "height":50
     }
   },
   "image#easy": {
     "props": {
         "src": "assets/img/logo-easy-foot.png",
-        "blockClass": "logo__footer--easy"
-       
+        "blockClass": "logo__footer--easy",
+        "width":50,
+        "height":50
     }
   },
   "image#puntos": {

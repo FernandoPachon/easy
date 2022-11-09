@@ -6,7 +6,7 @@
             "flex-layout.col#compra_facil"
         ],
         "props":{
-            "blocksClass":"LunesHome_section--one",
+            "blockClass":"footer_top",
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
@@ -23,7 +23,7 @@
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
-            "blocksClass":"bloque_envio"
+            "blockClass":"bloque_envio"
         }
     },
     "flex-layout.col#retiro_tienda":{
@@ -36,7 +36,7 @@
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
-            "blocksClass":"bloque_retiro"
+            "blockClass":"bloque_retiro"
         }
     },
     "flex-layout.col#compra_facil":{
@@ -49,7 +49,7 @@
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
-            "blocksClass":"bloque_compra"
+            "blockClass":"bloque_compra"
         }
     }
 }
