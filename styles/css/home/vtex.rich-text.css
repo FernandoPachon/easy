@@ -140,3 +140,52 @@
 .menuContainerNav:first-child{
     display: none;
 }
+.paragraph--envio-domicilio{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+.paragraph--retiro-tienda{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+.paragraph--compra-facil{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+.paragraph--footer_easy--title{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+.wrapper--footer_easy--title{
+    transform: translate(22px, 10px); 
+}
+.paragraph--footer_empresas-title{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+
+.paragraph--footer_politicas-title{
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color:#444747 ;
+}
+.wrapper--footer_politicas-title{
+    transform: translate(22px, 10px); 
+}
+.paragraph--text-footer-middle{
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}

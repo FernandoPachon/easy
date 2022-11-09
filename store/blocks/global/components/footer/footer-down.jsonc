@@ -19,7 +19,8 @@
     "props": {
       "blockClass": "footer_down-column--one",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "rich-text#contáctanos": {
@@ -47,7 +48,8 @@
     "props": {
       "blockClass": "footer_down-column--two",
       "preventVerticalStretch": true,
-      "horizontalAlign": "left"
+      "horizontalAlign": "left",
+      "width":"25%"
     }
   },
   "rich-text#call-center": {
@@ -146,7 +148,8 @@
     "props": {
         "blockClass": "footer_down-column--two",
         "preventVerticalStretch": true,
-        "horizontalAlign": "left"
+        "horizontalAlign": "left",
+        "width":"25%"
       }
   },
   "rich-text#vental-tel":{
@@ -198,7 +201,8 @@
       "props": {
         "blockClass": "footer_down-column--three",
         "preventVerticalStretch": true,
-        "horizontalAlign": "left"
+        "horizontalAlign": "left",
+        "width":"25%"
       }
   },
   "image#easy_call--center":{

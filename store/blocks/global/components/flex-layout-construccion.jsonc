@@ -25,7 +25,7 @@
         }
       },
       "flex-layout.col#section--two--construcción": {
-        "title": "Col list context Juegos y accesorios",
+        "title": "sección summary",
         "children": [
           "list-context.product-list#product_summary"
         ],

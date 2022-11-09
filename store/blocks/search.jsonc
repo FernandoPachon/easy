@@ -2,7 +2,7 @@
   "store.search": {
     "blocks": ["search-result-layout"]
   },
- 
+
   "store.search#category": {
     "blocks": ["search-result-layout"]
   },
@@ -25,14 +25,14 @@
   "search-result-layout.mobile": {
     "children": ["rich-text#mobile-response"]
   },
-  "rich-text#desktop-response":{
-    "props":{
-
+  "rich-text#desktop-response": {
+    "props": {
+      "text": "# desktop search"
     }
   },
-"rich-text#mobile-response":{
-  "props":{
-
+  "rich-text#mobile-response": {
+    "props": {
+      "text": "# mobile search"
+    }
   }
-}
 }
