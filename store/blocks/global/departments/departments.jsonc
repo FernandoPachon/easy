@@ -1,0 +1,28 @@
+{
+    "store.search#department": {
+        "blocks": ["search-result-layout#department"]
+      },
+      "search-result-layout#department": {
+        "blocks": [
+          "search-result-layout.desktop#department",
+          "search-result-layout.mobile#department",
+          "search-not-found-layout"
+        ]
+      },
+      "search-result-layout.desktop#department": {
+        "children": ["rich-text#desktop-response#department"]
+      },
+      "search-result-layout.mobile#department": {
+        "children": ["rich-text#mobile-response#department"]
+      },
+      "rich-text#desktop-response#department":{
+        "props":{
+    
+        }
+      },
+    "rich-text#mobile-response#department":{
+      "props":{
+    
+      }
+    }
+}
