@@ -16,4 +16,6 @@
 }
 .menuIcon--bloque_drawer{
     size: 25px;
+}.menuContainer{
+    overflow: visible;
 }

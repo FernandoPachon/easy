@@ -19,7 +19,7 @@
       "logo#header_mobile",
       "flex-layout.row#search_bar-mobile",
       "modal-trigger#header_top-d--login",
-      "minicart.v2"
+      "minicart.v2#custom"
     ],
     "props": {
       "blockClass": "header_middle-mobile"

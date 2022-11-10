@@ -1,7 +1,9 @@
 {
     "search-bar":{
+    "blocks": ["autocomplete-result-list.v2"],
        "props":{
-        "blockClass":"lupa-search-bar"
+        "blockClass":"lupa-search-bar",
+        "openAutoCompleteOnFocus": true
        }
     }
 }
