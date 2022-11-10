@@ -10,10 +10,11 @@
       "flex-layout.row#phone_section--cyberNuevo-lookHogar",
       "rich-text#phone_colores",
       "flex-layout.row#phone_section--vinilos",
-      "rich-text#desktop_pinturas",
+      "rich-text#phone_pinturas",
       "flex-layout.row#phone_section--pinturas",
-      "rich-text#desktop_baños",
+      "rich-text#phone_baños",
       "flex-layout.row#phone_section--baños",
+      "flex-layout.row#home_section--construcción-phone",
       "rich-text#phone_hogar",
       "flex-layout.row#home_section--descubre-mas-p"
     ]

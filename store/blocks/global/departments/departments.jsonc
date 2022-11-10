@@ -1,0 +1,51 @@
+{
+  "store.search#department": {
+    "blocks": ["search-result-layout#department"]
+  },
+  "search-result-layout#department": {
+    "blocks": [
+      "search-result-layout.desktop#department",
+      "search-result-layout.mobile#department",
+      "search-not-found-layout"
+    ]
+  },
+  /*   -------------       DESKTOP     -----------    */
+  "search-result-layout.desktop#department": {
+    "children": ["flex-layout.row#department_breadcrumb"]
+  },
+  "flex-layout.row#department_breadcrumb": {
+    "children": ["flex-layout.col#department_breadcrumb"]
+  },
+  "flex-layout.col#department_breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+  /*   -------------       MOBILE     -----------    */
+  "search-result-layout.mobile#department": {
+    "children": [
+      "flex-layout.row#department_breadcrumb",
+      "flex-layout.row#department_results"
+    ]
+  },
+  "flex-layout.row#department_results": {
+    "title": "department Results",
+    "children": ["gallery-layout-switcher" /* "search-content#phone" */]
+  },
+  "gallery-layout-switcher": {
+    "children": [
+      "gallery-layout-option#grid_two-columns",
+      "gallery-layout-option#grid_one-columns"
+    ]
+  },
+  "gallery-layout-option#grid_two-columns": {
+    "props": {
+      "name": "grid-two-columns",
+      "blockClass": "grid_selector--two-columns"
+    }
+  },
+  "gallery-layout-option#grid_one-columns": {
+    "props": {
+      "name": "grid-one-columns",
+      "blockClass": "grid_selector--two-columns"
+    }
+  }
+}

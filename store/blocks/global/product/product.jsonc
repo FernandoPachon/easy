@@ -1,0 +1,14 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product_breadcrumb",
+      "flex-layout.row#product_info",
+      "flex-layout.row#product_tabs"
+    ]
+  },
+  
+  "flex-layout.row#product_tabs": {
+    "title":"Información adicional"
+  }
+  
+}

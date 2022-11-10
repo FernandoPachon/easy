@@ -3,6 +3,7 @@
           "children": ["flex-layout.row#mega_menu--desktop", "flex-layout.row#mega-menu"],
           "props":{
             "blockClass":"mega-menu-d",
+            "title":"Categorías",
             "text":"Categorías"
           }
         },
@@ -11,18 +12,20 @@
             "flex-layout.col#trigger-mega-menu"
           ],
           "props":{
-            "blockClass":"layout-mega-menu"
-            
+            "blockClass":"layout-mega-menu",
+            "title":"Categorías",
+            "text":"Categorías"
           }
         },
-      
         "flex-layout.row#mega-menu": {
           "children": ["mega-menu#desktop"]
         },
         "mega-menu#desktop": {
           "props": {
-            "openOnly": "horizontal"
+            "blockClass":"departamentos_menu",
+            "openOnly": "horizontal",
             //"orientation":"horizontal"
+            "title":false
           }
         },
         "flex-layout.col#trigger-mega-menu": {

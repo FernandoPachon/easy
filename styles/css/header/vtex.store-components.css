@@ -20,3 +20,24 @@
 .imageElement--login-content{
     width: 80px;
 }
+.imageElement--logo__footer--pagos{
+    height: 17px;
+    transform: translate(-58px, 40px);
+}
+@media screen and (max-width:420px) {
+    .logoImage{
+        height:100%;
+        transform: translate(-30px,0px);
+    }
+    .searchBarInnerContainer--lupa-search-bar{
+        width:12rem;
+        transform: translate(-45px,-5px);
+    }
+}
+@media screen and (max-width:1025px) {
+   .flexRow--footer_middle--mobile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+   }
+}

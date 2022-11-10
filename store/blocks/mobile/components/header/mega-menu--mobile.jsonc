@@ -4,13 +4,15 @@
             "flex-layout.col#trigger-mega-menu"
           ],
           "props": {
-            "blockClass":"bloque_menu-mobile"
+            "blockClass":"bloque_menu-mobile",
+            "slideDirection":"rightToLeft"
           }
         },
         "drawer": {
           "children": ["mega-menu#mobile"],
           "props": {
-            "blockClass":"bloque_drawer"
+            "blockClass":"bloque_drawer",
+            "slideDirection":"rightToLeft"
           },
           "blocks": ["drawer-header#my-drawer"]
         },
@@ -19,11 +21,16 @@
             "blockClass":"bloque_mega-m",
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
-            "openOnly": "vertical"
+            "openOnly": "vertical",
+            "slideDirection":"rightToLeft"
           }
         },
         "drawer-header#my-drawer": {
-          "children": ["flex-layout.row#drawer-header"]
+          "children": ["flex-layout.row#drawer-header"],
+          "props":{
+            "blockClass":"darwer-megamenu--mobile",
+            "slideDirection":"rightToLeft"
+          }
         },
         "flex-layout.row#drawer-header": {
           "children": [

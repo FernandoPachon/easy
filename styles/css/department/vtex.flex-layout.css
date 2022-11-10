@@ -93,14 +93,139 @@
 }
 .flexRow--bloque_footer--middle{
   background-color: #E8E8E8;
-  padding-top: 5%;
-  padding-left: 3%;
-  display: flex;
-  
+  padding: 0px 0 29px;
 }
 .flexRow--bloque_footer--down{
   background-color:#CFCFCF ;
   padding-top: 1%;
   padding-left: 3%;
   display: flex;
+}
+.flexColChild--footer_down-column--one{
+  display: flex;
+  align-items: flex-start;
+}
+.flexColChild--bloque-imagen{
+  transform: translate(90px, 10px);
+}
+.flexColChild--bloque-imagen-p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*----------- footer---------------*/
+/* footer top*/
+.flexRow--bloque_footer--middle :global(.vtex-store-components){
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 70px 0 20px;
+    
+}
+/*row footer top*/
+.flexRowContent--bloque_footer--middle{
+ /*  transform: translate(120px, 10px); */
+  width: 100%;
+    padding: 70px 0 20px;
+}
+.flexRow--footer_top{
+  width: 75rem;
+  height: 8.5rem;
+}
+.flexCol--bloque_envio{
+  transform: translate(-72px, 10px);
+  height: 2.5rem;
+}
+.flexCol--bloque_retiro{
+  transform: translate(-50px, 10px);
+  height: 2.5rem;
+}
+.flexCol--bloque_compra{
+  height: 2.5rem;
+  transform: translate(10px, 12px);
+}
+/* footer-middle */
+.flexCol--footer_column--one{
+  padding: 0 20px;
+  width: 10%;
+  margin: 0 2%;
+  display: flex;
+}
+.flexCol--footer_column--two{
+  padding: 0 20px ;
+  width: 21%;
+  margin: 0 2%;
+}
+.flexColChild--footer_column--two{
+  padding: 0 20px ;
+    width: 21%;
+    margin: 0 2%;
+    transform: translate(-21px, 10px);
+}
+.flexCol--footer_column--three{
+  padding: 0 20px;
+  width: 21%;
+  margin: 0 2%;
+}
+.flexColChild--footer_column--three{
+  padding: 0 20px ;
+    width: 21%;
+    margin: 0 2%;
+    transform: translate(-21px, 10px);
+}
+.flexCol--footer_column--four{
+  margin: 0 20px;
+  width: 27rem;
+}
+.flexRowContent--bloque_footer--down{
+  width: 90rem;
+}
+/* footer mobile*/
+.flexRow--footer_middle--mobile{
+  display:flexbox;
+  flex-direction: column;
+  background-color: #E8E8E8;
+}
+.flexRow--footer_down--mobile{
+  display:flexbox;
+  flex-direction: column;
+  background-color: #CFCFCF;
+}
+.flexCol--logo--mobile{
+  display: flex;
+    align-items: center;
+}
+.flexColChild--logo--mobile {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.flexCol--easy--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--politicas--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--empresa--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--contactos--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--call-center--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--venta-tel--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--logo-call--mobile{
+  display: flex;
+  align-items: center;
 }
