@@ -72,3 +72,15 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+.sliderLayoutContainer--slider-product-summary-p{
+    display: flexbox;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.caretIcon--slider-product-summary-p{
+    color: white;
+    background: #CFCFCF;
+    border-radius: 50px;
+    height: 52px;
+    width: 52px;
+}
