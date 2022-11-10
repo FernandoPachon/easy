@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#footer_middle--mobile": {
+    "children": [
+      "flex-layout.col#uno",
+      "flex-layout.col#dos"/* ,
+      "flex-layout.col#logo--mobile",
+      "flex-layout.col#easy--mobile",
+      "flex-layout.col#politicas--mobile",
+      "flex-layout.col#empresa--mobile" */
+    ],
+    "props": {
+      "blockClass": "footer_middle--mobile"
+    }
+  },
+  "flex-layout.col#logo--mobile": {
+    "children": [
+      "image#home-d--image",
+      "rich-text#text_footer--middle",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "logo--mobile",
+      "width": "25%"
+    }
+  },
+  "flex-layout.col#easy--mobile": {
+    "children": ["rich-text#footer_Easy", "menu#categorías_uno"],
+    "props": {
+      "blockClass": "easy--mobile"
+    }
+  },
+  "flex-layout.col#politicas--mobile": {
+    "children": ["rich-text#footer_Políticas", "menu#categorías_dos"],
+    "props": {
+      "blockClass": "politicas--mobile"
+    }
+  },
+  "flex-layout.col#empresa--mobile": {
+    "children": [
+      "rich-text#footer_Empresas",
+      "flex-layout.row#iconos_empresas",
+      "image#totalCode"
+    ],
+    "props": {
+      "blockClass": "empresa--mobile",
+      "horizontalAlign": "center",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.col#uno": {
+    "children": ["flex-layout.row#uno"], "props": {
+      "blockClass": "col-uno"
+    }
+  },
+  "flex-layout.row#uno": {
+    "children": ["flex-layout.col#logo--mobile", "flex-layout.col#easy--mobile"],
+    "props": {
+      "blockClass": "row-uno",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#dos": {
+    "children": ["flex-layout.row#dos"],
+    "props": {
+      "blockClass": "col-dos",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#dos": {
+    "children": [
+      "flex-layout.col#politicas--mobile",
+      "flex-layout.col#empresa--mobile"
+    ],
+    "props": {
+      "blockClass": "row-dos",
+      "horizontalAlign": "center"
+    }
+  }
+}
