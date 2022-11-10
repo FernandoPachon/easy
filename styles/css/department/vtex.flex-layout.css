@@ -229,3 +229,13 @@
   display: flex;
   align-items: center;
 }
+.flexColChild--easy--mobile{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+@media only screen and (min-width: 640px) and (max-width: 1025px) {
+	.flexRowContent--footer_middle--mobile{
+    height: 40rem;
+  }
+}
