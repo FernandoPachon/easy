@@ -181,3 +181,51 @@
 .flexRowContent--bloque_footer--down{
   width: 90rem;
 }
+/* footer mobile*/
+.flexRow--footer_middle--mobile{
+  display:flexbox;
+  flex-direction: column;
+  background-color: #E8E8E8;
+}
+.flexRow--footer_down--mobile{
+  display:flexbox;
+  flex-direction: column;
+  background-color: #CFCFCF;
+}
+.flexCol--logo--mobile{
+  display: flex;
+    align-items: center;
+}
+.flexColChild--logo--mobile {
+  max-width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.flexCol--easy--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--politicas--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--empresa--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--contactos--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--call-center--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--venta-tel--mobile{
+  display: flex;
+  align-items: center;
+}
+.flexCol--logo-call--mobile{
+  display: flex;
+  align-items: center;
+}

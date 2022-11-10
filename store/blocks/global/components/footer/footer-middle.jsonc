@@ -326,7 +326,12 @@
         "image#metro",
         "image#easy",
         "image#puntos"
-    ]
+    ],
+    "props":{
+      "blockClass":"iconos_empresas",
+      "preventVerticalStretch":true,
+        "preserveLayoutOnMobile": true
+    }
   },
   "image#jumbo": {
     "props": {

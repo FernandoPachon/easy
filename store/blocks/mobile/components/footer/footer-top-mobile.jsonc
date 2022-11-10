@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#footer_top--mobile": {
+        "children": [
+          "flex-layout.col#domicilio--mobile",
+          "flex-layout.col#retiro--mobile",
+          "flex-layout.col#compra--mobile"
+        ],
+        "props":{
+          "blockClass":"row-footer-top--mobile"
+        }
+      },
+      "flex-layout.col#domicilio--mobile": {
+        "children":[
+            "image#envio_domicilio",
+                "rich-text#envio_title",
+                "rich-text#envio_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blockClass":"bloque_envio--mobile"
+        }
+      },
+      "flex-layout.col#retiro--mobile": {
+        "children":[
+            "image#retiro_tienda",
+                "rich-text#retiro_title",
+                "rich-text#retiro_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blockClass":"bloque_retiro-mobile"
+        }
+      },
+      "flex-layout.col#compra--mobile": {
+        "children":[
+            "image#compra_facil",
+            "rich-text#compra_title",
+            "rich-text#compra_description"
+        ],
+        "props":{
+            "colSizing":"auto",
+            "colJustify": "around",
+            "horizontalAlign":"center",
+            "blockClass":"bloque_compra-mobile"
+        }
+      },
+      "flex-layout.col#footer_middle--mobile": {
+        "children": []
+      },
+      "flex-layout.col#footer_down--mobile": {
+        "children": []
+      },
+      "flex-layout.col#pagos_mobile": {
+        "children": []
+      }
+}

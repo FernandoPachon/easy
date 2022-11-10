@@ -34,3 +34,10 @@
         transform: translate(-45px,-5px);
     }
 }
+@media screen and (max-width:1025px) {
+   .flexRow--footer_middle--mobile{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+   }
+}
