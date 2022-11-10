@@ -1,0 +1,15 @@
+{
+  "flex-layout.row#footer-mobile": {
+    "children": [
+        "flex-layout.col#footer-mobile"
+    ]
+  },
+  "flex-layout.col#footer-mobile":{
+    "children":[
+        "flex-layout.row#footer_top--mobile",
+        "flex-layout.row#footer_middle--mobile",
+       "flex-layout.row#footer_down--mobile"
+       // "flex-layout.row#pagos_mobile"
+    ]
+  }
+}

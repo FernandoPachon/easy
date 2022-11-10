@@ -140,6 +140,15 @@
 .menuContainerNav:first-child{
     display: none;
 }
+.paragraph--text-final{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 25px;
+    color: #8a8989;
+    margin-bottom: 3rem;
+}
 .paragraph--envio-domicilio{
     font-family: sans-serif;
     font-size: 22px;
@@ -188,4 +197,143 @@
     font-size: 14px;
     display: flex;
     align-items: center;
+}
+/*--- footer down ----*/
+.paragraph--footer_contactanos{
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#000000 ;
+    line-height: 20px;
+    font-weight: 700px;
+}
+.paragraph--footer_call-center--title{
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#000000 ;
+    line-height: 20px;
+    font-weight: 700px;
+}
+.paragraph--footer_venta-tel{
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color:#000000 ;
+    line-height: 20px;
+    font-weight: 700px;
+}
+.wrapper--footer_servicio--cliente{
+    margin: -25px 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 700;
+    line-height: 21px;
+}
+.wrapper--footer_PQRs{
+    margin: -5px 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 700;
+    line-height: 21px;
+}
+.paragraph--footer_registro--cliente{
+    margin: -5px 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 700;
+    line-height: 21px;
+}
+.paragraph--footer_registro--cliente{
+    margin: 5px 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_horarios-semana{
+    margin: 0px 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_horarios-finSemana{
+    margin: 0 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_ciudad{
+    margin: 0 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_email-clientes{
+    margin: 0 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_cencosud{
+    margin: 0 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_avenida{
+    margin: 0 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+} 
+.paragraph_correo-notificaciones{
+    margin: -5px 0;
+    font-family:sans-serif;
+    font-size: 14px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph_email-notification{
+    margin:-10px 0;
+    font-family:sans-serif;
+    font-size: 12px;
+    color: #666666;
+    font-weight: 500;
+    line-height: 21px;
+}
+.paragraph--footer_horario-tel--semana{
+    margin: 0 0;
+}
+.paragraph--footer_horario-tel--finSemana{
+    margin: 0 0;
+}
+.paragraph--footer_Bogota{
+    margin: 0 0;
+}
+.paragraph--footer_Medellin{
+    margin: -5px 0;
+}
+.paragraph--footer_pais{
+    margin: -5px 0;
 }
