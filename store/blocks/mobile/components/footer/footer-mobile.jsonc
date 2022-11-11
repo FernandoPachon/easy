@@ -2,7 +2,10 @@
   "flex-layout.row#footer-mobile": {
     "children": [
         "flex-layout.col#footer-mobile"
-    ]
+    ],
+    "props":{
+      "blockClass":"contenido_row-footer--mobile"
+    }
   },
   "flex-layout.col#footer-mobile":{
     "children":[
@@ -10,6 +13,10 @@
         "flex-layout.row#footer_middle--mobile",
        "flex-layout.row#footer_down--mobile",
        "flex-layout.row#pagos_mobile"
-    ]
+    ],
+    "props":{
+      "blockClass":"contenido_col-footer--mobile",
+      "maxWidth":"100%"
+    }
   }
 }

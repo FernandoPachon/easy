@@ -234,6 +234,46 @@
   justify-content: space-between;
   text-align: center;
 }
+@media only screen and (max-width: 639px) {
+
+  .flexColChild--foot_col--text-uno{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      }
+  .flexCol--footer_text--easy{
+    transform: translate(10px, -246px);
+  }
+  .flexCol--foot_col--politicas{
+    transform: translate(-16px, 283px);
+  }
+  .flexCol--foot_contenido--pol-mobile{
+    transform: translate(0px, 270px);
+  }
+  .flexCol--footer_contenido--easy{
+    transform: translate(6px, -262px);
+  }
+  .flexCol--footer_ventas-tel--mobile{
+    height: 3rem;
+    transform: translate(2px, -26px);
+  }
+  .flexCol--footer_contenido-veta--mobile{
+    transform: translate(2px, 157px);
+  }
+  .flexCol--footer_contenido-call--mobile{
+    transform: translate(11px, -191px);
+  }
+  .flexCol--footer_ventas-tel--mobile{
+    transform: translate(10px, 297px);
+  }
+  .flexCol--footer_call-cel--mobile{
+    transform: translate(5px, -187px);
+  } 
+  .flexColChild--footer_tira-mobile{
+    transform: translate(93px, -32px);
+  }
+}
 @media only screen and (min-width: 640px) and (max-width: 1025px) {
 	.flexRowContent--footer_middle--mobile{
     height: 40rem;
@@ -255,5 +295,109 @@
   }
   .flexColChild--col-dos{
     height: 10%;
+    transform: translate(-57px, 10px);
+}
+  .flexColChild--footer_call-cel--mobil{
+    transform: translate(-78px, 10px);
+  }
+  .flexColChild--foot_col--social{
+    transform: translate(-79px, 10px);
+  }
+  .flexColChild--footer_logo-call--mobile{
+    transform: translate(-82px, -100px);
+  }
+  .flexColChild--footer_ventas-tel--mobile{
+    transform: translate(-84px, 150px);
+  }
+  .flexColChild--foot_col--text-uno{
+    transform: translate(-39px, 10px);
+  }
+  .flexColChild--foot_col--logo{
+    transform: translate(-100px, 10px);
+  }
+  .flexColChild--footer_contenido--easy{
+    transform: translate(0px, -40px);
+  }
+  .flexColChild--foot_col--politicas{
+    transform: translate(-138px, 10px);
+  }
+  .flexColChild--footer_text--empresas{
+    transform: translate(10px, 0px);
+  }
+  .flexColChild--footer_iconos--empresas{
+    transform: translate(10px, -10px);
+  }
+   .flexCol--footer_contenido-veta--mobile{
+    transform: translate(4px, -5px);
+  } 
+  .flexColChild--footer_contactos--mobile{
+    transform: translate(-88px, 0px);
+  }
+  .flexColChild--footer_call-cel--mobile{
+    transform: translate(-80px, 10px);
+  }
+  .flexColChild--footer_contenido-call--mobile{
+    transform: translate(10px, -92px);
+  }
+  .flexCol--total_code--mobile{
+    transform: translate(10px, -50px);
   }
 }
+/* estilos globales del footer mobile*/
+  .flexCol--foot_col--logo{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--foot_col--text-uno{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--foot_col--social{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--foot_col--politicas{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--foot_contenido--pol-mobile{
+    display: flex;
+    align-items: center
+  }
+  .flexCol--footer_contactos--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_ventas-tel--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_contenido-veta--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_call-cel--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_contenido-call--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_logo-call--mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_medios-mobile{
+    display: flex;
+    align-items: center;
+  }
+  .flexCol--footer_contenido-veta--mobile{
+    height: 7rem;
+  }
+  .flexColChild--total_code--mobile{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
