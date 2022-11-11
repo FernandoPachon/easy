@@ -8,8 +8,8 @@
     "children":[
         "flex-layout.row#footer_top--mobile",
         "flex-layout.row#footer_middle--mobile",
-       "flex-layout.row#footer_down--mobile"
-       // "flex-layout.row#pagos_mobile"
+       "flex-layout.row#footer_down--mobile",
+       "flex-layout.row#pagos_mobile"
     ]
   }
 }
