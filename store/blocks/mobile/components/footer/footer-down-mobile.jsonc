@@ -1,24 +1,52 @@
 {
   "flex-layout.row#footer_down--mobile": {
-    "children": [
-      "flex-layout.col#contactos--mobile",
-      "flex-layout.col#call-center--mobile",
-      "flex-layout.col#venta-tel--mobile",
-      "flex-layout.col#logo-call--mobile"
-    ],
-    "props":{
-      "blockClass":"footer_down--mobile"
+    "children": ["flex-layout.col#tres", "flex-layout.col#cuatro"],
+    "props": {
+      "blockClass": "footer_down--mobile"
     }
   },
-  "flex-layout.col#contactos--mobile": {
-    "children": ["rich-text#contáctanos"],
-    "props":{
-      "blockClass":"contactos--mobile"
-    }
-  },
-  "flex-layout.col#call-center--mobile": {
+  /*------------ col tres------------------*/
+  "flex-layout.col#tres": {
     "children": [
-        "rich-text#call-center",
+      "flex-layout.col#footer_contactos--mobile",
+      "flex-layout.col#footer_ventas-tel--mobile",
+      "flex-layout.col#footer_contenido-venta--mobile"
+    ]
+  },
+  "flex-layout.col#footer_contactos--mobile": {
+    "children": ["rich-text#contáctanos"]
+  },
+  "flex-layout.col#footer_ventas-tel--mobile": {
+    "children": ["rich-text#vental-tel"]
+  },
+  "flex-layout.col#footer_contenido-venta--mobile": {
+    "children": ["flex-layout.col#footer_contenido-tel"]
+  },
+  "flex-layout.col#footer_contenido-tel": {
+    "children": [
+      "rich-text#horario-tel--semana",
+      "rich-text#horario-tel--finSemana",
+      "rich-text#ciudad_1-tel",
+      "rich-text#ciudad_2-tel",
+      "rich-text#ciudad_3-tel"
+    ]
+  },
+  /*------------ col cuatro---------------------*/
+  "flex-layout.col#cuatro": {
+    "children": [
+      "flex-layout.col#footer_call-cel--mobile",
+      "flex-layout.col#footer_contenido-call--mobile",
+      "flex-layout.col#footer_logo-call--mobile"
+    ]
+  },
+  "flex-layout.col#footer_call-cel--mobile": {
+    "children": ["rich-text#call-center"]
+  },
+  "flex-layout.col#footer_contenido-call--mobile": {
+    "children": ["flex-layout.col#contenido_call"]
+  },
+  "flex-layout.col#contenido_call":{
+    "children":[
       "rich-text#servicio-cliente",
       "rich-text#pqr",
       "rich-text#registro-cliente",
@@ -30,28 +58,9 @@
       "rich-text#avenida",
       "rich-text#correo",
       "rich-text#email-notification"
-    ],
-    "props":{
-        "blockClass":"call-center--mobile"
-      }
+    ]
   },
-  "flex-layout.col#venta-tel--mobile": {
-    "children": [
-        "rich-text#vental-tel",
-        "rich-text#horario-tel--semana",
-        "rich-text#horario-tel--finSemana",
-        "rich-text#ciudad_1-tel",
-        "rich-text#ciudad_2-tel",
-        "rich-text#ciudad_3-tel"
-    ],
-    "props":{
-        "blockClass":"venta-tel--mobile"
-      }
-  },
-  "flex-layout.col#logo-call--mobile": {
-    "children": ["image#easy_call--center"],
-    "props":{
-        "blockClass":"logo-call--mobile"
-      }
+  "flex-layout.col#footer_logo-call--mobile": {
+    "children": ["image#easy_call--center"]
   }
 }
