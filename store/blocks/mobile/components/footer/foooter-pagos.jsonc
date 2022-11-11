@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#pagos_mobile": {
+    "title":"Seccion_pagos--mobile",
+    "children":[
+      "flex-layout.col#footer_copyright--mobile",
+      "flex-layout.col#footer_medios--mobile",
+      "flex-layout.col#footer_tira"
+    ],
+    "props":{
+        "blockClass":"pagos_mobile"
+    }
+},
+    "flex-layout.col#footer_copyright--mobile": {
+      "children":["rich-text#copyright"],
+      "props":{
+        "blockClass":"footer_copy-mobile"
+    }
+    },
+    "flex-layout.col#footer_medios--mobile": {
+      "children":["rich-text#medios_pago--mobile"],
+      "props":{
+        "blockClass":"footer_medios-mobile"
+    }
+    },
+    "rich-text#medios_pago--mobile":{
+        "props":{
+            "blockClass":"text_pagos--mobile",
+            "text":"MEDIOS DE PAGO"
+        }
+    },
+    "flex-layout.col#footer_tira": {
+      "children":["image#medios-pago"],
+      "props":{
+        "blockClass":"footer_tira-mobile"
+    }
+    }
+  
+}

@@ -337,3 +337,12 @@
 .paragraph--footer_pais{
     margin: -5px 0;
 }
+.paragraph--text_pagos--mobile{
+    transform: translate(55px, 21px);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #474747;
+}

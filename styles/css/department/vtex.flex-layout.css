@@ -237,5 +237,23 @@
 @media only screen and (min-width: 640px) and (max-width: 1025px) {
 	.flexRowContent--footer_middle--mobile{
     height: 40rem;
+    padding: 70px 0 20px;
+  }
+  .flexRowContent--footer_down--mobile{
+    padding: 10px 10px 0px 10px;
+    height: 40rem;
+  }
+  .flexColChild--footer_tira-mobile{
+    transform: translate(49px, 2px);
+  }
+  .flexColChild--foot_col--text-uno{
+    width: 15rem;
+  }
+  .flexColChild--footer_text--easy{
+    transform: translate(-92px, -30px);
+    height: 6%;
+  }
+  .flexColChild--col-dos{
+    height: 10%;
   }
 }
