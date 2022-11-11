@@ -1,18 +1,102 @@
 {
   "flex-layout.row#footer_middle--mobile": {
+    "title": "footer-middle--mobile",
     "children": [
       "flex-layout.col#uno",
-      "flex-layout.col#dos"/* ,
-      "flex-layout.col#logo--mobile",
+      "flex-layout.col#dos"
+      /* "flex-layout.col#logo--mobile",
       "flex-layout.col#easy--mobile",
       "flex-layout.col#politicas--mobile",
-      "flex-layout.col#empresa--mobile" */
+      "flex-layout.col#empresa--mobile"  */
     ],
     "props": {
       "blockClass": "footer_middle--mobile"
     }
   },
-  "flex-layout.col#logo--mobile": {
+  /*------------------ col uno ----------------------------*/
+  "flex-layout.col#uno": {
+    "children": [
+      "flex-layout.col#footer_logo--mobile",
+      "flex-layout.col#footer_text-uno--mobile",
+      "flex-layout.col#footer_social--mobile",
+      "flex-layout.col#footer_politicas--mobile",
+      "flex-layout.col#footer_contenido-pol--mobile"
+    ],
+    "props": {
+      "blockClass": "col-uno"
+    }
+  },
+  "flex-layout.col#footer_logo--mobile": {
+    "children": ["image#home-d--image"],
+    "props": {
+      "blockClass": "foot_col--logo"
+    }
+  },
+  "flex-layout.col#footer_text-uno--mobile": {
+    "children": ["rich-text#text_footer--middle"],
+    "props": {
+      "blockClass": "foot_col--text-uno"
+    }
+  },
+  "flex-layout.col#footer_social--mobile": {
+    "children": ["social-networks"],
+    "props": {
+      "blockClass": "foot_col--social"
+    }
+  },
+  "flex-layout.col#footer_politicas--mobile": {
+    "children": ["rich-text#footer_Políticas"],
+    "props": {
+      "blockClass": "foot_col--social"
+    }
+  },
+  "flex-layout.col#footer_contenido-pol--mobile": {
+    "children": ["menu#categorías_dos"],
+    "props": {
+      "blockClass": "foot_col--social"
+    }
+  },
+  /* ------------------ col dos ----------------------------*/
+  "flex-layout.col#dos": {
+    "children": [
+      "flex-layout.col#footer_easy--mobile",
+      "flex-layout.col#footer_contenido-easy--mobile",
+      "flex-layout.col#footer_empresas--mobile",
+      "flex-layout.col#footer_logos--mobile"
+    ],
+    "props": {
+      "blockClass": "col-dos",
+      "horizontalAlign": "center",
+      "maxWidth": "100%"
+    }
+  },
+  "flex-layout.col#footer_easy--mobile": {
+    "children": [
+      "rich-text#footer_Easy"
+    ],
+    "props": {
+      "blockClass": "footer_text--easy"
+    }
+  },
+  "flex-layout.col#footer_contenido-easy--mobile": {
+    "children": ["menu#categorías_uno"],
+    "props": {
+      "blockClass": "footer_contenido--easy"
+    }
+  },
+  "flex-layout.col#footer_empresas--mobile": {
+    "children": ["rich-text#footer_Empresas"],
+    "props": {
+      "blockClass": "footer_text--empresas"
+    }
+  },
+  "flex-layout.col#footer_logos--mobile": {
+    "children": ["flex-layout.row#iconos_empresas"],
+    "props": {
+      "blockClass": "footer_iconos--empresas"
+    }
+  },
+  "flex-layout.row#logo--mobile": {
     "children": [
       "image#home-d--image",
       "rich-text#text_footer--middle",
@@ -23,58 +107,26 @@
       "width": "25%"
     }
   },
-  "flex-layout.col#easy--mobile": {
+  "flex-layout.row#easy--mobile": {
     "children": ["rich-text#footer_Easy", "menu#categorías_uno"],
     "props": {
       "blockClass": "easy--mobile"
     }
   },
-  "flex-layout.col#politicas--mobile": {
+  "flex-layout.row#politicas--mobile": {
     "children": ["rich-text#footer_Políticas", "menu#categorías_dos"],
     "props": {
       "blockClass": "politicas--mobile"
     }
   },
-  "flex-layout.col#empresa--mobile": {
+  "flex-layout.row#empresa--mobile": {
     "children": [
       "rich-text#footer_Empresas",
       "flex-layout.row#iconos_empresas",
       "image#totalCode"
     ],
     "props": {
-      "blockClass": "empresa--mobile",
-      "horizontalAlign": "center",
-      "preventVerticalStretch": true,
-      "preserveLayoutOnMobile": true
-    }
-  },
-  "flex-layout.col#uno": {
-    "children": ["flex-layout.row#uno"], "props": {
-      "blockClass": "col-uno"
-    }
-  },
-  "flex-layout.row#uno": {
-    "children": ["flex-layout.col#logo--mobile", "flex-layout.col#easy--mobile"],
-    "props": {
-      "blockClass": "row-uno",
-      "horizontalAlign": "center"
-    }
-  },
-  "flex-layout.col#dos": {
-    "children": ["flex-layout.row#dos"],
-    "props": {
-      "blockClass": "col-dos",
-      "horizontalAlign": "center"
-    }
-  },
-  "flex-layout.row#dos": {
-    "children": [
-      "flex-layout.col#politicas--mobile",
-      "flex-layout.col#empresa--mobile"
-    ],
-    "props": {
-      "blockClass": "row-dos",
-      "horizontalAlign": "center"
+      "blockClass": "empresa--mobile"
     }
   }
 }

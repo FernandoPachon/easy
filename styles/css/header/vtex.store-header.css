@@ -30,3 +30,9 @@
     background-color: white;
     height: 100px;
 }
+.minicartWrapperContainer--minicart-custom{
+    transform: translate(-42px, 3px);
+}
+.triggerContainer--bloque-login{
+    transform: translate(-42px, 10px);
+}
