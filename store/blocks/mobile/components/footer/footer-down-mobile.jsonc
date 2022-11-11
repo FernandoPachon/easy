@@ -14,13 +14,21 @@
     ]
   },
   "flex-layout.col#footer_contactos--mobile": {
-    "children": ["rich-text#contáctanos"]
+    "children": ["rich-text#contáctanos"],
+    "props": {
+      "blockClass": "footer_contactos--mobile"
+    }
   },
   "flex-layout.col#footer_ventas-tel--mobile": {
-    "children": ["rich-text#vental-tel"]
+    "children": ["rich-text#vental-tel"],
+    "props": {
+      "blockClass": "footer_ventas-tel--mobile"
+    }
   },
   "flex-layout.col#footer_contenido-venta--mobile": {
-    "children": ["flex-layout.col#footer_contenido-tel"]
+    "children": ["flex-layout.col#footer_contenido-tel"],"props": {
+      "blockClass": "footer_contenido-veta--mobile"
+    }
   },
   "flex-layout.col#footer_contenido-tel": {
     "children": [
@@ -29,7 +37,10 @@
       "rich-text#ciudad_1-tel",
       "rich-text#ciudad_2-tel",
       "rich-text#ciudad_3-tel"
-    ]
+    ],
+    "props": {
+      "blockClass": "footer_contenido-veta--mobile"
+    }
   },
   /*------------ col cuatro---------------------*/
   "flex-layout.col#cuatro": {
@@ -41,9 +52,15 @@
   },
   "flex-layout.col#footer_call-cel--mobile": {
     "children": ["rich-text#call-center"]
+    ,"props":{
+      "blockClass":"footer_call-cel--mobile"
+    }
   },
   "flex-layout.col#footer_contenido-call--mobile": {
     "children": ["flex-layout.col#contenido_call"]
+    ,"props":{
+      "blockClass":"footer_contenido-call--mobile"
+    }
   },
   "flex-layout.col#contenido_call":{
     "children":[
@@ -62,5 +79,8 @@
   },
   "flex-layout.col#footer_logo-call--mobile": {
     "children": ["image#easy_call--center"]
+    ,"props":{
+      "blockClass":"footer_logo-call--mobile"
+    }
   }
 }
