@@ -346,3 +346,68 @@
     line-height: 21px;
     color: #474747;
 }
+@media only screen and (max-width: 639px) {
+    .wrapper--text-footer-middle{
+       text-align: center;
+    }
+    .wrapper--footer_easy--title{
+        transform: translate(-1px, 10px);
+    }
+    .wrapper--footer_servicio--cliente{
+        transform: translate(88px, 1px);
+    }
+    .wrapper--footer_PQRs{
+        transform: translate(134px, 5px);
+    }
+    .wrapper--footer_registro--cliente{
+        transform: translate(25px, -9px);
+    }
+    .wrapper--footer_horarios-semana{
+        transform: translate(25px, -12px);
+    }
+    .wrapper--footer_horarios-finSemana{
+        transform: translate(31px, -13px);
+    }
+    .wrapper--footer_ciudad{
+        transform: translate(88px, -11px);
+    }
+    .wrapper--footer_email-clientes{
+        transform: translate(91px, -14px);
+    }
+    .wrapper--footer_cencosud{
+        transform: translate(-7px, -12px);
+    }
+    .wrapper--footer_avenida{
+        transform: translate(31px, -8px);
+    }
+    .wrapper--footer_correo-notificaciones{
+        transform: translate(9px, -24px);
+    }
+    .wrapper--footer_email-notification{
+        transform: translate(11px, -56px);
+    }
+    .paragraph--text_pagos--mobile{
+        transform: translate(13px,6px);
+    }
+  }
+/*estilos textos tablet*/
+@media only screen and (min-width: 640px) and (max-width: 1025px){
+    .paragraph--footer_horario-tel--finSemana{
+        transform: translate(-15px, 10px); 
+    }
+    .paragraph--footer_Bogota{
+        transform: translate(-87px, 10px);
+    }
+    .paragraph--footer_pais{
+        transform: translate(-56px, 10px);
+    }
+    .paragraph--footer_Medellin{
+        transform: translate(-78px, 10px);
+    }
+    .paragraph--footer_correo-notificaciones{
+        transform:translate(1px, -18px)
+    }
+    .paragraph--footer_email-notification{
+        transform: translate(3px, -58px);
+    }
+}
