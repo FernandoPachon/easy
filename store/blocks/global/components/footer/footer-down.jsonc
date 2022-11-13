@@ -20,7 +20,7 @@
       "blockClass": "footer_down-column--one",
       "preventVerticalStretch": true,
       "horizontalAlign": "left",
-      "width":"25%"
+      "width":"20%"
     }
   },
   "rich-text#contáctanos": {
@@ -49,7 +49,7 @@
       "blockClass": "footer_down-column--two",
       "preventVerticalStretch": true,
       "horizontalAlign": "left",
-      "width":"25%"
+      "width":"40%"
     }
   },
   "rich-text#call-center": {
