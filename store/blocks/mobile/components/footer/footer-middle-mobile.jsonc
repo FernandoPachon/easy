@@ -15,6 +15,7 @@
   },
   /*------------------ col uno ----------------------------*/
   "flex-layout.col#uno": {
+    "title":"contenedor#uno footer middle--mobile",
     "children": [
       "flex-layout.col#footer_logo--mobile",
       "flex-layout.col#footer_text-uno--mobile",
