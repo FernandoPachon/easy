@@ -20,3 +20,12 @@
 .styledLinkContent :global(.vtex-menu){
     font-size:55px;
 }
+@media only screen and (max-width: 639px){
+    .styledLinkContent{
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+}
