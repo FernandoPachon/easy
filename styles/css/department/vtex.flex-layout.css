@@ -245,11 +245,17 @@
   .flexCol--footer_text--easy{
     transform: translate(10px, -246px);
   }
+  .flexColChild--footer_contenido--easy{
+    transform: translate(93px, 10px);
+  }
   .flexCol--foot_col--politicas{
     transform: translate(-16px, 283px);
   }
   .flexCol--foot_contenido--pol-mobile{
     transform: translate(0px, 270px);
+  }
+  .flexColChild--foot_contenido--pol-mobile{
+    transform: translate(159px, 10px);
   }
   .flexCol--footer_contenido--easy{
     transform: translate(6px, -262px);
