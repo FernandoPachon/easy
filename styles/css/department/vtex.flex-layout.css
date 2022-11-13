@@ -98,7 +98,6 @@
 .flexRow--bloque_footer--down{
   background-color:#CFCFCF ;
   padding-top: 1%;
-  padding-left: 3%;
   display: flex;
 }
 .flexColChild--footer_down-column--one{
@@ -180,6 +179,13 @@
 }
 .flexRowContent--bloque_footer--down{
   width: 90rem;
+}
+/* footer down */
+.flexRowContent--bloque_footer--down{
+  width:100%;
+}
+.flexColChild--footer_down-column--one{
+  transform: translate(-146px, -4px);
 }
 /* footer mobile*/
 .flexRow--footer_middle--mobile{
