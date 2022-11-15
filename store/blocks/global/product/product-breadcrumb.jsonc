@@ -2,13 +2,18 @@
     "flex-layout.row#product_breadcrumb": {
         "title":"miga de pan de producto",
         "children":[
-          "flex-layout.col#product_breadcrumb"
-          
-        ]
+          "flex-layout.col#product_breadcrumb" 
+        ],
+        "props": {
+          "marginTop": 4
+        }
       },
       "flex-layout.col#product_breadcrumb":{
         "children":[
-          "breadcrumb"
-        ]
+          "breadcrumb.search"
+        ],
+        "props": {
+          "showOnMobile": true
+      }
       }
 }
