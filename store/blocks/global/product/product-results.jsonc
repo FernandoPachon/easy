@@ -60,7 +60,7 @@
     "children": ["order-by.v2"],
     "props": { 
         "blockClass": "search-orderBy" ,
-        "text":"Organizar por:",
+        "label":"Organizar por:",
         "horizontalAlign":"between"}
   },
   "flex-layout.row#results_products--desktop": {
