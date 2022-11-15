@@ -3,28 +3,84 @@
     "categories": [
       {
         "id": 1,
-        "name": "Categoría",
-        "href": "/category",
+        "name": "Electrodomesticos",
+        "href": "/electrodomesticos",
         "children": [
           {
-            "id": 2,
-            "name": "Mulher",
-            "href": "/category/mujer"
-          },
-          {
             "id": 3,
-            "name": "Homem",
-            "href": "/category/hombre"
+            "name": "Hierro",
+            "href": "/electrodomesticos/hierro",
+            "children": []
           },
           {
             "id": 4,
-            "name": "bebé",
-            "href": "/category/bebe"
+            "name": "Varillas",
+            "href": "/electrodomesticos/varillas",
+            "children": []
           },
           {
             "id": 5,
-            "name": "Criancas",
-            "href": "/category/ninos"
+            "name": "Ladrillos",
+            "href": "/electrodomesticos/ladrillos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Madera",
+        "href": "/madera",
+        "children": [
+          {
+            "id": 9,
+            "name": "Madera Maciza",
+            "href": "/madera/madera-maciza",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Queso",
+        "href": "/queso",
+        "children": [
+          {
+            "id": 2,
+            "name": "Cemento",
+            "href": "/queso/cemento",
+            "children": []
+          },
+          {
+            "id": 11,
+            "name": "Quesos Importados",
+            "href": "/queso/quesos-importados",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Mujer",
+        "href": "/mujer",
+        "children": [
+          {
+            "id": 13,
+            "name": "Zapatos",
+            "href": "/mujer/zapatos",
+            "children": []
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Notebook",
+        "href": "/notebook",
+        "children": [
+          {
+            "id": 15,
+            "name": "Notebook Tradicional",
+            "href": "/notebook/notebook-tradicional",
+            "children": []
           }
         ]
       }
