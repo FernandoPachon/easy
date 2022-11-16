@@ -1,7 +1,7 @@
 {
   "search-result-layout.mobile": {
-    "children": ["flex-layout.row#product_breadcrumb",
-    "flex-layout.row#product_results"],
+    "children": ["flex-layout.row#product_breadcrumb--mobile",
+    "flex-layout.row#product_results--mobile"],
     "props":{
       "pagination": "show-more",
       "preventRouteChange": false,

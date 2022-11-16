@@ -38,12 +38,12 @@
     }
   },
   "flex-layout.row#search_bar-mobile": {
-    "children": ["search-bar"],
+    "children": ["search-bar#mobile"],
     "props": {
       "blockClass": "flex_search-bar-mobile"
     }
   },
-  "search-bar":{
+  "search-bar#mobile":{
     "props":{
       "blockClass": "search-bar-mobile",
       "maxWidth":180

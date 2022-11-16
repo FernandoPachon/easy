@@ -1,18 +1,4 @@
 {
-  "image#home-d--image": {
-    "title": "Imagen de Home",
-    "props": {
-      "src": "assets/img/logo-easy.jpg",
-      "maxWidth": 100,
-      "title": "Tiendas ",
-      "blocksClass": "Tiendas_image",
-      "link": {
-        "url": "https://www.easy.com.co",
-        "newTab": true,
-        "atributeNoFollow": true
-      }
-    }
-  },
   "image#pintura-t--one": {
     "title": "",
     "props": {
