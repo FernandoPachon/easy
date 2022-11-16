@@ -1,5 +1,5 @@
 {
-    "icon-cart#cart-icon":{
+    "icon-cart#cart-icon-mobile":{
         "props":{
             "id":"hpa-cart",
             "size":40,
@@ -9,7 +9,7 @@
     },
     "minicart.v2":{
       "props": {
-        "MinicartIcon":"icon-cart#cart-icon",
+        "MinicartIcon":"icon-cart#cart-icon-mobile",
         "itemCountMode":"total",
         "quantityDisplay":"always"
       }
