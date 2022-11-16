@@ -3,10 +3,13 @@
     "children": [
       "flex-layout.row#product_breadcrumb",
       "flex-layout.row#product_info",
-      "flex-layout.row#product_tabs"
+      "flex-layout.row#product_tabs",
+      "shelf.relatedProducts"
     ]
   },
-  
+  "shelf.relatedProducts":{
+    "blocks":["product-summary.shelf"]
+  },
   "flex-layout.row#product_tabs": {
     "title":"Información adicional",
     "children":[
