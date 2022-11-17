@@ -10,6 +10,17 @@
   "shelf.relatedProducts":{
     "blocks":["product-summary.shelf"]
   },
+  "flex-layout.row#banner--temp":{
+    "children":[
+      "image#banner--temp"
+    ]
+  },
+  "image#banner--temp":{
+    "props":{
+      "blockClass":"banner--temp-img",
+      "src":"assets/img/guia-experto.png"
+    }
+  },
   "flex-layout.row#product_tabs": {
     "title":"Información adicional",
     "children":[

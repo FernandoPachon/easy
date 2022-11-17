@@ -1,11 +1,84 @@
 {
   "search-result-layout.mobile": {
-    "children": ["flex-layout.row#product_breadcrumb--mobile",
-    "flex-layout.row#product_results--mobile"],
-    "props":{
+    "children": [
+      "flex-layout.row#search_infor--mobile",
+      "flex-layout.row#product_breadcrumb",
+      "flex-layout.row#contenido-mobile"
+    ],
+    "props": {
       "pagination": "show-more",
-      "preventRouteChange": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
       "defaultGalleryLayout": "grid"
     }
-  }
+  },
+  /*    contenido mobile     */
+  "flex-layout.row#contenido-mobile": {
+    "children": ["search-content"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "search-cont--mobile"
+    }
+  },
+  "search-content":{
+    "blocks":[
+      "gallery#product-mobile",              // "gallery#product-mobile
+      "not-found"
+    ]
+  },
+  /*     información del mobile */
+  "flex-layout.row#search_infor--mobile": {
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile",
+      "flex-layout.col#switcherMobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "colJustify": "around"
+    }
+  },
+  "flex-layout.col#orderByMobile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "blockClass": "orderByMobileCol"
+    }
+  },
+  "flex-layout.col#filterMobile": {
+    "children": ["filter-navigator.v3"],
+    "props": {
+      "blockClass": "filterMobileCol"
+    }
+  },
+  "flex-layout.col#switcherMobile": {
+    "children": ["gallery-layout-switcher"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "gallery-layout-switcher": {
+    "children": [
+        "gallery-layout-option#grid",
+        "gallery-layout-option#list"
+    ]
+},
+"gallery-layout-option#grid": {
+  "props": {
+      "name": "grid"
+  },
+  "children": [
+      "icon-grid"
+  ]
+},
+"gallery-layout-option#list": {
+  "props": {
+      "name": "list"
+  },
+  "children": [
+      "icon-inline-grid"
+  ]
+}
 }
