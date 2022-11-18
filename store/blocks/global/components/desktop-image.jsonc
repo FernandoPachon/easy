@@ -72,7 +72,7 @@
   "image#lunes-d--one": {
     "props": {
       "src": "assets/img/cyber-1.jpg",
-      "maxWidth":400,
+      "width":"100",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -85,7 +85,7 @@
   "image#lunes-d--two": {
     "props": {
       "src": "assets/img/cyber-2.jpg",
-      "maxWidth": 400,
+      "width":"100",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -98,7 +98,7 @@
   "image#lunes-d--three": {
     "props": {
       "src": "assets/img/cyber-3.jpg",
-      "maxWidth": 1200,
+      "width":"100",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {

@@ -21,7 +21,8 @@
       "MinicartIcon": "icon-cart#cart-icon",
       "variation":"popup",
       "itemCountMode": "total",
-      "quantityDisplay": "always"
+      "quantityDisplay": "always",
+      "linkVariationUrl":"https://fernandopachon--itgloberspartnercl.myvtex.com/compra"
     },
     "children": ["minicart-base-content"]
   },
@@ -53,7 +54,8 @@
   },
   "minicart-product-list":{
     "blocks":[
-      "product-list#minicart"
+      "product-list#minicart",
+      "product-list#checkout"
     ]
   },
   "product-list#minicart":{
