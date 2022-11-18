@@ -31,3 +31,9 @@
 .minicartContainer--minicart-custom :global(.vtex-button){
   background-color: transparent !important;
 }
+.minicartProductListContainer{
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  transform: translate(196px, 10px);
+}

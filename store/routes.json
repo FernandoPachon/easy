@@ -2,7 +2,7 @@
     "store.custom#home-test": {
     "path": "/home-test"
   },
-  "store.custom#about-us":{
-    "path":"/sobre-nosotros"
+  "store.custom#checkout":{
+    "path":"/compra"
   }
 }
