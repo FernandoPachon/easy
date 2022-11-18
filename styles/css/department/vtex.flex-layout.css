@@ -3,6 +3,7 @@
   display: flex;
   margin-left: 1px;
   margin-right: 1px;
+  padding-right: 1rem;
 }
 /* estilos flex-layout*/
 .flexColChild--contenido-del-home-col{
@@ -19,7 +20,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
- 
 }
 .flexColChild--layout_col--cyberlunes{
   display: flex;
@@ -355,6 +355,7 @@
     transform: translate(10px, -50px);
   }
 }
+
 /* estilos globales del footer mobile*/
   .flexCol--foot_col--logo{
     display: flex;
@@ -432,4 +433,12 @@
   .flexRowContent--result_Search{
     height: 6rem;
     z-index: 2;
+  }
+  .flexRowContent--footer_minicart{
+    width: 70%;
+    margin-left: 12rem;
+    margin-top: 1rem;
+  }
+  .flexRow--row_top-info--minicart{
+    border-bottom: 1px solid #CFCFCF;
   }

@@ -56,6 +56,14 @@
     height: 17px;
     transform: translate(-58px, 40px);
 }
+.imageElement{
+    width: 100%;
+    height: auto;
+}
+.imageElementLink{
+    width: 100%;
+    height: auto;
+}
 @media screen and (max-width:420px) {
     .logoImage{
         height:100%;
