@@ -36,3 +36,13 @@
 .triggerContainer--bloque-login{
     transform: translate(-42px, 10px);
 }
+.headerStickyRow--header_down{
+    display: flex;
+    height: auto;
+}
+
+.headerRow--header_down{
+    display: flex;
+    height: auto;
+    width: 100%;
+}

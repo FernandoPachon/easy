@@ -49,9 +49,9 @@
   },
       "tab-list.item#tabs_list--product-specification":{
         "props":{
-          "tabId":"product-specification",
-      "label":"Especificaciones de producto",
-      "defaultActiveTab":false
+          "tabId":"product-specifications", 
+          "label":"Especificaciones de producto",
+          "defaultActiveTab":false
         }
       },
       "tab-list.item#tabs_list--questions":{
@@ -79,9 +79,21 @@
       },
       "tab-content.item#tabs_content--product-specification":{
         "props":{
-          "tabId":"product-specification"
+          "tabId":"product-specifications"
         },
-        "children":[]
+        "children":["flex-layout.row#specification"]
+      },
+      "flex-layout.row#specification":{
+        "children":["flex-layout.col#specification"]
+      },
+      "flex-layout.col#specification":{
+        "children":["product-specifications"]
+      },
+      "product-specifications": {
+        "props": {
+          "shoudCollapseOnTabChange": true,
+          "collapsible": "desktopOnly"
+        }
       },
       "tab-content.item#tabs_content--questions":{
         "props":{
