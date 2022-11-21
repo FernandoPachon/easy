@@ -18,7 +18,9 @@
           }
         },
         "flex-layout.row#mega-menu": {
-          "children": ["mega-menu#desktop"]
+          "children": [
+            "mega-menu#desktop"
+          ]
         },
         "mega-menu#desktop": {
           "props": {

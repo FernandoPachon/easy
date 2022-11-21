@@ -1,66 +1,79 @@
 /* estilo caja contenido del home*/
 .flexRow--contenido-del-home-row{
-  display: flex;
-  margin-left: 1px;
-  margin-right: 1px;
-  padding-right: 1rem;
+
 }
 /* estilos flex-layout*/
 .flexColChild--contenido-del-home-col{
-  display: flex;
-  flex: content;
-  align-items: center;
-  justify-content: center;
+ 
 }
 .flexRowContent{
   display:flexbox;
 } 
 /*sección cyberlunes*/
-.flexCol--layout_col--cyberlunes{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.flexColChild--layout_col--cyberlunes{
-  display: flex;
-  height: 1rem;
-  padding-bottom: 0rem;
-}
+
 /* estilos barra mene | categorías*/
-.flexCol--catalogo_bloque{
-  width: 6rem;
+.flexRow--barra-menu--s1{
+  display: flex;
+  width: 100%;
+  margin: auto;
+}
+.flexRow--barra-menu--s2{
+width: 100%;
+display: flex;
+flex-wrap: nowrap;
+}
+.flexCol--catalogo_bloque{ 
+  display: flex;
+    height: auto;
+    width: 100%;
 }
 .flexColChild--catalogo_bloque{
-  width: 7rem;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 .flexColChild--ventas_bloque{
-  width: 11rem;
+  display: flex;
+    height: auto;
+    width: 100%;
 }
 .flexColChild--ayuda_bloque{
-  width: 10.5rem;
+  display: flex;
+    height: auto;
+    width: 100%;
 }
 .flexColChild--asistencia_bloque{
-  width: 10rem;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 .flexColChild--tiendas_bloque{
-  width: 7rem;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 .flexColChild--mundo_bloque{
-  width: 10rem;
+  display: flex;
+  height: auto;
+  width: 100%;
 }
 .flexColChild--venta_bloque{
-  width: 10rem;
+  display: flex;
+    height: auto;
+    width: 100%;
 }
 .flexColChild--blog_bloque{
-  width: 5rem;
+  display: flex;
+    height: auto;
+    width: 100%;
 }
 .flexRow--layout-mega-menu{
   display: flex;
   align-items: center;
-  width: 15rem;
+  width:10%;
   height: 3rem;
   background-color: white;
-  margin-left: 2rem;
+
 }
 /* contenedor search bar*/
 .flexRowContent--flex_search-bar{
@@ -441,4 +454,7 @@
   }
   .flexRow--row_top-info--minicart{
     border-bottom: 1px solid #CFCFCF;
+  }
+  .flexColChild--bloque_remove{
+    transform: translate(28px, 0px);
   }

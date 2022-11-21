@@ -1,13 +1,13 @@
 {
-        "flex-layout.row#mobile_section--cyberlunes":{
+        "flex-layout.row#mobile_section--cyberlunes-m":{
           "title":"Sección Cyberlunes",
           "children": [
             "flex-layout.col#section--one--lunes-m",
-            "flex-layout.col#section--two--lunes-m"
-            //"flex-layout.col#section--three--lunes-m"
+            "flex-layout.col#section--two--lunes-m",
+            "flex-layout.col#section--three--lunes-m"
           ],
           "props":{
-            "blocksClass":"section_pinturas",
+            "blocksClass":"section_one--home-m",
             "colSizing":"auto",
             "colJustify": "around",
             "horizontalAlign":"center",
@@ -17,7 +17,6 @@
         "flex-layout.col#section--one--lunes-m":{
           "children":[
             "image#lunes-m--one"
-          
           ],
           "props":{
             "blocksClass":"section_one--lunes-m"

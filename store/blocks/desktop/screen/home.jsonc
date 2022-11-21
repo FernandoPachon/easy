@@ -1,5 +1,6 @@
 {
   "responsive-layout.desktop": {
+    "title":"Contenido-global--desktop",
     "children": [
       "slider-layout#desktop_slider--children",
       "flex-layout.row#contenido_home"
