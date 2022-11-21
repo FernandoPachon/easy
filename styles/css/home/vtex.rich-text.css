@@ -1,11 +1,18 @@
+.image{
+    width: 30%;
+}
 .paragraph--section_one--title {
     color: white;
 }
+.container--texto-cyberlunes{
+   
+}
 .wrapper--texto-cyberlunes{
-    padding-right: 55rem;
+   
+   
 }
 .paragraph--texto-cyberlunes{
-   display: flex;
+    margin-left: 2rem;
     font-weight: bold;
     font-size: 25px;
 }
@@ -419,4 +426,25 @@
     bottom: 106px;
     left: 102px;
    } */
+
 }
+.wrapper--carrito_checkout{
+    transform: translate(358px, 10px);
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 33px;
+    color:#444747 ;
+   }
+   .wrapper--carrito_checkout{
+    transform: translate(358px, 10px);
+   }
+   .paragraph--carrito_checkout{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 33px;
+    color:#444747 ;
+   }
