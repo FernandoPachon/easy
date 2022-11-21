@@ -86,10 +86,16 @@
     }
   },
   "flex-layout.row#barra-menu": {
-    "children": ["flex-layout.col#sections-menu"]
+    "children": ["flex-layout.col#sections-menu"],
+    "props":{
+      "blockClass":"barra-menu--s1"
+    }
   },
   "flex-layout.col#sections-menu": {
-    "children": ["flex-layout.row#barra_menu-d"]
+    "children": ["flex-layout.row#barra_menu-d"],
+    "props":{
+      "blockClass":"barra-menu--s2"
+    }
   },
   "flex-layout.row#barra_menu-d": {
     "children": [

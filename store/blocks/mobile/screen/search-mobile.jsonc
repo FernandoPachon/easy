@@ -22,12 +22,6 @@
       "blockClass": "search-cont--mobile"
     }
   },
-  "search-content":{
-    "blocks":[
-      "gallery#product-mobile",              // "gallery#product-mobile
-      "not-found"
-    ]
-  },
   /*     información del mobile */
   "flex-layout.row#search_infor--mobile": {
     "children": [
