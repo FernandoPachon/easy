@@ -2,7 +2,6 @@
   "store.home": {
     "title":"Home",
     "blocks": [
-     
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "responsive-layout.phone",
@@ -17,8 +16,70 @@
       "logo":"assets/img/whatsapp-logo.svg",
       "phone":"15551234567",
       "message":"Easy whatsapp",
-      "width":100,
-      "height":100 
+      "width":50,
+      "height":50 
+    }
+  } ,
+     "list-context.bullet-group": {
+    "props":{
+        "bullets":[
+         { 
+          "image": "assets/img/logo-bretas-400.jpg",
+          "titleBullet":"logo-bretas",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-easy-400.png",
+          "titleBullet":"logo-easy",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-jumbo-400.png",
+          "titleBullet":"logo-jumbo",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-mercantil-400.jpg",
+          "titleBullet":"logo-mercantil",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-metro-400.jpg",
+          "titleBullet":"logo-metro",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-paris-400.png",
+          "titleBullet":"logo-paris",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-santa-400.png",
+          "titleBullet":"logo-santa",
+          "link":{
+            "url":"/"
+          }
+        },
+         { 
+          "image": "assets/img/logo-wong-400.png",
+          "titleBullet":"logo-wong",
+          "link":{
+            "url":"/"
+          }
+        }
+        ]
     }
   } 
 }

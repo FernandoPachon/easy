@@ -1,33 +1,32 @@
 {
-   "flex-layout.row#contenido_home":{
-      "children":[
-          "flex-layout.col#contenido_home"
-      ],
-      "props":{
-          "blockClass":"contenido-desktop-row"
-      }
+  "flex-layout.row#contenido_home": {
+    "children": ["flex-layout.col#contenido_home"],
+    "props": {
+      "blockClass": "contenido-desktop-row"
+    }
   },
-  "flex-layout.col#contenido_home":{
-      "children":[
-        "rich-text#desktop_cyberlunes",
-        "flex-layout.row#desktop_section--cyberlunes",
-          "rich-text#desktop_cyberlunes-hogar",
-          "flex-layout.row#desktop_section--cyberlunesHogarHogar",
-          "rich-text#desktop_nuevo-look",
-          "flex-layout.row#desktop_section--cyberNuevo-lookHogar",
-          "rich-text#desktop_colores",
-          "flex-layout.row#desktop_section--vinilos",
-          "rich-text#desktop_pinturas",
-          "flex-layout.row#desktop_section--pinturas",
-          "rich-text#desktop_baños",
-          "flex-layout.row#desktop_section--baños",
-          "rich-text#construcción_easy-t",
-          "flex-layout.row#home_section--construcción",
-          "rich-text#desktop_hogar" ,
-          "flex-layout.row#home_section--descubre-mas-t"
-      ],
-      "props":{
-          "blockClass":"contenido-desktop-col"
+  "flex-layout.col#contenido_home": {
+    "children": [
+      "list-context.bullet-group",
+      "rich-text#desktop_cyberlunes",
+      "flex-layout.row#desktop_section--cyberlunes",
+      "rich-text#desktop_cyberlunes-hogar",
+      "flex-layout.row#desktop_section--cyberlunesHogarHogar",
+      "rich-text#desktop_nuevo-look",
+      "flex-layout.row#desktop_section--cyberNuevo-lookHogar",
+      "rich-text#desktop_colores",
+      "flex-layout.row#desktop_section--vinilos",
+      "rich-text#desktop_pinturas",
+      "flex-layout.row#desktop_section--pinturas",
+      "rich-text#desktop_baños",
+      "flex-layout.row#desktop_section--baños",
+      "rich-text#construcción_easy-t",
+      "flex-layout.row#home_section--construcción-d",
+      "rich-text#desktop_hogar",
+      "flex-layout.row#home_section--descubre-mas"
+    ],
+    "props": {
+      "blockClass": "contenido-desktop-col"
+    }
   }
-}
 }
