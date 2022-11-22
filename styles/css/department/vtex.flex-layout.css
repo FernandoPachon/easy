@@ -2,6 +2,10 @@
 .flexRow--contenido-del-home-row{
 
 }
+.flexColChild--contenido-desktop-col{
+  margin-left: 5rem;
+  
+}
 /* estilos flex-layout*/
 .flexColChild--contenido-del-home-col{
  
@@ -16,6 +20,7 @@
   display: flex;
   width: 100%;
   margin: auto;
+  overflow: scroll;
 }
 .flexRow--barra-menu--s2{
 width: 100%;
@@ -457,4 +462,7 @@ flex-wrap: nowrap;
   }
   .flexColChild--bloque_remove{
     transform: translate(28px, 0px);
+  }
+  .flexColChild--search--gallery{
+    display: none;
   }
