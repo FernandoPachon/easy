@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#section_global--bullet": {
+    "children": ["flex-layout.col#section_bullet"]
+  },
+  "flex-layout.col#section_bullet": {
+    "children": [
+      "flex-layout.row#section_one--bullet",
+      "flex-layout.col#section_two--bullet"
+    ]
+  },
+  "flex-layout.row#section_one--bullet": {
+    "children":[
+        "rich-text#title_section--bullet"
+    ],
+    "props":{
+        "blockClass":"row_rich-tex--bullet"
+    }
+  },
+  "flex-layout.col#section_two--bullet": {
+    "children":[
+        "list-context.bullet-group"
+    ]
+  },
+  "rich-text#title_section--bullet":{
+    "props":{
+        "blockClass":"Rich_text--bullet",
+        "text":"Nuestras Tiendas Cencosud"
+    }
+  }
+
+}

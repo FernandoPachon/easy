@@ -7,7 +7,7 @@
          
         ],
         "props":{
-          "blockClass":"construcción_section--one",
+          "blockClass":"construccion_row",
           "colSizing":"auto",
           "colJustify": "around",
           "horizontalAlign":"center",
@@ -21,16 +21,16 @@
           "image#construcción--one"
         ],
         "props":{
-          "blockClass":"section_one--construcción"
+          "blockClass":"col_one--const"
         }
       },
       "flex-layout.col#section--two--construcción": {
-        "title": "sección summary",
         "children": [
           "list-context.product-list#product_summary"
         ],
         "props": {
-          "width": "100%"
+          "width": "100%",
+          "blockClass":"col_two--const"
         }
       },
     

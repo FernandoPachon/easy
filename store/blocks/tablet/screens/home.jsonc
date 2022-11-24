@@ -2,7 +2,8 @@
     "responsive-layout.tablet":{
         "children":[  
          "slider-layout#desktop_slider--children",
-         "flex-layout.row#contenido_home--tablet"
+         "flex-layout.row#contenido_home--tablet",
+         "flex-layout.row#section_global--bullet"
        ]
        }
 }
