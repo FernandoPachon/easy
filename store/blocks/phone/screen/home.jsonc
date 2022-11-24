@@ -16,7 +16,8 @@
       "flex-layout.row#phone_section--baños",
       "flex-layout.row#home_section--construcción-phone",
       "rich-text#phone_hogar",
-      "flex-layout.row#home_section--descubre-mas-p"
+      "flex-layout.row#home_section--descubre-mas-p",
+      "flex-layout.row#section_global--bullet"
     ]
   }
   

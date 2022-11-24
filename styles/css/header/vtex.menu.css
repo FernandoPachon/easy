@@ -33,3 +33,53 @@
     display: flex;
     
 }
+.styledLinkContainer--item-catalogo/*estilos barra de menu*/
+.styledLinkContent:hover{
+    color:red;
+}
+.styledLinkContent{
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    align-items: center;
+}
+.stretchChildrenWidth{
+   width: 7%;
+}
+.menuContainerNav{
+    position: relative;
+    width: 7%;
+    /* border-left-style:solid; */
+}
+.styledLinkContent :global(.vtex-menu){
+    font-size:55px;
+}
+@media only screen and (max-width: 639px){
+    .styledLinkContent{
+        text-align: center;
+        align-self: center;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen  and (min-width: 1535px) and (max-width: 1800px){
+    .styledLinkContainer--item-catalogo{
+        margin: 0%;
+    }
+}
+@media only screen  and (min-width: 1235px) and (max-width: 1534px){
+    .styledLinkContainer--item-catalogo{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   
+}
+.flex-row{
+    display: flex;
+}
+.menuItem--isClosed{
+    display: inline-block;
+}

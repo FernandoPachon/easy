@@ -238,7 +238,7 @@
   "image#construcción--one":{
     "props": {
       "src": "assets/img/construccion.png",
-      "maxWidth": 300,
+      "maxWidth": 700,
       "height":525,
       "title": "descubre",
       "blocksClass": "descubre_image",

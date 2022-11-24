@@ -1,89 +1,88 @@
 {
-     "flex-layout.row#product_info": {
-        "title":"información general de PDP",
-        "children":[
-          "flex-layout.col#product_info--image",
-          "flex-layout.col#product_info--data"
-        ],
-        "props": {
-          "colGap": 7,
-          "rowGap": 7,
-          "marginTop": 4,
-          "marginBottom": 7,
-          "paddingTop": 7,
-          "paddingBottom": 7,
-          "blockClass":"block_pdp"
-        }
-      },
-      "flex-layout.col#product_info--image":{
-        "title":"Imágenes de producto",
-        "children":[
-            "product-images"
-        ],
-        "props": {
-          "width": "60%",
-          "rowGap": 0
-        }
-      },
-      "product-images": {
-        "props": {
-          "displayThumbnailsArrows": true
-        }
-      },
-          "flex-layout.col#product_info--data":{
-            "title":"Data de producto",
-            "children":[
-                "vtex.store-components:product-name",
-                "product-price",
-                "product-quantity",
-                "rich-text#product_promo-info",
-                "flex-layout.row#buy-button",
-                "share#default"
-            ],
-            "props": {
-              "preventVerticalStretch": true,
-              "rowGap": 0,
-              "blockClass":"block_info-data"
-            }
-          },
-          "rich-text#product_promo-info":{
-            "title":"Texto adicional de producto",
-            "props":{
-                "text":" "
-            }
-          },
-          "product-quantity":{
-            "props":{
-              "blockClass":"quantity_pdp"
-            }
-          },
-          "product-price":{
-            "props": {
-              "showInstallments": true,
-              "showSavings": true
-            }
-          },
-          "flex-layout.row#buy-button":{
-            "props": {
-              "marginTop": 4,
-              "marginBottom": 7,
-              "blockClass":"buy-botton"
-            },
-            "children": ["buy-button"]
-          },
-          "buy-button":{
-            "props":{
-              "blockClass":"buy-button"
-            }
-          },
-          "share#default":{
-            "props": {
-              "social": {
-                "Facebook": true,
-                "WhatsApp": true,
-                "Twitter": false,
-                "Pinterest": true
-              }
-            }
-          } 
+  "flex-layout.row#product_info": {
+    "title": "información general de PDP",
+    "children": [
+      "flex-layout.col#product_info--image",
+      "flex-layout.col#product_info--data"
+    ],
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "block_pdp"
+    }
+  },
+  "flex-layout.col#product_info--image": {
+    "title": "Imágenes de producto",
+    "children": ["product-images"],
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    }
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#product_info--data": {
+    "title": "Data de producto",
+    "children": [
+      "vtex.store-components:product-name",
+      "product-price",
+      "product-quantity",
+      "rich-text#product_promo-info",
+      "flex-layout.row#buy-button",
+      "modal-trigger#add-to-cart-info",
+      "share#default"
+    ],
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "block_info-data"
+    }
+  },
+  "rich-text#product_promo-info": {
+    "title": "Texto adicional de producto",
+    "props": {
+      "text": " "
+    }
+  },
+  "product-quantity": {
+    "props": {
+      "blockClass": "quantity_pdp"
+    }
+  },
+  "product-price": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 7,
+      "blockClass": "buy-botton"
+    },
+    "children": ["buy-button"]
+  },
+  "buy-button": {
+    "props": {
+      "blockClass": "buy-button"
+    }
+  },
+  "share#default": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
 }
