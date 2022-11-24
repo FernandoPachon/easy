@@ -27,62 +27,6 @@
     "props": {
       "displayThumbnailsArrows": true
     }
-  },
-  "flex-layout.col#product_info--data": {
-    "title": "Data de producto",
-    "children": [
-      "vtex.store-components:product-name",
-      "product-price",
-      "product-quantity",
-      "rich-text#product_promo-info",
-      "flex-layout.row#buy-button",
-      "modal-trigger#add-to-cart-info",
-      "share#default"
-    ],
-    "props": {
-      "preventVerticalStretch": true,
-      "rowGap": 0,
-      "blockClass": "block_info-data"
-    }
-  },
-  "rich-text#product_promo-info": {
-    "title": "Texto adicional de producto",
-    "props": {
-      "text": " "
-    }
-  },
-  "product-quantity": {
-    "props": {
-      "blockClass": "quantity_pdp"
-    }
-  },
-  "product-price": {
-    "props": {
-      "showInstallments": true,
-      "showSavings": true
-    }
-  },
-  "flex-layout.row#buy-button": {
-    "props": {
-      "marginTop": 4,
-      "marginBottom": 7,
-      "blockClass": "buy-botton"
-    },
-    "children": ["buy-button"]
-  },
-  "buy-button": {
-    "props": {
-      "blockClass": "buy-button"
-    }
-  },
-  "share#default": {
-    "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
-    }
   }
+  
 }
