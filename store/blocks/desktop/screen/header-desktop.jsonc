@@ -65,6 +65,7 @@
       "header-border",
       "logo#header_top-d--logo",
       "flex-layout.row#search_bar",
+      //"department-search",
       "header-spacer",
       "modal-trigger#header_top-d--login",
       "minicart.v2#custom",
