@@ -1,0 +1,11 @@
+{
+    "whatsapp-button":{
+        "props":{
+          "logo":"assets/img/whatsapp-logo.svg",
+          "phone":"15551234567",
+          "message":"Easy whatsapp",
+          "width":50,
+          "height":50 
+        }
+      } 
+}

@@ -2,13 +2,23 @@
 .flexRow--contenido-del-home-row{
 
 }
+.flexCol--contenido-desktop-col{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 .flexColChild--contenido-desktop-col{
-  margin-left: 5rem;
+  
   
 }
 /* estilos flex-layout*/
 .flexColChild--contenido-del-home-col{
  
+}
+.flexCol--col_one--const{
+  margin-left: 2rem;
+}
+.flexCol--col_two--const{
+  width: 80%;
 }
 .flexRowContent{
   display:flexbox;
@@ -17,10 +27,10 @@
 
 /* estilos barra mene | categorías*/
 .flexRow--barra-menu--s1{
-  display: flex;
-  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
   margin: auto;
-  overflow: scroll;
+
 }
 .flexRow--barra-menu--s2{
 width: 100%;

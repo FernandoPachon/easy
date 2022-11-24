@@ -1,0 +1,84 @@
+{
+  "list-context.bullet-group": {
+    "title": "Lista de bullets",
+    "children": ["slider-layout#bullet-group"],
+    "props": {
+      "blockClass": "slider_custom--bullet",
+      "bullets": [
+        {
+          "image": "assets/img/logo-bretas-400.jpg",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-easy-400.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-jumbo-400.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-mercantil-400.jpg",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-metro-400.jpg",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-paris-400.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-santa-400.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        },
+        {
+          "image": "assets/img/logo-wong-400.png",
+          "titleBullet": "",
+          "link": {
+            "url": "/"
+          }
+        }
+      ]
+    }
+  },
+  "slider-layout#bullet-group": {
+    "props": {
+      "inifinite": true,
+      "showPaginationDots": "never",
+      "blockClass": "slider_custom--bullet-group",
+      "itemPerPage": {
+        "desktop": "4",
+        "tablet": "4",
+        "mobile": "3"
+      },
+      "autoplay": {
+        "timeout": 3000,
+        "stopOnHover": true
+      },
+      "arrowSize": 40
+    }
+  }
+}

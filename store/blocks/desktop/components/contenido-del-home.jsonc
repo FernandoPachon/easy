@@ -7,7 +7,6 @@
   },
   "flex-layout.col#contenido_home": {
     "children": [
-      "list-context.bullet-group",
       "rich-text#desktop_cyberlunes",
       "flex-layout.row#desktop_section--cyberlunes",
       "rich-text#desktop_cyberlunes-hogar",

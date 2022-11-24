@@ -105,3 +105,17 @@
     height: 52px;
     width: 52px;
 }
+.slideChildrenContainer--slider_custom--bullet-group{
+    width: 90px;
+}
+.sliderLayoutContainer--slider_custom--bullet-group{
+    margin-left: 16rem;
+    margin-right: 2rem;
+    width: 80%;
+}
+.caretIcon--slider_custom--bullet-group{
+    background:transparent;
+    background-color:transparent;
+    color:transparent;
+    overflow: hidden;
+}
