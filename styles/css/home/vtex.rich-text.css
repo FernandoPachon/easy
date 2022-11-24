@@ -4,15 +4,7 @@
 .paragraph--section_one--title {
     color: white;
 }
-.container--texto-cyberlunes{
-   
-}
-.wrapper--texto-cyberlunes{
-   
-   
-}
 .paragraph--texto-cyberlunes{
-    margin-left: 2rem;
     font-weight: bold;
     font-size: 25px;
 }
@@ -448,3 +440,25 @@
     line-height: 33px;
     color:#444747 ;
    }
+   .container--Rich_text--bullet{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+   }
+   .paragraph--Rich_text--bullet{
+    margin:-10px 0;
+    font-family:sans-serif;
+    font-size: 25px;
+    color: #3f3f40;
+    font-weight: bold;
+    line-height: 38px;
+   }
+@media only screen and (min-width: 640px) and(max-width: 1300px) {
+    .container--texto-cyberlunes{
+     margin-left:8%
+  }
+  .container--texto-hogar{
+      margin-left:8%
+  }
+}

@@ -2,7 +2,6 @@
   "store.home": {
     "title":"Home",
     "blocks": [
-     
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "responsive-layout.phone",
@@ -11,14 +10,5 @@
     "children":[
       "whatsapp-button"
     ]
-  },
-  "whatsapp-button":{
-    "props":{
-      "logo":"assets/img/whatsapp-logo.svg",
-      "phone":"15551234567",
-      "message":"Easy whatsapp",
-      "width":100,
-      "height":100 
-    }
   } 
 }
