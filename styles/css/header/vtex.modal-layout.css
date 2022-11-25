@@ -2,3 +2,9 @@
     width: 7rem;
     transform: translate(46px, 2px);
 }
+.paperScrollContent{
+    border: 1px solid rgb(155, 54, 54);
+}
+.headerContainer{
+    display: none;
+}

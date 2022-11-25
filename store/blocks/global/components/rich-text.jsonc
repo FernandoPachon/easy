@@ -1,4 +1,14 @@
 {
+  "rich-text#desktop_cyberlunes":{
+    "title":"Titulo # 1",
+    "props":{
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "No te pierdas el Cyberlunes",
+        "textColor": "black",
+        "blockClass": "texto-cyberlunes"
+    }
+},
     "rich-text#desktop_pinturas":{
         "props": {
             "textAlignment": "LEFT",
@@ -18,15 +28,6 @@
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-vinilos"
           }
-    },
-    "rich-text#desktop_cyberlunes":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "No te pierdas el Cyberlunes",
-            "textColor": "black",
-            "blockClass": "texto-cyberlunes"
-        }
     },
     "rich-text#desktop_cyberlunes-hogar":{
         "props":{
