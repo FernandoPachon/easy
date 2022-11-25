@@ -3,6 +3,7 @@
     "title": "Header Desktop",
     "children": ["header-row#header_top", "header-row#header_middle","header-row#header_down"]
   },
+  /*    Header Top       */
   "header-row#header_top": {
     "title": "Header superior",
     "children": [
@@ -17,6 +18,23 @@
       "src": "assets/img/venta-telefonica-desk.jpg",
       "blockClass": "logo__venta--tel"
   }
+  },
+  /*     Header Middle    */
+  "header-row#header_middle": {
+    "title": "Header medio",
+    "children": [
+      "header-border",
+      "logo#header_top-d--logo",
+      "flex-layout.row#search_bar",
+     // "department-search",
+      "header-spacer",
+      "modal-trigger#header_top-d--login",
+      "minicart.v2#custom",
+      "header-border"
+    ],
+    "props": {
+      "blockClass": "header_middle"
+    }
   },
   "logo#header_top-d--logo": {
     "title": "logo",
@@ -59,34 +77,63 @@
   "modal-layout#header_top-d--login": {
     "children": ["login-content"]
   },
-  "header-row#header_middle": {
-    "title": "Header medio",
-    "children": [
-      "header-border",
-      "logo#header_top-d--logo",
-      "flex-layout.row#search_bar",
-      //"department-search",
-      "header-spacer",
-      "modal-trigger#header_top-d--login",
-      "minicart.v2#custom",
-      "header-border"
-    ],
-    "props": {
-      "blockClass": "header_middle"
-    }
-  },
+  /*     Header down       */
   "header-row#header_down":{
     "title":"Header bajo",
     "children":[
       "flex-layout.row#mega_menu--desktop",
       "flex-layout.row#mega-menu",
       "flex-layout.row#barra-menu"
+      //"flex-layout.row#prueva"
+       //"menu#header_menu" 
     ],
     "props":{
-      "blockClass":"header_down"
+      "blockClass":"header_down",
+      "width":"100%"
     }
   },
-  "flex-layout.row#barra-menu": {
+  /* "flex-layout.row#prueva":{
+    "children": 
+    [
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva",
+      "rich-text#prueva"
+    ],
+    "props":{
+      "colGap":10
+    }
+  }, */
+  "rich-text#prueva":{
+    "props":{
+      "text":"prueva"
+    }
+  },
+ /*  "menu#header_menu":{
+    "children":[
+      "flex-layout.row#mega_menu--desktop",
+      "flex-layout.row#mega-menu",
+      "menu-item#catálogo",
+      "menu-item#ventasTel",
+      "menu-item#centroAyuda",
+      "menu-item#asistenciaWeb",
+      "menu-item#tiendas",
+      "menu-item#ventaEmpresa",
+      "menu-item#MundoExperto",
+      "menu-item#Blog",
+      "menu-item#Servicios"
+    ],
+    "props":{
+      "blockClass":"header_menu"
+    }
+    
+  }, */
+   "flex-layout.row#barra-menu": {
     "children": ["flex-layout.col#sections-menu"],
     "props":{
       "blockClass":"barra-menu--s1"
@@ -118,7 +165,7 @@
       "colGap": 0,
       "preventVerticalStretch": true
     }
-  },
+  }, 
   //----------------------catálogo
   "flex-layout.col#catalogo": {
     "children": ["menu#catálogo"],
@@ -163,6 +210,7 @@
   },
   "menu-item#ventasTel": {
     "props": {
+      "blockClass":"ventas-tel",
       "id": "ventas-tel",
       "orientation": "vertical",
       "type": "custom",
@@ -201,6 +249,7 @@
   },
   "menu-item#centroAyuda": {
     "props": {
+      "blockClass":"centro_ayuda",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -230,6 +279,7 @@
   },
   "menu-item#asistenciaWeb": {
     "props": {
+      "blockClass":"asistencia-web",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -259,6 +309,7 @@
   },
   "menu-item#tiendas": {
     "props": {
+      "blockClass":"tiendas",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -288,6 +339,7 @@
   },
   "menu-item#MundoExperto": {
     "props": {
+      "blockClass":"mundo-experto",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -317,6 +369,7 @@
   },
   "menu-item#ventaEmpresa": {
     "props": {
+      "blockClass": "venta-empresa",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -346,6 +399,7 @@
   },
   "menu-item#Blog": {
     "props": {
+      "blockClass": "blog",
       "id": "categorías",
       "orientation": "vertical",
       "type": "custom",
@@ -375,6 +429,7 @@
   },
   "menu-item#Servicios": {
     "props": {
+      "blockClass": "servicios",
       "id": "servicios",
       "orientation": "vertical",
       "type": "custom",

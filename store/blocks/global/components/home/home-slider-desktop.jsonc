@@ -1,6 +1,6 @@
 {
     "slider-layout#desktop_slider--children": {
-      "title":"Slider con hijos declarados", 
+      "title":"Slider principal", 
       "props": {
         "itemsPerPage": {
           "desktop": 1,

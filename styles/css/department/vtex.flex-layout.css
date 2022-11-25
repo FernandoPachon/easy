@@ -29,8 +29,13 @@
 .flexRow--barra-menu--s1{
   display: inline-block;
   vertical-align: middle;
-  margin: auto;
+ 
 
+}
+.flexRowContent--layout_col--menu--barra{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .flexRow--barra-menu--s2{
 width: 100%;
@@ -88,6 +93,14 @@ flex-wrap: nowrap;
   width:10%;
   height: 3rem;
   background-color: white;
+ 
+}
+@media only screen  and (min-width: 1025px) and (max-width: 1279px){
+  .flexRow--layout-mega-menu{
+  transform: translate(10px, -30px);
+  }
+}
+@media only screen  and (min-width: 1025px) and (max-width: 1270px){
 
 }
 /* contenedor search bar*/
@@ -280,17 +293,28 @@ flex-wrap: nowrap;
     transform: translate(10px, -246px);
   }
   .flexColChild--footer_contenido--easy{
-    transform: translate(93px, 10px);
+    /* transform: translate(93px, 10px); */
+    margin-right:5rem ;
+  }
+  .flexColChild--footer_tira-mobile{
+    margin-right: 1rem;
+    width: 70%;
+  }
+  .flexColChild--foot_contenido--pol-mobile{
+    margin-right:5rem ;
   }
   .flexCol--foot_col--politicas{
     transform: translate(-16px, 283px);
+    width: 70%;
+    margin-right: 1rem;
   }
   .flexCol--foot_contenido--pol-mobile{
     transform: translate(0px, 270px);
+    margin-right:15rem ;
   }
-  .flexColChild--foot_contenido--pol-mobile{
+  /* .flexColChild--foot_contenido--pol-mobile{
     transform: translate(159px, 10px);
-  }
+  } */
   .flexCol--footer_contenido--easy{
     transform: translate(6px, -262px);
   }
@@ -324,6 +348,7 @@ flex-wrap: nowrap;
     height: 40rem;
   }
   .flexColChild--footer_tira-mobile{
+    width: 80%;
     transform: translate(49px, 2px);
   }
   .flexColChild--foot_col--text-uno{
