@@ -63,8 +63,10 @@
     background-color: blueviolet;
     border-radius: 50px;
 }
+
 .sliderLayoutContainer--slider-product-summary-t{
     width: 40rem;
+    margin-right: 1rem;
 }
 .slideChildrenContainer--slider-product-summary-t{
     border: 1px solid #CFCFCF;
@@ -109,13 +111,15 @@
     width: 90px;
 }
 .sliderLayoutContainer--slider_custom--bullet-group{
-    margin-left: 16rem;
-    margin-right: 2rem;
-    width: 80%;
+   
+    width: 100%;
 }
 .caretIcon--slider_custom--bullet-group{
     background:transparent;
     background-color:transparent;
     color:transparent;
     overflow: hidden;
+}
+.sliderLayoutContainer--slider-product-summary-t{
+    margin-right: 2rem;
 }
