@@ -33,7 +33,63 @@
     display: flex;
     
 }
-.styledLinkContainer--item-catalogo/*estilos barra de menu*/
+
+.styledLinkContainer--item-catalogo{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin; 
+    margin-right: 2vmax;
+    margin-right: 0.5vmin; 
+}
+.styledLinkContainer--ventas-tel{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--centro_ayuda{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--asistencia-web{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--tiendas{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--mundo-experto{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--venta-empresa{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--blog{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+.styledLinkContainer--servicios{
+    margin-left: 2vmax;
+    margin-left: 0.5vmin;
+    margin-right: 2vmax;
+    margin-right: 0.5vmin;
+}
+
+/*estilos barra de menu*/
 .styledLinkContent:hover{
     color:red;
 }
@@ -65,16 +121,8 @@
     }
 }
 
-@media only screen  and (min-width: 1535px) and (max-width: 1800px){
-    .styledLinkContainer--item-catalogo{
-        margin: 0%;
-    }
-}
 @media only screen  and (min-width: 1235px) and (max-width: 1534px){
-    .styledLinkContainer--item-catalogo{
-        padding-left: 0px;
-        padding-right: 0px;
-    }
+   
    
 }
 .flex-row{

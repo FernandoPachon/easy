@@ -188,8 +188,7 @@
       "menu-item#reglamento",
       "menu-item#protección-datos",
       "menu-item#políticas",
-      "menu-item#mapa",
-      "menu-item#superintendencia"
+      "menu-item#mapa"
     ],
     "props": {
       "orientation": "vertical"
