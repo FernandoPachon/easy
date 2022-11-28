@@ -71,6 +71,7 @@
     margin-right: 0.5vmin;
 }
 .styledLinkContainer--venta-empresa{
+    display: flex;
     margin-left: 2vmax;
     margin-left: 0.5vmin;
     margin-right: 2vmax;
@@ -97,7 +98,7 @@
     /* font-style: italic; */
     font-weight: bold;
     font-size: 14px;
-    display: inline-block;
+    display:flex;
     align-items: center;
 }
 .stretchChildrenWidth{

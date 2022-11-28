@@ -441,7 +441,7 @@
       },
       "itemProps": {
         "type": "external",
-        "href": "http://catalogo.easy.com.co/",
+        "href": "/pdf",
         "noFollow": true,
         "tagTitle": "barra menu",
         "text": "Servicios"
