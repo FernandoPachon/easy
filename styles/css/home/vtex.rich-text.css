@@ -49,6 +49,7 @@
 .paragraph--texto-look{
     font-weight: bold;
     font-size:  25px;
+    width: 35rem;
 }
 .paragraph--texto-look-t{
     margin-left: 2rem;
@@ -70,6 +71,7 @@
 .paragraph--texto-vinilos{
     font-weight: bold;
     font-size:  25px;
+    width: 35rem;
 }
 .paragraph--texto-vinilos-t{
     margin-left: 2rem;
@@ -91,6 +93,7 @@
 .paragraph--texto-pinturas{
     font-weight: bold;
     font-size:  25px;
+    width: 35rem;
 }
 .paragraph--texto-pinturas-t{
     margin-left: 2rem;
@@ -129,12 +132,15 @@
 }
 .wrapper--texto-look-t{
     transform: translate(-32px, 10px);
+    margin-left: 4%;
 }
 .wrapper--texto-vinilos-t{
     transform: translate(-32px, 10px);
+    margin-left: 4%;
 }
 .wrapper--texto-pinturas-t{
     transform: translate(-32px, 10px);
+    margin-left: 4%;
 }
 .menuContainerNav:first-child{
     display: none;
