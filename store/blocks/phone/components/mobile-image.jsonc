@@ -15,7 +15,7 @@
       "image#pintura--one": {
         "title": "",
         "props": {
-          "src": "assets/img/pintura1.jpg",
+          "src": "assets/img/herramientas-1.png",
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -28,7 +28,7 @@
       "image#pintura--two": {
         "title": "",
         "props": {
-          "src": "assets/img/pintura2.jpg",
+          "src": "assets/img/herramientas-2.png",
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -41,7 +41,7 @@
       "image#pintura--three": {
         "title": "",
         "props": {
-          "src": "assets/img/pintura3.jpg",
+          "src": "assets/img/herramientas-3.png",
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -54,7 +54,7 @@
       "image#vinilo-phone--one": {
         "title": "",
         "props": {
-          "src": "assets/img/pintuco.jpg",
+          "src": "assets/img/black_easy_navidad-20102.png",
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -66,7 +66,7 @@
       },
       "image#lunes--one_mp": {
         "props": {
-          "src": "assets/img/cyber-1.jpg",
+          "src": "assets/img/pinta-section.png",
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -78,7 +78,7 @@
       },
       "image#lunes--two_m": {
         "props": {
-          "src": "assets/img/cyber-2.jpg",
+          "src": "assets/img/pinta-section-2.png",
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -90,7 +90,7 @@
       },
       "image#lunes--three_m": {
         "props": {
-          "src": "assets/img/cyber-3.jpg",
+          "src": "assets/img/pinta-section-1.png",
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -138,7 +138,7 @@
       },
       "image#Nuevo-look-phone--one": {
         "props": {
-          "src": "assets/img/cyber-7.jpg",
+          "src": "assets/img/black_easy_mascotas-20101.png",
           "title": "NuevoLook",
           "blocksClass": "NuevoLook_image",
           "link": {

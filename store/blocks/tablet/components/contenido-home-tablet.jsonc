@@ -1,33 +1,31 @@
 {
-    "flex-layout.row#contenido_home--tablet":{
-        "children":[
-            "flex-layout.col#contenido_home--tablet"
-        ],
-        "props":{
-            "blockClass":"contenido-tablet-row"
-        }
-    },
-    "flex-layout.col#contenido_home--tablet":{
-        "children":[
-            "rich-text#tablet_cyberlunes",
-            "flex-layout.row#tablet_section--cyberlunes",
-            "rich-text#tablet_cyberlunes-hogar",
-            "flex-layout.row#tablet_section--cyberlunesHogar",
-            "rich-text#tablet_nuevo-look",
-            "flex-layout.row#tablet_section--cyberNuevo-lookHogar",
-            "rich-text#tablet_colores",
-            "flex-layout.row#tablet_section--vinilos",
-            "rich-text#tablet_pinturas",
-            "flex-layout.row#tablet_section--pinturas",
-            "rich-text#tablet_baños",
-            "flex-layout.row#tablet_section--baños",
-            "rich-text#construcción_easy-t",
-            "flex-layout.row#home_section--construcción-tablet",
-            "rich-text#tablet_hogar" ,
-            "flex-layout.row#home_section--descubre-mas-t"
-        ],
-        "props":{
-            "blockClass":"contenido-tablet-col"
-        }
+  "flex-layout.row#contenido_home--tablet": {
+    "children": ["flex-layout.col#contenido_home--tablet"],
+    "props": {
+      "blockClass": "contenido-tablet-row"
     }
+  },
+  "flex-layout.col#contenido_home--tablet": {
+    "children": [
+      "rich-text#desktop_cyberlunes",
+      "flex-layout.row#desktop_section--cyberlunes",
+      // "rich-text#desktop_cyberlunes-hogar",
+      // "flex-layout.row#desktop_section--cyberlunesHogarHogar",
+      "rich-text#tablet_colores",
+      "flex-layout.row#desktop_section--vinilos",
+      "list-context.product-list#product_summary",
+      "rich-text#tablet_nuevo-look",
+      "flex-layout.row#desktop_section--cyberNuevo-lookHogar",
+      "rich-text#tablet_pinturas",
+      "flex-layout.row#desktop_section--pinturas",
+      //"rich-text#desktop_baños",
+      // "flex-layout.row#desktop_section--baños",
+      //"rich-text#construcción_easy-t",
+      "rich-text#tablet_hogar",
+      "flex-layout.row#home_section--descubre-mas"
+    ],
+    "props": {
+      "blockClass": "contenido-tablet-col"
+    }
+  }
 }
