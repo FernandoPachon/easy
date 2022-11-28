@@ -67,7 +67,7 @@
             "text": "easy, donde se renueva tu hogar",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look-t"
+            "blockClass": "texto-renueva-t"
         }
     },
     "rich-text#construcción_easy-t":{
