@@ -56,7 +56,8 @@
   "modal-trigger#header_top-d--login": {
     "children": ["flex-layout.row#user", "modal-layout#header_top-d--login"],
     "props": {
-      "blockClass": "bloque-login"
+      "blockClass": "bloque-login",
+      "width":"100%"
     }
   },
   "flex-layout.row#user": {

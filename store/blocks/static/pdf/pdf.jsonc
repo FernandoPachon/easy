@@ -1,0 +1,20 @@
+{
+    "store.custom#pdf-reader":{
+        "blocks":[
+            "rich-text#title-pdf",
+           "pdf-reader" 
+        ]
+    },
+    "rich-text#title-pdf":{
+        "props":{
+            "text": "Lector de PDF Easy"
+        }
+    },
+    "pdf-reader" :{
+        "props":{
+            "pdfUrl":"assets/docs/prueva-pdf.pdf",
+            "width": 500,
+            "height":800
+        }
+    }
+}

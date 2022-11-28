@@ -12,6 +12,7 @@
 }
 .searchBarContainer{
     padding-left:0.5rem;
+    width: 100%;
 }
 /* estilos color lupa search bar*/
 .searchBarIcon--lupa-search-bar{
@@ -50,11 +51,10 @@
     height: 100px;
 } 
 .imageElement--login-content{
-    width: 80px;
+    width: 4rem;
 }
 .imageElement--logo__footer--pagos{
-    height: 17px;
-    transform: translate(-58px, 40px);
+    
 }
 .imageElement{
     width: 100%;
