@@ -2,17 +2,26 @@
     "store.custom#pdf-reader":{
         "blocks":[
             "rich-text#title-pdf",
-           "pdf-reader" 
-        ]
+            "flex-layout.row#lector_pdf"
+        ],
+        "props":{
+            "blockClass":"bloque_pdf"
+        }
     },
     "rich-text#title-pdf":{
         "props":{
-            "text": "Lector de PDF Easy"
+            "text": "Lector de PDF Easy",
+            "blockClass":"text-pdf"
         }
+    },
+    "flex-layout.row#lector_pdf":{
+        "children": [
+            "pdf-reader"
+          ]
     },
     "pdf-reader" :{
         "props":{
-            "pdfUrl":"assets/docs/prueva-pdf.pdf",
+            "pdfUrl":"assets/docs/pedefe.pdf",
             "width": 500,
             "height":800
         }
