@@ -37,58 +37,37 @@
     },
     "children": [
  
-      "image#vinilos_slider-p--one",
-      "image#vinilos_slider-p--two",
-      "image#vinilos_slider-p--three",
-      "image#vinilos_slider-p--four",
-      "image#vinilos_slider-p--five",
-      "image#vinilos_slider-p--six",
-      "image#vinilos_slider-p--seven",
-      "image#vinilos_slider-p--eigth"
-      
-     
+      "image#vinilos-t_slider-d--one",
+      "image#vinilos-t_slider-d--two",
+      "image#vinilos-t_slider-d--three",
+      "image#vinilos-t_slider-d--four",
+      "image#vinilos-t_slider-d--five"
     ]
   },
-  "image#vinilos_slider-p--one": {
+  "image#vinilos-t_slider-d--one": {
     "props": {
-      "src": "assets/img/vinilo-buganvilla.jpg",
+      "src": "assets/img/shelf-navidad-1.png",
       "maxWidth":1200
     }
   },
-  "image#vinilos_slider-p--two": {
+  "image#vinilos-t_slider-d--two": {
     "props": {
-      "src": "assets/img/vinilo-callejon.jpg"
+      "src": "assets/img/shelf-navidad-2.png"
     }
   },
-  "image#vinilos_slider-p--three": {
+  "image#vinilos-t_slider-d--three": {
     "props": {
-      "src": "assets/img/vinilo-gris.jpg"
+      "src": "assets/img/shelf-navidad-3.png"
     }
   },
-  "image#vinilos_slider-p--four": {
+  "image#vinilos-t_slider-d--four": {
     "props": {
-      "src": "assets/img/vinilo-mar-denso.jpg"
+      "src": "assets/img/shelf-navidad-4.png"
     }
   },
-  "image#vinilos_slider-p--five": {
+  "image#vinilos-t_slider-d--five": {
     "props": {
-      "src": "assets/img/vinilo-maracuya.jpg"
-    }
-  },
-  "image#vinilos_slider-p--six": {
-    "props": {
-      "src": "assets/img/vinilo-mora-azul.jpg"
-    }
-  },
-  "image#vinilos_slider-p--seven": {
-    "props": {
-      "src": "assets/img/vinilo-plata.jpg"
-    }
-  },
-  "image#vinilos_slider-p--eigth": {
-    "props": {
-      "src": "assets/img/vinilo-primaveral.jpg"
+      "src": "assets/img/shelf-navidad-5.png"
     }
   }
-
 }
