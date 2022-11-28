@@ -16,8 +16,8 @@
   "image#pintura-d--one": {
     "title": "",
     "props": {
-      "src": "assets/img/pintura1.jpg",
-      "maxWidth":400,
+      "src": "assets/img/herramientas-1.png",
+   
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -30,8 +30,8 @@
   "image#pintura-d--two": {
     "title": "",
     "props": {
-      "src": "assets/img/pintura2.jpg",
-      "maxWidth":400,
+      "src": "assets/img/herramientas-2.png",
+    
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -44,8 +44,8 @@
   "image#pintura-d--three": {
     "title": "",
     "props": {
-      "src": "assets/img/pintura3.jpg",
-      "maxWidth":1200,
+      "src": "assets/img/herramientas-3.png",
+    
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -58,8 +58,8 @@
   "image#vinilo--one": {
     "title": "",
     "props": {
-      "src": "assets/img/pintuco.jpg",
-      "maxWidth": 400,
+      "src": "assets/img/black_easy_navidad-20102.png",
+      "maxWidth":"80%",
       "title": "Pinturas",
       "blocksClass": "Pinturas_image",
       "link": {
@@ -71,7 +71,7 @@
   },
   "image#lunes-d--one": {
     "props": {
-      "src": "assets/img/cyber-1.jpg",
+      "src": "assets/img/pinta-section.png",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -83,7 +83,7 @@
   },
   "image#lunes-d--two": {
     "props": {
-      "src": "assets/img/cyber-2.jpg",
+      "src": "assets/img/pinta-section-2.png",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -95,7 +95,7 @@
   },
   "image#lunes-d--three": {
     "props": {
-      "src": "assets/img/cyber-3.jpg",
+      "src": "assets/img/pinta-section-1.png",
       "title": "Cyberlunes-d",
       "blocksClass": "Cyberlunes-d_image",
       "link": {
@@ -146,8 +146,8 @@
   },
   "image#Nuevo-look--one": {
     "props": {
-      "src": "assets/img/cyber-7.jpg",
-      "maxWidth": 400,
+      "src": "assets/img/black_easy_mascotas-20101.png",
+      "maxWidth":"80%", 
       "title": "NuevoLook",
       "blocksClass": "NuevoLook_image",
       "link": {
