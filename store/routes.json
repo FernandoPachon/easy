@@ -4,5 +4,8 @@
   },
   "store.custom#checkout":{
     "path":"/compra"
+  },
+  "store.custom#pdf-reader":{
+    "path":"/pdf"
   }
 }

@@ -3,7 +3,6 @@
         "title": "Imagen de Home",
         "props": {
           "src": "assets/img/logo-easy.jpg",
-          "maxWidth": 100,
           "title": "Tiendas ",
           "blocksClass": "Tiendas_image",
           "link": {
@@ -17,7 +16,6 @@
         "title": "",
         "props": {
           "src": "assets/img/pintura1.jpg",
-          "maxWidth": 180,
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -31,7 +29,6 @@
         "title": "",
         "props": {
           "src": "assets/img/pintura2.jpg",
-          "maxWidth": 180,
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -45,7 +42,6 @@
         "title": "",
         "props": {
           "src": "assets/img/pintura3.jpg",
-          "maxWidth": 375,
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -59,7 +55,6 @@
         "title": "",
         "props": {
           "src": "assets/img/pintuco.jpg",
-          "maxWidth": 375,
           "title": "Pinturas",
           "blocksClass": "Pinturas_image",
           "link": {
@@ -72,7 +67,6 @@
       "image#lunes--one_mp": {
         "props": {
           "src": "assets/img/cyber-1.jpg",
-          "maxWidth":180,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -85,7 +79,6 @@
       "image#lunes--two_m": {
         "props": {
           "src": "assets/img/cyber-2.jpg",
-          "maxWidth": 180,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -98,7 +91,6 @@
       "image#lunes--three_m": {
         "props": {
           "src": "assets/img/cyber-3.jpg",
-          "maxWidth": 375,
           "title": "Cyberlunes",
           "blocksClass": "Cyberlunes_image",
           "link": {
@@ -111,7 +103,6 @@
       "image#lunesHogar-phone--one": {
         "props": {
           "src": "assets/img/cyber-4.jpg",
-          "maxWidth": 375,
           "title": "Cyberlunes-phone",
           "blocksClass": "CyberlunesHogar_image",
           "link": {
@@ -124,7 +115,6 @@
       "image#lunesHogar-phone--two": {
         "props": {
           "src": "assets/img/cyber-5.jpg",
-          "maxWidth": 180,
           "title": "Cyberlunes-phone",
           "blocksClass": "CyberlunesHogar_image",
           "link": {
@@ -137,7 +127,6 @@
       "image#lunesHogar-phone--three": {
         "props": {
           "src": "assets/img/cyber-6.jpg",
-          "maxWidth":180,
           "title": "Cyberlunes-phone",
           "blocksClass": "CyberlunesHogar_image",
           "link": {
@@ -150,7 +139,6 @@
       "image#Nuevo-look-phone--one": {
         "props": {
           "src": "assets/img/cyber-7.jpg",
-          "maxWidth": 375,
           "title": "NuevoLook",
           "blocksClass": "NuevoLook_image",
           "link": {
@@ -163,7 +151,6 @@
       "image#baños-p--one":{
         "props": {
           "src": "assets/img/banos-1.jpg",
-          "maxWidth": 180,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -176,7 +163,6 @@
       "image#baños-p--two":{
         "props": {
           "src": "assets/img/banos-2.jpg",
-          "maxWidth": 180,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -189,7 +175,6 @@
       "image#baños-p--three":{
         "props": {
           "src": "assets/img/banos-3.jpg",
-          "maxWidth": 375,
           "title": "baños",
           "blocksClass": "baños_image",
           "link": {
@@ -202,7 +187,6 @@
       "image#descubre-p--one":{
         "props": {
           "src": "assets/img/descubre-1.jpg",
-          "maxWidth":180,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {
@@ -215,7 +199,6 @@
       "image#descubre-p--two":{
         "props": {
           "src": "assets/img/descubre-2.jpg",
-          "maxWidth": 180,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {
@@ -228,7 +211,6 @@
       "image#descubre-p--three":{
         "props": {
           "src": "assets/img/descubre-3.jpg",
-          "maxWidth": 375,
           "title": "descubre",
           "blocksClass": "descubre_image",
           "link": {

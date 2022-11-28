@@ -4,7 +4,7 @@
     "props":{
         "textAlignment": "LEFT",
         "textPosition": "LEFT",
-        "text": "No te pierdas el Cyberlunes",
+        "text": "Pinta tu hogar en el Black easy",
         "textColor": "black",
         "blockClass": "texto-cyberlunes"
     }
@@ -13,7 +13,7 @@
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "La vida es más bonita a todo color",
+            "text": "Black easy con las mejores herramientas",
             "textColor": "black",
             "font": "font.woff2",
             "blockClass": "texto-pinturas"
@@ -43,7 +43,7 @@
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "Dale un nuevo look a tus espacios",
+            "text": "Lo mejor para tu mascota",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-look"
