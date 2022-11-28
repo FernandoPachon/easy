@@ -43,13 +43,9 @@
     font-weight: bold;
     font-size: 20px;
 }
-.wrapper--texto-look{
-    padding-right:50.5rem;
-}
 .paragraph--texto-look{
     font-weight: bold;
     font-size:  25px;
-    width: 35rem;
 }
 .paragraph--texto-look-t{
     margin-left: 2rem;
@@ -65,13 +61,9 @@
 .wrapper--texto-look-phone{
     transform: translate(-62px, 10px);
 }
-.wrapper--texto-vinilos{
-    padding-right:51.8rem;
-}
 .paragraph--texto-vinilos{
     font-weight: bold;
     font-size:  25px;
-    width: 35rem;
 }
 .paragraph--texto-vinilos-t{
     margin-left: 2rem;
@@ -87,13 +79,9 @@
 .wrapper--text-vinilos-phone{
     transform: translate(-62px, 10px);
 }
-.wrapper--texto-pinturas{
-    padding-right:51.8rem;
-}
 .paragraph--texto-pinturas{
     font-weight: bold;
     font-size:  25px;
-    width: 35rem;
 }
 .paragraph--texto-pinturas-t{
     margin-left: 2rem;
