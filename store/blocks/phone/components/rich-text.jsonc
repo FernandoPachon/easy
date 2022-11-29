@@ -1,43 +1,25 @@
 {
-    "rich-text#phone_pinturas":{
+    "rich-text#section_one--phone":{
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "La vida es más bonita a todo color",
-            "blockClass": "text-pinturas-phone"
-          }
-    },
-    "rich-text#phone_colores":{
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Los colores ideales para tu hogar",
-            "textColor": "black",
-            "font": "Opensans-Bold.ttf",
-            "blockClass": "text-vinilos-phone"
-          }
-    },
-    "rich-text#phone_cyberlunes":{
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "No te pierdas el Cyberlunes",
+            "text": "Pinta tu hogar en el Black easy",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
             "blockClass": "texto-cyberlunes-phone"
           }
     },
-    "rich-text#phone_cyberlunes-hogar":{
-        "props":{
+    "rich-text#section_two--phone":{
+        "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "En el Cyberlunes encuentra todo para tu hogar",
+            "text": "Decora tu hogar para navidad",
             "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-hogar-phone"
-        }
+            "font": "Opensans-Bold.ttf",
+            "blockClass": "text-vinilos-phone"
+          }
     },
-    "rich-text#phone_nuevo-look":{
+    "rich-text#section_three--phone":{
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -47,7 +29,15 @@
             "blockClass": "texto-look-phone"
         }
     },
-    "rich-text#phone_hogar":{
+    "rich-text#section_four--phone":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "La vida es más bonita a todo color",
+            "blockClass": "text-pinturas-phone"
+          }
+    },
+    "rich-text#section_five--phone":{
         "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -57,6 +47,17 @@
             "blockClass": "texto-look-phone"
         }
     },
+    "rich-text#list_summary--phone":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Materiales para tu hogar",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-summary-phone"
+        }
+    },
+
     "rich-text#phone_baños":{
         "props":{
             "textAlignment": "LEFT",

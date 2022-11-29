@@ -1,5 +1,6 @@
 {
     "store.custom#pdf-reader":{
+        "title":"static pdf reader",
         "blocks":[
             "rich-text#title-pdf",
             "flex-layout.row#lector_pdf"

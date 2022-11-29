@@ -85,55 +85,18 @@
       "flex-layout.row#mega_menu--desktop",
       "flex-layout.row#mega-menu",
       "flex-layout.row#barra-menu"
-      //"flex-layout.row#prueva"
-       //"menu#header_menu" 
     ],
     "props":{
       "blockClass":"header_down",
       "width":"100%"
     }
   },
-  /* "flex-layout.row#prueva":{
-    "children": 
-    [
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva",
-      "rich-text#prueva"
-    ],
-    "props":{
-      "colGap":10
-    }
-  }, */
+ 
   "rich-text#prueva":{
     "props":{
       "text":"prueva"
     }
   },
- /*  "menu#header_menu":{
-    "children":[
-      "flex-layout.row#mega_menu--desktop",
-      "flex-layout.row#mega-menu",
-      "menu-item#catálogo",
-      "menu-item#ventasTel",
-      "menu-item#centroAyuda",
-      "menu-item#asistenciaWeb",
-      "menu-item#tiendas",
-      "menu-item#ventaEmpresa",
-      "menu-item#MundoExperto",
-      "menu-item#Blog",
-      "menu-item#Servicios"
-    ],
-    "props":{
-      "blockClass":"header_menu"
-    }
-    
-  }, */
    "flex-layout.row#barra-menu": {
     "children": ["flex-layout.col#sections-menu"],
     "props":{

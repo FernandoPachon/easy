@@ -3,7 +3,7 @@
     "title":"Sección Vinilos",
     "children": [
       "flex-layout.row#mobile--one--vinilo",
-      "slider-layout#vinilos_slider--children"
+      "slider-layout#Section_four--article-two"
     
     ],
     "props":{

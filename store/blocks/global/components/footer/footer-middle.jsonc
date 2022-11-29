@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__footer--section-two": {
+    "title":"Footer intermedio",
     "children": [
       "flex-layout.col#footer__one--column",
       "flex-layout.col#footer__two--column",

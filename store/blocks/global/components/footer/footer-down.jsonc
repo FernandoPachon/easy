@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__footer--section-three": {
+    "title":"Footer bajo",
     "children": [
       "flex-layout.col#footer__down-one--column",
       "flex-layout.col#footer__down-two--column",

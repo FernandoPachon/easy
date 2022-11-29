@@ -1,5 +1,6 @@
 {
     "modal-trigger#add-to-cart-info": {
+      "title":"Componente add to cart",
       "children": [
         "modal-layout#add-to-cart-info"
       ],

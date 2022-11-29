@@ -1,30 +1,31 @@
 {
-    "flex-layout.row#phone_section--cyberNuevo-lookHogar":{
-      "title":"Sección Look",
+  "flex-layout.row#section_three--desktop":{
+      "title":"Section three",
       "children": [
-        "flex-layout.col#section--one--Nuevo-look-phone",
-        "slider-layout#look_slider--children-phone"
+        "flex-layout.col#Section_four--article-one",
+        "slider-layout#Section_four--article-two"
       ],
       "props":{
-        "blocksClass":"LunesHome_section--one",
+        "blocksClass":"Look_section--one",
         "colSizing":"auto",
         "colJustify": "around",
-        "horizontalAlign":"center"
-    
+        "horizontalAlign":"center",
+        "colGap":2
        
         
       }
     },
-    "flex-layout.col#section--one--Nuevo-look-phone":{
+    "flex-layout.col#Section_four--article-one":{
+      "title":"Section_four--article-one",
       "children":[
-        "image#Nuevo-look-phone--one"
+        "image#Nuevo-look--one"
       ],
       "props":{
-        "blocksClass":"section_one--Nuevo-look-phone"
+        "blocksClass":"section_one--Nuevo-look"
       }
     },
-    "slider-layout#look_slider--children-phone": {
-        "title":"Slider con hijos declarados", 
+    "slider-layout#Section_four--article-two": {
+      "title":"Section_four--article-two",
         "props": {
           "itemsPerPage": {
             "desktop": 3,
@@ -40,56 +41,55 @@
           }
         },
         "children": [
-     
-          "image#Nuevo-look_slider-p--one",
-          "image#Nuevo-look_slider-p--two",
-          "image#Nuevo-look_slider-p--three",
-          "image#Nuevo-look_slider-p--four",
-          "image#Nuevo-look_slider-p--five",
-          "image#Nuevo-look_slider-p--six",
-          "image#Nuevo-look_slider-p--seven",
-          "image#Nuevo-look_slider-p--eigth"
+          "image#Nuevo-look_slider-d--one",
+          "image#Nuevo-look_slider-d--two",
+          "image#Nuevo-look_slider-d--three",
+          "image#Nuevo-look_slider-d--four",
+          "image#Nuevo-look_slider-d--five",
+          "image#Nuevo-look_slider-d--six",
+          "image#Nuevo-look_slider-d--seven",
+          "image#Nuevo-look_slider-d--eigth"
           
          
         ]
       },
-      "image#Nuevo-look_slider-p--one": {
+      "image#Nuevo-look_slider-d--one": {
         "props": {
           "src": "assets/img/mascotas-1.png",
           "maxWidth":1200
         }
       },
-      "image#Nuevo-look_slider-p--two": {
+      "image#Nuevo-look_slider-d--two": {
         "props": {
           "src": "assets/img/mascotas-2.png"
         }
       },
-      "image#Nuevo-look_slider-p--three": {
+      "image#Nuevo-look_slider-d--three": {
         "props": {
           "src": "assets/img/mascotas-3.png"
         }
       },
-      "image#Nuevo-look_slider-p--four": {
+      "image#Nuevo-look_slider-d--four": {
         "props": {
           "src": "assets/img/mascotas-4.png"
         }
       },
-      "image#Nuevo-look_slider-p--five": {
+      "image#Nuevo-look_slider-d--five": {
         "props": {
           "src": "assets/img/mascotas-5.png"
         }
       },
-      "image#Nuevo-look_slider-p--six": {
+      "image#Nuevo-look_slider-d--six": {
         "props": {
           "src": "assets/img/mascotas-6.png"
         }
       },
-      "image#Nuevo-look_slider-p--seven": {
+      "image#Nuevo-look_slider-d--seven": {
         "props": {
           "src": "assets/img/mascotas-7.png"
         }
       },
-      "image#Nuevo-look_slider-p--eigth": {
+      "image#Nuevo-look_slider-d--eigth": {
         "props": {
           "src": "assets/img/mascotas-8.png"
         }

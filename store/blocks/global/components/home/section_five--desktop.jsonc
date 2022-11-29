@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#section_five--desktop": {
+    "title": "Section five",
+    "children": [
+      "flex-layout.col#section_five--article-one",
+      "flex-layout.col#section_five--article-two",
+      "flex-layout.col#section_five--article-three"
+    ],
+    "props": {
+      "blocksClass": "home_section--one",
+      "colSizing": "auto",
+      "colJustify": "around",
+      "horizontalAlign": "center",
+      "colGap": 2
+    }
+  },
+  "flex-layout.col#section_five--article-one": {
+    "title":"section_five--article-one",
+    "children": ["image#descubre-d--one"],
+    "props": {
+      "blocksClass": "section_one--image"
+    }
+  },
+  "flex-layout.col#section_five--article-two": {
+    "title":"section_five--article-two",
+    "children": ["image#descubre-d--two"],
+    "props": {
+      "blocksClass": "section_one--image"
+    }
+  },
+  "flex-layout.col#section_five--article-three": {
+    "title":"section_five--article-three",
+    "children": ["image#descubre-d--three"],
+    "props": {
+      "blocksClass": "section_one--image"
+    }
+  }
+}

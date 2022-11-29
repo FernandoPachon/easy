@@ -1,28 +1,28 @@
 {
   "flex-layout.row#contenido_home": {
+    "title":"Bloque contenido home",
     "children": ["flex-layout.col#contenido_home"],
     "props": {
       "blockClass": "contenido-desktop-row"
     }
   },
   "flex-layout.col#contenido_home": {
+    "title":"Bloque contenido home col",
     "children": [
-      "rich-text#desktop_cyberlunes",
-      "flex-layout.row#desktop_section--cyberlunes",
-     // "rich-text#desktop_cyberlunes-hogar",
-     // "flex-layout.row#desktop_section--cyberlunesHogarHogar",
-      "rich-text#desktop_colores",
-      "flex-layout.row#desktop_section--vinilos",
+      "rich-text#section_one--desktop",
+      "flex-layout.row#section_one-desktop",
+      "rich-text#section_two--desktop",
+      "flex-layout.row#section_two--desktop",
+      "rich-text#section_shelf--desktop",
       "list-context.product-list#product_summary",
-      "rich-text#desktop_nuevo-look",
-      "flex-layout.row#desktop_section--cyberNuevo-lookHogar",
-      "rich-text#desktop_pinturas",
-      "flex-layout.row#desktop_section--pinturas",
-      //"rich-text#desktop_baños",
-     // "flex-layout.row#desktop_section--baños",
-      //"rich-text#construcción_easy-t",
-      "rich-text#desktop_hogar",
-      "flex-layout.row#home_section--descubre-mas" 
+      "rich-text#section_three--desktop",
+      "flex-layout.row#section_three--desktop",
+      "rich-text#section_four--desktop",
+      "flex-layout.row#section_four--desktop",
+      "rich-text#section_five--desktop",
+      "flex-layout.row#section_five--desktop" ,
+      "rich-text#section_six--desktop",
+      "flex-layout.row#section_six--desktop"
     ],
     "props": {
       "blockClass": "contenido-desktop-col"

@@ -23,6 +23,7 @@
     margin-left: 70px;
     font-weight: bold;
     font-size: 17px;
+    margin-right: 10px;
 }
 .container--texto-cyberlunes-phone::after{
     content: "";
@@ -32,7 +33,7 @@
     /* position: absolute; */
     bottom: -20rem;
     margin-left: -19rem;
-    transform: translate(10px,51px);
+    transform: translate(-1.5rem,51px);
 }
 .wrapper--texto-cyberlunes-phone{
     transform: translate(-62px, 10px);
@@ -91,16 +92,6 @@
     margin-left: -22.5rem;
     transform: translate(10px,71px);
 }
-.container--texto-look-phone::after{
-    content: "";
-    width: 30px;
-    height: 2px;
-    background-color: #ed2923;
-    /* position: absolute; */
-    bottom: -20rem;
-    margin-left: -19.5rem;
-    transform: translate(10px,71px);
-}
 .paragraph--texto-look-phone{
     text-align: left;
     margin-left: 70px;
@@ -152,7 +143,7 @@
     /* position: absolute; */
     bottom: -20rem;
     margin-left: -22rem;
-    transform: translate(12px,54px);
+    transform: translate(3rem,54px);
 }
 .wrapper--text-vinilos-phone{
     transform: translate(-62px, 10px);
@@ -184,6 +175,34 @@
     bottom: -20rem;
     margin-left: -25rem;
     transform: translate(10px, 62px);
+}
+.paragraph--texto-shelf{
+    font-weight: bold;
+    font-size:  25px;
+}
+.container--texto-shelf::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ed2923;
+    /* position: absolute; */
+    bottom: -20rem;
+    margin-left: -25rem;
+    transform: translate(102px,62px);
+}
+.paragraph--texto-informacion{
+    font-weight: bold;
+    font-size:  25px;
+}
+.container--texto-informacion::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ed2923;
+    /* position: absolute; */
+    bottom: -20rem;
+    margin-left: -25rem;
+    transform: translate(255px,62px);
 }
 .paragraph--texto-pinturas{
     font-weight: bold;
@@ -241,6 +260,22 @@
     bottom: -20rem;
     margin-left: -20.5rem;
     transform: translate(-1rem,3.5rem);
+}
+.paragraph--texto-summary-phone{
+    text-align: left;
+    margin-left: 0.8rem;
+    font-weight: bold;
+    font-size: 17px;
+}
+.container--texto-summary-phone::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ed2923;
+    /* position: absolute; */
+    bottom: -20rem;
+    margin-left: -20.5rem;
+    transform: translate(8rem,2.5rem);
 }
 .wrapper--footer_copyright{
     transform: translate(47px, 10px);
@@ -329,7 +364,7 @@
     color:#444747 ;
 }
 .wrapper--footer_politicas-title{
-    transform: translate(22px, 10px); 
+    transform: translate(7rem, 10px); 
 }
 .paragraph--text-footer-middle{
     font-family: sans-serif;

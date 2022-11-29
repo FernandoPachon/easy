@@ -1,10 +1,9 @@
 {
-        "flex-layout.row#phone_section--cyberlunes":{
-          "title":"Sección Pinturas",
+        "flex-layout.row#section_one--phone":{
+          "title":"Section one phone",
           "children": [
-            "flex-layout.row#bloque_uno-lunes",
-            
-            "flex-layout.col#section_m--three--lunes"
+            "flex-layout.row#section_one--article-one-phone",
+            "flex-layout.col#section_one--article-two-phone"
           ],
           "props":{
             "blocksClass":"home_lunes--two",
@@ -13,7 +12,8 @@
        
           }
         },
-        "flex-layout.row#bloque_uno-lunes":{
+        "flex-layout.row#section_one--article-one-phone":{
+          "title":"section_one--article-one-phone",
           "children":[
             "flex-layout.col#section_m--one--lunes",
             "flex-layout.col#section_m--two--lunes"
@@ -43,7 +43,8 @@
             "preserveLayoutOnMobile": true
           }
         },
-        "flex-layout.col#section_m--three--lunes":{
+        "flex-layout.col#section_one--article-two-phone":{
+          "title":"section_one--article-two-phone",
           "children":[
             "image#lunes--three_m"
           ],
