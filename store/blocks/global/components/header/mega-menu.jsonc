@@ -1,6 +1,7 @@
 {
         "sticky-layout#mega_menu--desktop": {
-          "children": ["flex-layout.row#mega_menu--desktop", "flex-layout.row#mega-menu"],
+          "title":"mega-menu",
+          "children": ["flex-layout.row#mega_menu--desktop", "flex-layout.row#mega-menu","rich-text#mega"],
           "props":{
             "blockClass":"mega-menu-d",
             "title":"Categorías",
@@ -8,6 +9,7 @@
           }
         },
         "flex-layout.row#mega_menu--desktop": {
+          "title":"mega-menu--trigger",
           "children": [
             "flex-layout.col#trigger-mega-menu"
           ],
@@ -39,6 +41,11 @@
         "mega-menu-trigger-btn": {
           "props": {
             "Drawer": "drawer",
+            "text":"Categorías"
+          }
+        },
+        "rich-text#mega":{
+          "props":{
             "text":"Categorías"
           }
         }

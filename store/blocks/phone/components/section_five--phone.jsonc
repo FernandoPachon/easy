@@ -1,6 +1,6 @@
 {
-        "flex-layout.row#home_section--descubre-mas-p":{
-          "title":"Sección descrubre-mas",
+        "flex-layout.row#section_five--phone":{
+          "title":"Section five",
           "children": [
             "flex-layout.row#bloque_uno-descubre-mas-p",
             

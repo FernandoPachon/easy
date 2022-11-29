@@ -1,6 +1,6 @@
 {
-        "flex-layout.row#phone_section--pinturas":{
-          "title":"Sección Pinturas",
+        "flex-layout.row#section_four--phone":{
+          "title":"Section four",
           "children": [
             "flex-layout.row#bloque_uno-pinturas",
            

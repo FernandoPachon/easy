@@ -1,172 +1,179 @@
 {
-  "rich-text#desktop_cyberlunes":{
-    "title":"Titulo # 1",
-    "props":{
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Pinta tu hogar en el Black easy",
-        "textColor": "black",
-        "blockClass": "texto-cyberlunes"
+  "rich-text#section_one--desktop": {
+    "title": "Title section one",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Pinta tu hogar en el Black easy",
+      "textColor": "black",
+      "blockClass": "texto-cyberlunes"
     }
-},
-    "rich-text#desktop_pinturas":{
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Black easy con las mejores herramientas",
-            "textColor": "black",
-            "font": "font.woff2",
-            "blockClass": "texto-pinturas"
-          }
-    },
-    "rich-text#desktop_colores":{ 
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Los colores ideales para tu hogar",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-vinilos"
-          }
-    },
-    "rich-text#desktop_cyberlunes-hogar":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "En el Cyberlunes encuentra todo para tu hogar",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-hogar"
-        }
-    },
-    "rich-text#desktop_nuevo-look":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Lo mejor para tu mascota",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
-        }
-    },
-    "rich-text#desktop_baños":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Renueva tus Baños y Cocinas",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look"
-        }
-    },
-    "rich-text#desktop_hogar":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "easy, donde se renueva tu hogar",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-renueva"
-        }
-    },
-    "rich-text#construcción_easy":{
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Temporada de construcción, ¡Fin de año!",
-            "textColor": "red",
-            "font": "font.woff2",
-            "blockClass": "construcción"
-          }
-    },
-    "rich-text#minicart_empty": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Tu Carro de Compras está vacío ",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "carrito_empty"
-      }
-    },
-    "rich-text#rich-final": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Easy: Todo para construir, decorar y remodelar ",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "text-final"
-      }
-    },
-    "rich-text#envio_title": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Envío a domicilio",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "envio-domicilio"
-      }
-    },
-    "rich-text#envio_description": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Recibe en tu casa el producto",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "text-descripción-domicilio"
-      }
-    },
-    "rich-text#retiro_title": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Retiro en tienda",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "retiro-tienda"
-      }
-    },
-    "rich-text#retiro_description": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Retira en tu tienda más cercana ",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "text-descripción-retiro"
-      }
-    },
-    "rich-text#compra_title": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Compra fácil",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "compra-facil"
-      }
-    },
-    "rich-text#compra_description": {
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Rápido y seguro",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "text-compra-facil"
-      }
-    },
-    "rich-text#text_footer--middle":{
-      "props": {
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
-        "textColor": "red",
-        "font": "font.woff2",
-        "blockClass": "text-footer-middle"
-      }
+  },
+  "rich-text#section_two--desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Los colores ideales para tu hogar",
+      "textColor": "black",
+      "font": "fa-brands-400.woff2",
+      "blockClass": "texto-vinilos"
     }
+  },
+  "rich-text#section_three--desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Lo mejor para tu mascota",
+      "textColor": "black",
+      "font": "fa-brands-400.woff2",
+      "blockClass": "texto-look"
+    }
+  },
+  "rich-text#section_four--desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Black easy con las mejores herramientas",
+      "textColor": "black",
+      "font": "font.woff2",
+      "blockClass": "texto-pinturas"
+    }
+  },
+  "rich-text#section_five--desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "easy, donde se renueva tu hogar",
+      "textColor": "black",
+      "font": "fa-brands-400.woff2",
+      "blockClass": "texto-renueva"
+    }
+  },
+  "rich-text#section_six--desktop": {
+    "props": {
+      "text": "Información",
+      "blockClass": "texto-informacion"
+    }
+  },
+  "rich-text#section_shelf--desktop": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Materiales para tu hogar",
+      "blockClass": "texto-shelf"
+    }
+  },
+
+  "rich-text#desktop_cyberlunes-hogar": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "En el Cyberlunes encuentra todo para tu hogar",
+      "textColor": "black",
+      "font": "fa-brands-400.woff2",
+      "blockClass": "texto-hogar"
+    }
+  },
+
+  "rich-text#desktop_baños": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Renueva tus Baños y Cocinas",
+      "textColor": "black",
+      "font": "fa-brands-400.woff2",
+      "blockClass": "texto-look"
+    }
+  },
+ 
+  "rich-text#minicart_empty": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Tu Carro de Compras está vacío ",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "carrito_empty"
+    }
+  },
+  "rich-text#rich-final": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Easy: Todo para construir, decorar y remodelar ",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "text-final"
+    }
+  },
+  "rich-text#envio_title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Envío a domicilio",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "envio-domicilio"
+    }
+  },
+  "rich-text#envio_description": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Recibe en tu casa el producto",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "text-descripción-domicilio"
+    }
+  },
+  "rich-text#retiro_title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Retiro en tienda",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "retiro-tienda"
+    }
+  },
+  "rich-text#retiro_description": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Retira en tu tienda más cercana ",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "text-descripción-retiro"
+    }
+  },
+  "rich-text#compra_title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Compra fácil",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "compra-facil"
+    }
+  },
+  "rich-text#compra_description": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Rápido y seguro",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "text-compra-facil"
+    }
+  },
+  "rich-text#text_footer--middle": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Easy, la mejor opción para construir, remodelar y decorar tu hogar.",
+      "textColor": "red",
+      "font": "font.woff2",
+      "blockClass": "text-footer-middle"
+    }
+  }
 }

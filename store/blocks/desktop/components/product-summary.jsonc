@@ -1,10 +1,10 @@
 {
     "search-result-layout.desktop#home_search--desktop": {
+      "title":"Product summary",
         "children": ["flex-layout.row#home_results--desktop"]
       },
       "flex-layout.row#home_results--desktop": {
         "children": [
-          
           "flex-layout.col#home_results--search--desktop"
         ]
       },

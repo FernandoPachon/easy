@@ -1,16 +1,9 @@
 /* estilo caja contenido del home*/
-.flexRow--contenido-del-home-row{
-
-}
 .flexCol--contenido-desktop-col{
   padding-left: 4rem;
   padding-right: 4rem;
 }
-
 /* estilos flex-layout*/
-.flexColChild--contenido-del-home-col{
- 
-}
 .flexCol--col_two--const{
   width: 100%;
 }
@@ -331,6 +324,15 @@ flex-wrap: nowrap;
   .flexColChild--footer_tira-mobile{
     transform: translate(93px, -32px);
   }
+  .flexColChild--footer_contenido--easy{
+    transform: translate(8rem, 10px);
+  }
+  .flexCol--foot_contenido--pol-mobile{
+    transform: translate(125px, 269px);
+  }
+  .paragraph--footer_politicas-title{
+    transform: translate(68px, -9px);
+  }
 }
 @media only screen and (min-width: 640px) and (max-width: 1025px) {
 	.flexRowContent--footer_middle--mobile{
@@ -404,6 +406,9 @@ flex-wrap: nowrap;
 }
 
 /* estilos globales del footer mobile*/
+.flexRow--footer_top{
+  margin-left: 8rem;
+}
   .flexCol--foot_col--logo{
     display: flex;
     align-items: center;

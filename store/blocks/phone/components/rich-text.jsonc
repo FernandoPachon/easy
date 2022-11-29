@@ -1,5 +1,35 @@
 {
-    "rich-text#phone_pinturas":{
+    "rich-text#section_one--phone":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Pinta tu hogar en el Black easy",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-cyberlunes-phone"
+          }
+    },
+    "rich-text#section_two--phone":{
+        "props": {
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Decora tu hogar para navidad",
+            "textColor": "black",
+            "font": "Opensans-Bold.ttf",
+            "blockClass": "text-vinilos-phone"
+          }
+    },
+    "rich-text#section_three--phone":{
+        "props":{
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "text": "Dale un nuevo look a tus espacios",
+            "textColor": "black",
+            "font": "fa-brands-400.woff2",
+            "blockClass": "texto-look-phone"
+        }
+    },
+    "rich-text#section_four--phone":{
         "props": {
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
@@ -7,25 +37,15 @@
             "blockClass": "text-pinturas-phone"
           }
     },
-    "rich-text#phone_colores":{
-        "props": {
+    "rich-text#section_five--phone":{
+        "props":{
             "textAlignment": "LEFT",
             "textPosition": "LEFT",
-            "text": "Los colores ideales para tu hogar",
-            "textColor": "black",
-            "font": "Opensans-Bold.ttf",
-            "blockClass": "text-vinilos-phone"
-          }
-    },
-    "rich-text#phone_cyberlunes":{
-        "props": {
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "No te pierdas el Cyberlunes",
+            "text": "easy, donde se renueva tu hogar",
             "textColor": "black",
             "font": "fa-brands-400.woff2",
-            "blockClass": "texto-cyberlunes-phone"
-          }
+            "blockClass": "texto-look-phone"
+        }
     },
     "rich-text#phone_cyberlunes-hogar":{
         "props":{
@@ -37,26 +57,7 @@
             "blockClass": "texto-hogar-phone"
         }
     },
-    "rich-text#phone_nuevo-look":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "Dale un nuevo look a tus espacios",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look-phone"
-        }
-    },
-    "rich-text#phone_hogar":{
-        "props":{
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "text": "easy, donde se renueva tu hogar",
-            "textColor": "black",
-            "font": "fa-brands-400.woff2",
-            "blockClass": "texto-look-phone"
-        }
-    },
+
     "rich-text#phone_baños":{
         "props":{
             "textAlignment": "LEFT",

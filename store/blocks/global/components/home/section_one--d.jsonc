@@ -1,10 +1,10 @@
 {
-  "flex-layout.row#desktop_section--cyberlunes":{
-    "title":"Section_one--home",
+  "flex-layout.row#section_one-desktop":{
+    "title":"Section_one",
     "children": [
-      "flex-layout.col#section--one--lunes",
-      "flex-layout.col#section--two--lunes",
-      "flex-layout.col#section--three--lunes"
+      "flex-layout.col#section--one--article-one",
+      "flex-layout.col#section--one--article-two",
+      "flex-layout.col#section--one--article-three"
     ],
     "props":{
       "blockClass":"section_one--home",
@@ -14,12 +14,8 @@
       "colGap":2
     }
   },
-  "flex-layout.col#section_one--block-one":{
-    "children":[
-      
-    ]
-  },
-  "flex-layout.col#section--one--lunes":{
+  "flex-layout.col#section--one--article-one":{
+    "title":"Section_one--article_one",
     "children":[
       "image#lunes-d--one"
     ],
@@ -27,7 +23,8 @@
       "blockClass":"section_one--lunes"
     }
   },
-  "flex-layout.col#section--two--lunes":{
+  "flex-layout.col#section--one--article-two":{
+    "title":"Section_one--article_two",
     "children":[
       "image#lunes-d--two"
     ],
@@ -35,7 +32,8 @@
       "blockClass":"section_two--lunes"
     }
   },
-  "flex-layout.col#section--three--lunes":{
+  "flex-layout.col#section--one--article-three":{
+    "title":"Section_one--article_three",
     "children":[
       "image#lunes-d--three"
     ],

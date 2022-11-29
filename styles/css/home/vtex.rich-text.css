@@ -23,6 +23,7 @@
     margin-left: 70px;
     font-weight: bold;
     font-size: 17px;
+    margin-right: 10px;
 }
 .container--texto-cyberlunes-phone::after{
     content: "";
@@ -100,6 +101,7 @@
     bottom: -20rem;
     margin-left: -19.5rem;
     transform: translate(10px,71px);
+
 }
 .paragraph--texto-look-phone{
     text-align: left;
@@ -184,6 +186,34 @@
     bottom: -20rem;
     margin-left: -25rem;
     transform: translate(10px, 62px);
+}
+.paragraph--texto-shelf{
+    font-weight: bold;
+    font-size:  25px;
+}
+.container--texto-shelf::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ed2923;
+    /* position: absolute; */
+    bottom: -20rem;
+    margin-left: -25rem;
+    transform: translate(102px,62px);
+}
+.paragraph--texto-informacion{
+    font-weight: bold;
+    font-size:  25px;
+}
+.container--texto-informacion::after{
+    content: "";
+    width: 30px;
+    height: 2px;
+    background-color: #ed2923;
+    /* position: absolute; */
+    bottom: -20rem;
+    margin-left: -25rem;
+    transform: translate(255px,62px);
 }
 .paragraph--texto-pinturas{
     font-weight: bold;
