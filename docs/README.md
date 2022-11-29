@@ -96,8 +96,77 @@ vtex.notification-generator             0.6.2
  ## 4.Enlazar tu workspace en el `CMS`
  
  El nombre del tema base que se le ha asignado en el `manifest.json` lo asignaremos en el `CMS`, para ello linkearemos y lanzaremos en una pestaña nuestro tema base
-    ```json
     
-        https://yourWorkspace--yourPartner.myvtex.com/admin  
+    
+    https://yourWorkspace--yourPartner.myvtex.com/admin 
+ 
+ ```  ```
+ ![](https://raw.githubusercontent.com/FernandoPachon/store-theme-easy/40a1c6f0f374dd9cad5e94d3853abe74a382ac12/assets/img/cms.png)
+Aplicamos y continuamos con las configuraciones.
+ 
+## 5. Linkeamos
 
+Por ultimo en nuestra consola ponemos `vtex link` y esperamos que nos pueda responder con el link de nuestro preview. Ante cualquier error, la consola nos dira que dependencia pueda estar generando conflicto.
+
+# Dependencias Nativas
+ ```json
+ "vtex.store": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.product-summary": "2.x",
+    "vtex.store-footer": "2.x",
+    "vtex.store-components": "3.x",
+    "vtex.styleguide": "9.x",
+    "vtex.slider": "0.x",
+    "vtex.carousel": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.product-details": "1.x",
+    "vtex.product-kit": "1.x",
+    "vtex.search-result": "3.x",
+    "vtex.login": "2.x",
+    "vtex.my-account": "1.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.rich-text": "0.x",
+    "vtex.store-drawer": "0.x",
+    "vtex.locale-switcher": "0.x",
+    "vtex.product-quantity": "1.x",
+    "vtex.product-identifier": "0.x",
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "2.x",
+    "vtex.stack-layout": "0.x",
+    "vtex.tab-layout": "0.x",
+    "vtex.responsive-layout": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.sticky-layout": "0.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.store-link": "0.x",
+    "vtex.search": "1.x",
+    "vtex.store-icons": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.product-price": "1.x",
   ```
+# Dependencias Custom
+```json
+    "itgloberspartnercl.whatsapp-button": "0.x",
+    "itgloberspartnercl.bullets-diagramation": "0.x",
+    "itgloberspartnercl.add-to-cart-info": "0.x",
+    "itgloberspartnercl.custom-department-search": "0.x",
+    "itgloberspartnercl.pdf-reader": "0.x",
+    "itgloberspartnercl.quick-order": "0.x"
+```
+# peerDependencies
+```json
+    "vtex.mega-menu": "2.x",
+    "vtex.wish-list": "1.x",
+    "vtex.questions-and-answers": "0.x"
+```
+# Contribuidor
+
+* *Fernando Pachon* - *2022*
