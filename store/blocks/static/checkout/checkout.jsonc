@@ -1,5 +1,6 @@
 {
   "store.custom#checkout": {
+    "title":"static minicart",
     "blocks": ["flex-layout.row#checkout_cart"]
   },
   "flex-layout.row#checkout_cart": {

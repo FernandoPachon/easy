@@ -1,20 +1,20 @@
 {
   "responsive-layout.phone": {
+    "title":"responsive phone",
     "children": [
       "slider-layout#phone_slider--children",
-      "rich-text#phone_cyberlunes",
-      "flex-layout.row#phone_section--cyberlunes",
-      //"rich-text#phone_cyberlunes-hogar",
-      //"flex-layout.row#phone_section--cyberlunesHogar",
-      "rich-text#phone_colores",
-      "flex-layout.row#phone_section--vinilos",
+      "rich-text#section_one--phone",
+      "flex-layout.row#section_one--phone",
+      "rich-text#section_two--phone",
+      "flex-layout.row#section_two--phone",
+      "rich-text#list_summary--phone",
       "list-context.product-list#product_summary-p",
-      "rich-text#phone_nuevo-look",
-      "flex-layout.row#phone_section--cyberNuevo-lookHogar",
-      "rich-text#phone_pinturas",
-      "flex-layout.row#phone_section--pinturas",
-      "rich-text#phone_hogar",
-      "flex-layout.row#home_section--descubre-mas-p",
+      "rich-text#section_three--phone",
+      "flex-layout.row#section_three--phone",
+      "rich-text#section_four--phone",
+      "flex-layout.row#section_four--phone",
+      "rich-text#section_five--phone",
+      "flex-layout.row#section_five--phone",
       "flex-layout.row#section_global--bullet"
     ]
   }

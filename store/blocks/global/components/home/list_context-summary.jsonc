@@ -1,0 +1,27 @@
+{
+      "list-context.product-list#product_summary": {
+        "title": "list_context--summary",
+        "blocks": ["product-summary.shelf"],
+        "children":["slider-layout#product_summary",
+        "modal-trigger#add-to-cart-info"],
+        "props": {
+          "blockClass": "product-summary"
+        }
+      },
+      "slider-layout#product_summary":{
+        "title":"list_context--article-one",
+        "props":{
+          "itemsPerPage":{
+            "desktop":4
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "blockClass": "slider-product-summary",
+          /* "autoplay": {
+            "timeout": 3000,
+            "stopOnHover": true
+          }, */
+          "arrowSize":40
+        }
+      }
+}

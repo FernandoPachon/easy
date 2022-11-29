@@ -1,12 +1,13 @@
 {
   "store.search": {
+    "title": "store.search",
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
         "skusFilter": "ALL",
         "simulationBehavior": "skip",
-        "orderByField":"OrderByTopSaledDESC",
-        "hidenUnavailableItem":true
+        "orderByField": "OrderByTopSaledDESC",
+        "hidenUnavailableItem": true
       }
     }
   },
@@ -22,7 +23,7 @@
       }
     }
   },
- "store.search#department": {
+  "store.search#department": {
     "blocks": ["search-result-layout"],
     "props": {
       "context": {

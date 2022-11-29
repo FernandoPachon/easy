@@ -1,5 +1,6 @@
 {
   "store.custom#home-test": {
+    "title":"static home test",
     "blocks": [
      /*  "slider-layout#desktop_slider--children",
       "rich-text#seccion_pinturas",
