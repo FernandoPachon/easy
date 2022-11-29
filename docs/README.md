@@ -1,61 +1,103 @@
-# Store Theme Easy
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+# Store theme Easy
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+Este proyecto es el resultado del seguimiento del bootcamp de `Vtex U`, su objetivo era lograr crear una replica de alguna tienda, y poder implementar elemento custom.
+![](https://github.com/FernandoPachon/store-theme-easy/blob/main/assets/img/desktop.jpeg?raw=true)
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+ ### *Si has decidido usar este ropositorio como guia, es porque ya tienes conocimientos basicos sobre `WorkSpace` y `Vtex`.*
+### Palabras clave
+* Linkear: usar en la consola `vtex link`
+* Matar consola: usar en la consola `control` + `c`
+# Configuraciones
 
-## Configuration
+## 1. Clonación
+Nuestro primer paso sera clonar este repositorio, puedes poner `/generate` al final del link para crear una  copia.
 
-### Step 1 -  Basic setup
+## 2. Editar manifest
+En esta altura ya el proyecto esta montado en nuestro editor de codigo, buscamos el archivo `manifest.json`, modificaremos el vendor por el de nuestro partnert y le daramos un nombre a nuestro tema base *"store-theme"*.
+     
+   ```json
+ {
+  "vendor": "itgloberspartnercl",
+  "name": "store-theme",
+  "version": "0.0.1",
+  "builders": {
+    "assets": "0.x",
+    "styles": "2.x",
+    "sitemap": "0.x",
+    "store": "0.x",
+    "docs": "0.x"
+ },
+     
+  ```
+  ## 3. Instalar apps
+  Antes que nada verificaremos que nuestras apps que esten siendo declaradas en las dependencias esten correctamente instalas, para ello usaremos en la consola el comando `vtex ls` y esperaremos una respuesta similar a esta.
+  
+   ```json
+   
+Edition Apps in itgloberspartnercl at workspace user
+vtex.admin                              3.54.5 
+vtex.admin-apps                         3.29.2
+vtex.admin-audit                        2.3.0
+vtex.admin-binding                      0.28.0
+vtex.admin-cms                          1.10.0
+vtex.admin-collections                  0.162.3
+vtex.admin-defense-mode                 0.4.2
+vtex.admin-docs                         0.4.3
+vtex.admin-home                         2.37.0
+vtex.admin-insights                     4.4.2
+vtex.admin-inventory                    0.49.3
+vtex.admin-login                        1.24.2
+vtex.admin-logistics                    1.36.1
+vtex.admin-mercadolivre-opportunities   0.7.9
+vtex.admin-orders                       0.134.2
+vtex.admin-pages                        4.49.8
+vtex.admin-payment-affiliations         0.1.1
+vtex.admin-pickup-points                2.13.2
+vtex.admin-pricing-settings             1.6.1
+vtex.admin-sales-performance            1.1.3
+vtex.admin-sellers                      1.3.7
+vtex.admin-sku-binding                  0.5.0
+vtex.admin-sponsor                      1.0.2
+vtex.admin-suggestions                  2.35.1
+vtex.admin-users                        1.16.1
+vtex.admin-vendor-invite                0.12.0
+vtex.app-install-monitor                0.1.1
+vtex.asset-server                       0.15.5
+vtex.audit-io                           0.1.4
+vtex.auth-admin                         3.60.1
+vtex.auth-server                        0.18.0
+vtex.billing                            0.24.0
+vtex.broadcaster                        0.9.0
+vtex.builder-hub                        0.285.4
+vtex.cartman                            0.3.1
+vtex.checkout                           0.6.0
+vtex.client-admin-settings              0.7.0
+vtex.colossus-legacy-proxy              2.3.5
+vtex.developer-docs-integration         0.5.6
+vtex.dotnet-messenger-sender            0.1.7
+vtex.evolution-manager-graphql          0.15.3
+vtex.file-manager                       0.11.0
+vtex.frontend-metrics-gateway           0.7.0
+vtex.invoice-notifier                   0.8.2
+vtex.marketplace-network                0.17.1
+vtex.messages-templates                 0.10.1
+vtex.messenger-core                     0.1.9
+vtex.mkp-category-mapper-ui             1.20.2
+vtex.my-account                         0.41.0
+vtex.my-authentication                  1.5.0
+vtex.myuser-io                          2.18.1
+vtex.notification-generator             0.6.2
+....................................... e.t.c   
+     
+  ```
+  
+ Es probable que las dependencias custom no esten instaladas, para ello puedes clonarlo directamente de [Boton de whasapp](https://github.com/FernandoPachon/component-custom-Button-Whastapp " Boton de Whatsapp"), [Add to cart](https://github.com/FernandoPachon/component-custom-add-to-card-info "add to cart"), [Bullets diagramation](https://github.com/FernandoPachon/component-custom-bullets-diagramation "bullets diagramation"), [Department search](https://github.com/FernandoPachon/component-custom-departent-search "deparment search"), [Pdf reader](https://github.com/FernandoPachon/component-custom-pdf-reader "Quick order"), [Pdf reader](https://github.com/FernandoPachon/component-custom-quick-order "quick-order"), en cada repositorio encontraras las configuraciones necesarias.
+ 
+ ## 4.Enlazar tu workspace en el `CMS`
+ 
+ El nombre del tema base que se le ha asignado en el `manifest.json` lo asignaremos en el `CMS`, para ello linkearemos y lanzaremos en una pestaña nuestro tema base
+    ```json
+    
+        https://yourWorkspace--yourPartner.myvtex.com/admin  
 
-Access the VTEX IO [basic setup guide](https://vtex.io/docs/getting-started/build-stores-with-store-framework/1) and follow all the given steps. 
-
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
-
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
-
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
-
-Then, access the repository's directory using your terminal. 
-
-### Step 3 - Editing the `Manifest.json`
-
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
-
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
-
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
-```
-
-### Step 4 -  Installing required apps
-
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
-
-Run  `vtex list`  and check whether those apps are already installed. 
-
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
-```
-
-### Step 6- Run and preview your store
-
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
-
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+  ```
