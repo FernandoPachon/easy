@@ -1,14 +1,12 @@
 {
   "store.home": {
-    "title":"Home",
+    "title": "store.home",
     "blocks": [
       "responsive-layout.desktop",
       "responsive-layout.mobile",
       "responsive-layout.phone",
       "responsive-layout.tablet"
     ],
-    "children":[
-      "whatsapp-button"
-    ]
-  } 
+    "children": ["whatsapp-button"]
+  }
 }

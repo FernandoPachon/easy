@@ -1,9 +1,9 @@
 {
-    "flex-layout.row#desktop_section--vinilos":{
-    "title":"Sección Vinilos",
+  "flex-layout.row#section_two--desktop":{
+    "title":"Section two",
     "children": [
-      "flex-layout.row#desktop--one--vinilo",
-      "slider-layout#vinilos_slider--children"
+      "flex-layout.row#Section_two--article-one",
+      "slider-layout#Section_two--article-two"
     
     ],
     "props":{
@@ -14,7 +14,8 @@
       "colGap":2
     }
   },
-  "flex-layout.row#desktop--one--vinilo":{
+  "flex-layout.row#Section_two--article-one":{
+    "title":"Section_two--article-one",
     "children":[
       "image#vinilo--one"
     ],
@@ -22,8 +23,8 @@
       "blocksClass":"section_one--image"
     }
   },
-  "slider-layout#vinilos_slider--children": {
-    "title":"Slider con hijos declarados", 
+  "slider-layout#Section_two--article-two": {
+    "title":"Section_two--article-two",
     "props": {
       "itemsPerPage": {
         "desktop": 3,

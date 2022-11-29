@@ -1,14 +1,7 @@
 {
-    "icon#user-icon":{
-        "props":{
-            "id":"hpa-profile",
-            "size":40,
-            "blockClass":"iconCart",
-            "viewBox":"0 0 25 25"
-        }
-    },
 
     "login": {
+        "title":"Bloque login",
         "props": {
             "LoginIcon":"icon#user-icon",
             "emailAndPasswordTitle": "LOG-IN",
@@ -19,5 +12,14 @@
             "showIconProfile": true,
             "text":"login"
     }
-  }
+  },
+  
+  "icon#user-icon":{
+    "props":{
+        "id":"hpa-profile",
+        "size":40,
+        "blockClass":"iconCart",
+        "viewBox":"0 0 25 25"
+    }
+}
 }

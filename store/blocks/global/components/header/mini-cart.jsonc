@@ -1,4 +1,15 @@
 {
+  "minicart.v2#custom": {
+    "title":"Minicart",
+    "props": {
+      "blockClass":"minicart-custom",
+      "MinicartIcon": "icon-cart#cart-icon",
+      "variation":"link",
+      "itemCountMode": "total",
+      "quantityDisplay": "always",
+      "linkVariationUrl":"https://fernandopachon--itgloberspartnercl.myvtex.com/compra"
+    }
+  },
   "icon-cart#cart-icon": {
     "props": {
       "id": "hpa-cart",
@@ -13,16 +24,6 @@
       "size": 80,
       "blockClass": "iconCart",
       "viewBox": "0 0 16 16"
-    }
-  },
-  "minicart.v2#custom": {
-    "props": {
-      "blockClass":"minicart-custom",
-      "MinicartIcon": "icon-cart#cart-icon",
-      "variation":"link",
-      "itemCountMode": "total",
-      "quantityDisplay": "always",
-      "linkVariationUrl":"https://fernandopachon--itgloberspartnercl.myvtex.com/compra"
     }
   }
 }

@@ -1,5 +1,6 @@
 {
     "flex-layout.row#iconos_section":{
+        "title":"Footer top",
         "children":[
             "flex-layout.col#envio_domicilio",
             "flex-layout.col#retiro_tienda",

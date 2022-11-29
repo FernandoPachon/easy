@@ -120,6 +120,18 @@
         justify-items: center;
         justify-content: center;
     }
+    .menuContainer{
+        text-align: center;
+    }
+    .flexColChild--footer_contenido--easy{
+        transform: translate(7rem, 0rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .flexColChild--foot_contenido--pol-mobile{
+        transform: translate(114px, 10px);
+    }
 }
 
 @media only screen  and (min-width: 1235px) and (max-width: 1534px){

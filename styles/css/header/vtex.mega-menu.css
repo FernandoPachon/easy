@@ -5,6 +5,7 @@
     top:auto;
     /* width: 71rem; */
     transform: translate(27px, 21px);
+    max-width: 75rem;
 } 
 .styledLinkContent:hover{
     color: red;
@@ -19,4 +20,6 @@
 }.menuContainer{
     overflow: visible;
 }
-.headerRowContainer--header_down{}
+.menuContainerNav--departamentos_menu{
+    max-width: 81rem;
+}

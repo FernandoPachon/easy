@@ -1,5 +1,6 @@
 {
   "flex-layout.row#section_global--bullet": {
+    "title":"Bloque bullet evento",
     "children": ["flex-layout.col#section_bullet"]
   },
   "flex-layout.col#section_bullet": {

@@ -1,10 +1,10 @@
 {
-        "flex-layout.row#desktop_section--pinturas":{
-          "title":"Sección Pinturas",
+        "flex-layout.row#section_four--desktop":{
+          "title":"Section four",
           "children": [
-            "flex-layout.col#section-d--one--images",
-            "flex-layout.col#section-d--two--image",
-            "flex-layout.col#section-d--three--image"
+            "flex-layout.col#section_four--article-one",
+            "flex-layout.col#section_four--article-two",
+            "flex-layout.col#section_four--article-three"
           ],
           "props":{
             "blocksClass":"home_section--one",
@@ -16,7 +16,8 @@
             
           }
         },
-        "flex-layout.col#section-d--one--images":{
+        "flex-layout.col#section_four--article-one":{
+          "title":"section_four--article-one",
           "children":[
             "image#pintura-d--one"
           ],
@@ -24,7 +25,8 @@
             "blocksClass":"section_one--image"
           }
         },
-        "flex-layout.col#section-d--two--image":{
+        "flex-layout.col#section_four--article-two":{
+          "title":"section_four--article-two",
           "children":[
             "image#pintura-d--two"
           ],
@@ -32,7 +34,8 @@
             "blocksClass":"section_one--image"
           }
         },
-        "flex-layout.col#section-d--three--image":{
+        "flex-layout.col#section_four--article-three":{
+          "title":"section_four--article-three",
           "children":[
             "image#pintura-d--three"
           ],

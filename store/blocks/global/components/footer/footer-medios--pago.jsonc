@@ -1,5 +1,6 @@
 {
   "flex-layout.row#desktop__footer--section-four": {
+    "title":"Footer down two",
     "children": [
       "rich-text#copyright",
       "rich-text#medios-pago",

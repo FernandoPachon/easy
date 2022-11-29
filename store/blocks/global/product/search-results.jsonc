@@ -1,5 +1,6 @@
 {
   "flex-layout.row#product_results": {
+    "title":"Bloque product results",
     "children": [
       "flex-layout.col#search_results-filter--desktop",
       "flex-layout.col#search_results-content--desktop"
@@ -36,6 +37,7 @@
   /* CONTENT */
   "flex-layout.col#search_results-content--desktop": {
     "children": [
+      "quick-order",
       "flex-layout.row#results_search--desktop",
       "flex-layout.row#results_products--desktop"
     ],

@@ -1,5 +1,6 @@
 {
     "whatsapp-button":{
+      "title":"Componente whatsapp",
         "props":{
           "logo":"assets/img/whatsapp-logo.svg",
           "phone":"15551234567",

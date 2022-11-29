@@ -1,6 +1,6 @@
 {
-    "flex-layout.row#phone_section--vinilos":{
-    "title":"Sección Vinilos",
+    "flex-layout.row#section_two--phone":{
+    "title":"Section two",
     "children": [
       "flex-layout.row#phone--one--vinilo",
       "slider-layout#vinilos_slider--children-phone"
@@ -12,6 +12,7 @@
     }
   },
   "flex-layout.row#phone--one--vinilo":{
+    "title":"section_two--article-one-phone",
     "children":[
       "image#vinilo-phone--one"
     ],
@@ -20,7 +21,7 @@
     }
   },
   "slider-layout#vinilos_slider--children-phone": {
-    "title":"Slider con hijos declarados", 
+    "title":"section_two--article-two-phone",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
