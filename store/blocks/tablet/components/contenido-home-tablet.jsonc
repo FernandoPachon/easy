@@ -11,6 +11,7 @@
       "flex-layout.row#section_one-desktop",
       "rich-text#tablet_colores",
       "flex-layout.row#section_two--desktop",
+      "rich-text#section_shelf--desktop",
       "list-context.product-list#product_summary",
       "rich-text#tablet_nuevo-look",
       "flex-layout.row#section_three--desktop",

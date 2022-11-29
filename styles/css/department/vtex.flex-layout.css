@@ -159,6 +159,7 @@ flex-wrap: nowrap;
 .flexRow--footer_top{
   width: 75rem;
   height: 8.5rem;
+  margin:auto
 }
 .flexCol--bloque_envio{
   transform: translate(-72px, 10px);
@@ -287,8 +288,12 @@ flex-wrap: nowrap;
     margin-right: 1rem;
     width: 70%;
   }
+  .flexCol--foot_contenido--pol-mobile{
+    width: 60%;
+  }
   .flexColChild--foot_contenido--pol-mobile{
     margin-right:5rem ;
+    transform: translate(48px, 10px);
   }
   .flexCol--foot_col--politicas{
     transform: translate(-16px, 283px);
@@ -296,7 +301,7 @@ flex-wrap: nowrap;
     margin-right: 1rem;
   }
   .flexCol--foot_contenido--pol-mobile{
-    transform: translate(0px, 270px);
+    transform: translate(12rem, 270px);
     margin-right:15rem ;
   }
   /* .flexColChild--foot_contenido--pol-mobile{
@@ -328,7 +333,7 @@ flex-wrap: nowrap;
     transform: translate(8rem, 10px);
   }
   .flexCol--foot_contenido--pol-mobile{
-    transform: translate(125px, 269px);
+    transform: translate(12rem, 269px);
   }
   .paragraph--footer_politicas-title{
     transform: translate(68px, -9px);
@@ -406,9 +411,7 @@ flex-wrap: nowrap;
 }
 
 /* estilos globales del footer mobile*/
-.flexRow--footer_top{
-  margin-left: 8rem;
-}
+
   .flexCol--foot_col--logo{
     display: flex;
     align-items: center;
