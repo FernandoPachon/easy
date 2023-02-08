@@ -3,6 +3,7 @@
     "title": "Bloque info-data",
     "children": [
       "vtex.store-components:product-name",
+      "info-data-cart",
       "product-identifier.product",
       "product-price",
       "product-quantity",
