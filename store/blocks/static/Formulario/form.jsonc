@@ -1,0 +1,20 @@
+{
+  "store.custom#form": {
+    "title": "static form",
+    "blocks": ["flex-layout.row#form"]
+  },
+  "flex-layout.row#form": {
+    "children": ["flex-layout.col#form" ]
+  },
+  "flex-layout.col#form": {
+    "children": ["rich-text#form","form-custom"]
+  },
+  "rich-text#form": {
+    "props": {
+      "text": "Formulario datos de ubicación",
+      "blockClass": "title-form"
+    }
+  }
+  
+  
+}

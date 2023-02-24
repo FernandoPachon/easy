@@ -54,13 +54,15 @@
     "vtex.store-icons": "0.x",
     "vtex.product-list": "0.x",
     "vtex.product-price": "1.x",
+    "vtex.store-form": "0.x",
     "itgloberspartnercl.whatsapp-button": "0.x",
     "itgloberspartnercl.bullets-diagramation": "0.x",
     "itgloberspartnercl.add-to-cart-info": "0.x",
     "itgloberspartnercl.custom-department-search": "0.x",
     "itgloberspartnercl.pdf-reader": "0.x",
     "itgloberspartnercl.quick-order": "0.x",
-    "itgloberspartnercl.info-data-cart": "0.x"
+    "itgloberspartnercl.info-data-cart": "0.x",
+    "itgloberspartnercl.form-custom": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x",
